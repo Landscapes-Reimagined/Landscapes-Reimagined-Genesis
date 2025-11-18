@@ -1,5 +1,7 @@
 # Landscapes Reimagined Genesis
 ![Genesis Logo with CTOV Village in the background](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined-Genesis/blob/main/Genesis_Modrinth.png?raw=true)
+## ⚠️ Issues and Suggestions
+Have any issues or suggestions you'd like to report visit our centralized area to do so: [Landscapes Reimagined - Issues and Suggestions](https://github.com/Landscapes-Reimagined/Issues-and-Suggestions)
 ## Description
 Experience the origin of an epic journey with **Landscapes Reimagined Genesis**, the precursor to the acclaimed [**Landscapes Reimagined Forge Frontier**](https://modrinth.com/project/landscapes-reimagined-forge-frontier). This Create/Vanilla Plus style modpack, meticulously crafted, offers vast landscapes and detailed structures. Emphasizing advanced world generation, it enriches your Minecraft experience while staying true to the Vanilla essence. Genesis sets the stage for innovative gameplay and intuitive questing, seamlessly leading into the expanded universe of Forge Frontier.
 
