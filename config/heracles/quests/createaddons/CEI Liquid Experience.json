@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Enchantment Industry"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "experience_nugget": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:experience_nugget",
+        "count": 18
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Experience you can pipe"
+    },
+    "description": [
+      "/e/Liquid Experience/e/ is a dense fluid form of experience. You can pump it, store it in tanks and spout it like any other fluid.",
+      "",
+      "It powers everything else in this section.",
+      "",
+      "/7/Tip: Create's experience nuggets and blocks of experience work with it too. Look them up in your recipe viewer./7/",
+      "",
+      "Click the checkmark once you've made some."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          140,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:experience_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Liquid Experience"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

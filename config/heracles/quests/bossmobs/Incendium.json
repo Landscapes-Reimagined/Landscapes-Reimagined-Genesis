@@ -14,7 +14,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -23,23 +23,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A hotter Nether"
     },
     "description": [
-      "This boss is only found within the nether (i mean its a blaze) found in a citadel, have fun!"
+      "/6/Incendium/6/ overhauls the Nether with new biomes, structures and bosses.",
+      "",
+      "Its biggest fight is the /c/Hovering Inferno/c/, a giant blaze summoned at an altar in the /e/Infernal Dunes/e/.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          40,
-          0
+          20,
+          40
         ]
       }
     },
@@ -52,7 +56,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
     "title": {
-      "translate": "Incendium"
+      "text": "Incendium"
     }
   },
   "settings": {

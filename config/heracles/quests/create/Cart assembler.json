@@ -11,33 +11,64 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "rail": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
+        "id": "minecraft:rail",
+        "count": 16
       },
       "type": "heracles:item"
+    },
+    "minecart": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:minecart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Maybe one of the most OP items"
+      "text": "Contraptions on rails"
     },
     "description": [
-      "The cart assembler has the ability to attach any machine you want to build to a minecart, it can also move blocks that aren't able to be moved in regular vanilla like budding amethyst and spawners",
-      " ",
-      "If you want to move spawners you need to enable it in the create configs "
+      "The /e/Cart Assembler/e/ attaches structures to minecarts so they move along rails.",
+      "",
+      "It can also move blocks that are normally immovable, such as budding amethyst. Moving spawners has to be turned on in the Create config."
     ],
     "groups": {
       "Create": {
         "position": [
-          -296,
-          -99
+          -280,
+          -80
         ]
       }
     },
@@ -47,12 +78,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cart assembler"
+      "text": "Cart Assembler"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

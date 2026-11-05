@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Craft a crafting table"
+    "Craft a pickaxe"
   ],
   "tasks": {
     "Mine stone": {
@@ -19,7 +19,22 @@
     }
   },
   "rewards": {
-    "Mine stone xp": {
+    "furnace": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,37 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
       "title": "",
       "type": "heracles:xp"
-    },
-    "cobble": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:cobblestone",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:cobblestone",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The Stone Age"
     },
     "description": [
-      "Mine stone to get cobblestone to make better tools"
+      "Use your wooden pickaxe to mine some /e/stone/e/. It drops cobblestone, which makes stronger tools and your first furnace."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -60,
+          -120,
           -60
         ]
       }
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mine Stone"
+      "text": "Mine Stone"
     }
   },
   "settings": {

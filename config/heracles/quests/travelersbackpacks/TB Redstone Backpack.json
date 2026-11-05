@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TB Collection"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:redstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Material backpack"
+    },
+    "description": [
+      "The /e/Redstone Backpack/e/ is part of the material collection.",
+      "",
+      "/6/Ability: /6/When placed, it acts as a redstone block and gives off a strong signal."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          160,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Redstone Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

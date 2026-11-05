@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "andesite_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 2
+        "id": "create:andesite_casing",
+        "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Right click a stripped log with an andesite alloy"
+      "text": "The frame of every early machine"
     },
     "description": [
-      "Andesite casing is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress"
+      "/e/Andesite Casing/e/ is used in almost every early machine: presses, mixers, fans, drills and more.",
+      "",
+      "Use andesite alloy on a /e/stripped log/e/ or stripped wood to make it."
     ],
     "groups": {
       "Create": {
         "position": [
           -200,
-          50
+          -40
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Andesite Casing"
+      "text": "Andesite Casing"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

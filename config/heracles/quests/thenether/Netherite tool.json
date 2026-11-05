@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "netherite_upgrade_smithing_template": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "temp": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_upgrade_smithing_template",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -47,12 +34,12 @@
       },
       "type": "heracles:item"
     },
-    "scr": {
+    "netherite_scrap": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:netherite_scrap",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -61,20 +48,35 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 350,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Upgrade your diamond gear"
     },
     "description": [
-      "Make a netherite pickaxe to give your tool extra durability"
+      "Upgrade a diamond tool in a /e/Smithing Table/e/ using the template and a netherite ingot. Your enchantments are kept.",
+      "",
+      "Upgrade a /e/pickaxe/e/ to complete this quest. The same recipe works for every tool."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
-          -60
+          80,
+          -40
         ]
       }
     },
@@ -90,7 +92,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite tool"
+      "text": "Netherite Tools"
     }
   },
   "settings": {

@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_eye": {
       "title": "",
       "icon": {
         "item": {
@@ -43,27 +43,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Find the motherlode"
     },
     "description": [
-      "Upon completion of crafting the ore vein",
-      "finder, this will help you locate an",
-      "ore vein, which allows you to extract ore via",
-      "the drilling machine, which will be created in the",
-      "next quest."
+      "Use the /e/Ore Vein Finder/e/ to search for an ore vein or fluid reservoir in the chunks around you."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          -20
+          140,
+          -480
         ]
       }
     },
@@ -76,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Ore Vein Finder"
+      "text": "Ore Vein Finder"
     }
   },
   "settings": {

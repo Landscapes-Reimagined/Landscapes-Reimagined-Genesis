@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "oak_planks": {
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Furniture for your home"
+    },
+    "description": [
+      "/6/Adorn/6/ adds /e/furniture/e/ in every wood and stone type: chairs, sofas, tables, drawers, kitchens and more.",
+      "",
+      "Most pieces are interactive. You can sit in chairs, nap on sofas and store items in drawers.",
+      "",
+      "Click the checkmark to begin."
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -140,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adorn:trading_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adorn"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

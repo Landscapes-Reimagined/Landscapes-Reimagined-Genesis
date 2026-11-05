@@ -1,50 +1,40 @@
 {
   "dependencies": [
-    "Enter an Ancient City",
-    "End Remastered"
+    "Enter an Ancient City"
   ],
   "tasks": {
     "stronghold": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "structures": "#betterstrongholds:better_strongholds",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
+      "amount": 400,
       "type": "heracles:xp"
+    },
+    "arrow": {
+      "item": {
+        "id": "minecraft:arrow",
+        "count": 64
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Home of the End Portal"
     },
     "description": [
-      "Craft an eye of ender to locate the stronghold",
+      "Track down a /e/Stronghold/e/. The End Portal is hidden deep inside one.",
       "",
-      "- Note you will need to complete the initial End Remastered quest first, as it will teach you how to open the end portal."
+      "Strongholds in this pack are bigger and more dangerous than in vanilla. Bring food, armour and plenty of torches."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          140,
+          280,
           -60
         ]
       }
@@ -62,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

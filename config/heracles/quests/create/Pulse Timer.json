@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "High Logistics"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:pulse_timer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "A configurable clock"
+    },
+    "description": [
+      "The /e/Pulse Timer/e/ sends out redstone pulses at an interval you set. It's a compact clock for machines and contraptions."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          80,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:pulse_timer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Pulse Timer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

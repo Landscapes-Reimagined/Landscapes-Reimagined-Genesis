@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "stick": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:stick",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Logs become building material"
     },
     "description": [
-      "Obtain oak planks"
+      "Put a log into your inventory crafting grid to turn it into /e/4 planks/e/.",
+      "",
+      "Planks make sticks, tools, chests and almost everything else you need early on."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -140,
-          -20
+          -240,
+          -60
         ]
       }
     },
@@ -57,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft some Planks"
+      "text": "Craft some Planks"
     }
   },
   "settings": {

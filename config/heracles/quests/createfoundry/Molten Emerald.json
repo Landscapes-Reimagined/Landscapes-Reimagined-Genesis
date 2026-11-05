@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "emerald": {
+    "emerald_block": {
       "title": "",
       "icon": {
         "item": {
@@ -46,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten emerald, you need to mix emerald",
-      "ore in a mixer while super heated.",
+      "Superheat-mix /e/emerald ore/e/ to get a bucket of /e/Molten Emerald/e/.",
       "",
-      "This bucket can be converted into one block of emerald and",
-      "one emerald."
+      "It can be turned back into a block of emerald plus an emerald."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -98,
-          -50
+          -40,
+          -20
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Emerald"
+      "text": "Molten Emerald"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

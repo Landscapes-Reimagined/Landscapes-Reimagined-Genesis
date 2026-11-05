@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "TB Upgrades"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:refill_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "torch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Backpack upgrade"
+    },
+    "description": [
+      "Refills stacks in your inventory from the backpack as they run out. Set filters to choose what gets refilled."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -240,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:refill_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Refill Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

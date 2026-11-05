@@ -1,9 +1,9 @@
 {
   "dependencies": [
+    "Kill the Ender Dragon",
     "Kill the Wither",
-    "Blaze Cake",
     "Kill the Warden",
-    "Kill the Ender Dragon"
+    "Blaze Cake"
   ],
   "tasks": {
     "Creative Blaze Cake": {
@@ -22,20 +22,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 50,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "netherite": {
+    "netherite_block": {
       "title": "",
       "icon": {
         "item": {
@@ -49,28 +36,41 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 2000,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Infinite heat"
     },
     "description": [
-      "The Creative Blaze Cake gives infinite fuel to Blaze Burners",
-      "and allows the user to cycle through their states.",
-      " ",
-      "This is crafted using these items in a Mechanical Crafter Setup",
-      "- 6 Diamond Netherite Ingots ",
+      "The /e/Creative Blaze Cake/e/ gives a Blaze Burner infinite fuel and lets you cycle it between heat levels.",
+      "",
+      "/6/Mechanical Crafter recipe/6/ /7/(5x5 grid)/7/",
+      "- 8 Netherite-Diamond Ingots",
       "- 4 Dragon Heads",
-      "- 4 Refined Radiance, which is chromatic compound thrown into a beacon beam ",
+      "- 4 Refined Radiance (chromatic compound thrown into a beacon beam)",
       "- 3 Nether Stars",
-      "- 1 Blaze Cake"
+      "- 1 Blaze Cake",
+      "- 1 Warden Carapace"
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          0,
-          -50
+          -120,
+          -20
         ]
       }
     },
@@ -83,7 +83,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Blaze Cake"
+      "text": "Creative Blaze Cake"
     }
   },
   "settings": {

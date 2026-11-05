@@ -11,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Diamonds": {
+    "netherite_scrap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:diamond",
-        "count": 4
+        "id": "minecraft:netherite_scrap",
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The fourth chest upgrade"
+      "text": "108 slots"
     },
     "description": [
-      "Has 108 slots"
+      "A /e/Diamond Chest/e/ from /6/Reinforced Chests/6/ holds /e/108 slots/e/."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -200,
-          -170
+          -100,
+          20
         ]
       }
     },
@@ -45,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond chest"
+      "text": "Diamond Chest"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
     "knife": {
       "type": "heracles:item",
@@ -25,7 +23,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -34,23 +32,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Farmer's Delight automation"
     },
     "description": [
-      "This mod enables a variety of features to create better compatibility between mostly Farmer's Delight and Create. While it is designed to work with Farmer's Delight, it does work without it and also adds some compatibility features for other mods."
+      "/6/Create Slice & Dice/6/ connects Create with /6/Farmer's Delight/6/, adding automated cutting and a sprinkler.",
+      "",
+      "Grab an /e/Iron Knife/e/ to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -180,
-          -60
+          100,
+          80
         ]
       }
     },
@@ -66,12 +66,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create Slice & Dice"
+      "text": "Create Slice & Dice"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Copycats"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "copycats:copycat_door",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "iron_ingot": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Hidden entrances"
+    },
+    "description": [
+      "Copycat /e/doors/e/ (including animated /e/sliding and folding doors/e/) and /e/trapdoors/e/ disguise themselves as any block, which makes perfect secret entrances.",
+      "",
+      "/7/Craft a Copycat Door to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -20,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "copycats:copycat_door",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Doors & Trapdoors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

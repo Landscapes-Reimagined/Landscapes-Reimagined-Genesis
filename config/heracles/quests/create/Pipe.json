@@ -11,31 +11,64 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Copper": {
+    "fluid_pipe": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 4
+        "id": "create:fluid_pipe",
+        "count": 16
       },
       "type": "heracles:item"
+    },
+    "mechanical_pump": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:mechanical_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Moving liquid in pipes"
+      "text": "Move fluids around"
     },
     "description": [
-      "The pipe and mechanical pump are used hand in hand to move liquids around, the pump does need to be given so rotational speed, depending on the way the rotation goes decides which way by default the pump wants to move the liquid, the wrench can be used on it to switch the way the liquid is moved by the pump"
+      "/e/Fluid Pipes/e/ carry fluids, and a /e/Mechanical Pump/e/ (powered by rotation) pushes them along.",
+      "",
+      "The direction of rotation decides which way the pump flows. Use a wrench on the pump to flip it."
     ],
     "groups": {
       "Create": {
         "position": [
-          -100,
-          -150
+          -40,
+          -200
         ]
       }
     },
@@ -45,12 +78,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Pipe"
+      "text": "Pipes & Pumps"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

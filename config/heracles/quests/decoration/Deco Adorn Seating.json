@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "Deco Adorn"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "adorn:oak_chair",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "white_wool": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Take a seat"
+    },
+    "description": [
+      "Right-click a /e/chair/e/ or /e/sofa/e/ to sit on it.",
+      "",
+      "Sofas double as a place to /e/nap/e/, and they come in every colour.",
+      "",
+      "/7/Craft an Oak Chair to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -100,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adorn:oak_chair",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chairs & Sofas"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

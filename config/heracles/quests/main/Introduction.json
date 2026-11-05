@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "logo": {
+    "genesis_logo": {
       "title": "",
       "icon": {
         "item": {
@@ -31,7 +31,7 @@
       },
       "type": "heracles:item"
     },
-    "10xp starter": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -40,25 +40,46 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 1,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": "Start here!"
     },
     "description": [
-      "          /b/Welcome to Landscapes Reimagined/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "/6/Welcome to Landscapes Reimagined: Genesis!/6/",
+      "",
+      "This questbook is your guide through the whole modpack, from your first log to the final Creative items. You never have to follow it, but it will always point you to something worth doing next.",
+      "",
+      "/e/How the questbook works/e/",
+      "• Each /6/chapter/6/ on the left covers one part of the pack.",
+      "• /6/Arrows/6/ show which quests unlock which. New quests appear as you progress.",
+      "• Most quests complete on their own when you get the item, visit the place or defeat the mob.",
+      "• Some quests have a /6/checkmark/6/: click it once you've read the quest.",
+      "• Remember to /6/claim your rewards/6/. Most quests give experience, and many give items that help with the next step.",
+      "",
+      "/e/Where to start/e/",
+      "• /6/Overworld/6/: from your first tools to the End Portal. Start here.",
+      "• /6/Create/6/: the heart of the pack. Begin as soon as you find andesite.",
+      "• /6/Better Storage/6/, /6/Sophisticated/6/, /6/Travelers Backpacks/6/ and /6/Decoration/6/: storage, backpacks and building, whenever you like.",
+      "• /6/The Nether/6/, /6/The End/6/ and /6/Boss Mobs/6/: dimensions, Advanced Netherite and the big fights.",
+      "• /6/Create Addons/6/ and /6/Create Foundry/6/: electricity, engines, enchanting and molten metals.",
+      "• /6/Deeper and Darker/6/ and /6/Ad Astra/6/: the Otherside and outer space.",
+      "• /6/Creative Items/6/: the final goal. Collect them all to complete the pack!",
+      "",
+      "/e/Join the community/e/",
+      "The two quests next to this one link to our Discord and our issue tracker. Come say hi, share your builds, and let us know if anything breaks.",
+      "",
+      "/7/Tip: break any log to complete this quest and claim the pack logo./7/"
     ],
     "groups": {
       "Main": {
         "position": [
-          -28,
-          -129
+          0,
+          0
         ]
       }
     },
@@ -71,12 +92,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "text": "Welcome to Landscapes Reimagined"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": true,
     "individual_progress": false,
     "hidden": "LOCKED"

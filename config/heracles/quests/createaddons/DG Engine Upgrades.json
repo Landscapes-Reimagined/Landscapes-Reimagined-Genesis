@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Diesal Engine"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brass_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Tune your engines"
+    },
+    "description": [
+      "• /e/Engine Silencer/e/: makes an engine quieter",
+      "• /e/Engine Turbocharger/e/: boosts an engine's output, and fits modular engines too",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          180,
+          -360
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createdieselgenerators:engine_piston",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Silencers & Turbochargers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

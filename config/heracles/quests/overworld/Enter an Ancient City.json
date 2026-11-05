@@ -4,45 +4,38 @@
   ],
   "tasks": {
     "Enter an Ancient City": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "structures": "#minecraft:ancient_city",
       "type": "heracles:structure"
     }
   },
   "rewards": {
-    "Ancient city xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
+    "xp": {
       "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
+      "amount": 350,
       "type": "heracles:xp"
+    },
+    "experience_bottle": {
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Ruins of a forgotten civilisation"
     },
     "description": [
-      "Enter an ancient city"
+      "Ancient Cities hide in the Deep Dark. Their chests hold echo shards, enchanted books and rare loot.",
+      "",
+      "/7/Tip: wool blocks absorb vibrations, so place them around you while you loot./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          100,
-          -20
+          238,
+          -60
         ]
       }
     },
@@ -59,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

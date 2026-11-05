@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Storage Link"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hopper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Automation access points"
+    },
+    "description": [
+      "Connect automation to your network:",
+      "• /e/Storage Input/e/: insert only",
+      "• /e/Storage Output/e/: extract only",
+      "• /e/Storage I/O/e/: both",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          160,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Storage Input & Output"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

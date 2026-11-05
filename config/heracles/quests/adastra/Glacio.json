@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "enchanted_golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:enchanted_golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -27,23 +42,25 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 100,
+      "xptype": "POINTS",
+      "amount": 2500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "An ice world around another star"
     },
     "description": [
-      "This is the final planet full of ice."
+      "Welcome to /6/Glacio/6/, a frozen planet in another star system and the last stop on your journey through space.",
+      "",
+      "/6/Congratulations, astronaut!/6/"
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          210,
+          280,
           0
         ]
       }
@@ -57,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Glacio"
+      "text": "Glacio"
     }
   },
   "settings": {

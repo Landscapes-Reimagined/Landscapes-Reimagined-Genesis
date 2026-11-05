@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Fireworks": {
+    "firework_rocket": {
       "title": "",
       "icon": {
         "item": {
@@ -46,19 +33,51 @@
         "count": 32
       },
       "type": "heracles:item"
+    },
+    "phantom_membrane": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:phantom_membrane",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 600,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find an elytra to start flying"
+      "text": "Take to the skies"
     },
     "description": [
-      "Find an elytra in a ship that is attached to the /9/End City/9/ to be able to take to the skies and speed up your travel time"
+      "Some End Cities have an /e/End Ship/e/ floating nearby. The Elytra hangs in its item frame.",
+      "",
+      "Equip it in your chest slot, jump, then jump again in mid-air to glide. Firework rockets give you a boost.",
+      "",
+      "/7/Tip: repair it with phantom membranes, or put Mending on it./7/"
     ],
     "groups": {
       "The End": {
         "position": [
-          -250,
+          40,
           60
         ]
       }
@@ -75,7 +94,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Elytra"
+      "text": "Elytra"
     }
   },
   "settings": {

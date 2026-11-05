@@ -1,7 +1,7 @@
 {
   "dependencies": [
-    "Molten Zinc",
-    "Molten Copper"
+    "Molten Copper",
+    "Molten Zinc"
   ],
   "tasks": {
     "Molten Brass": {
@@ -20,20 +20,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Brass": {
+    "brass_block": {
       "title": "",
       "icon": {
         "item": {
@@ -47,24 +34,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Liquid alloy"
     },
     "description": [
-      "In order to get a bucket of molten brass, you need to mix brass",
-      "or molten copper and molten zinc in a mixer while super heated.",
+      "Superheat-mix /e/brass/e/, or /e/Molten Copper with Molten Zinc/e/, to get /e/Molten Brass/e/.",
       "",
-      "This bucket can be converted into one block of brass and",
-      "one brass."
+      "It can be turned back into a block of brass plus a brass ingot."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -80,
-          16
+          80,
+          -20
         ]
       }
     },
@@ -77,7 +75,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Brass"
+      "text": "Molten Brass"
     }
   },
   "settings": {

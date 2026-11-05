@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Deco Chisel"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "stone_bricks": {
+      "item": {
+        "id": "minecraft:stone_bricks",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Something for every build"
+    },
+    "description": [
+      "Rechiseled has variant families for most vanilla building blocks: stone, wood, bricks, glass, metal blocks and more.",
+      "",
+      "Hold a block and look it up in your recipe viewer to browse its chiseled versions.",
+      "",
+      "/7/Make any chiseled block, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chiseled_stone_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Block Families"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

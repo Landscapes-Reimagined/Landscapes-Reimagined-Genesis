@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Connector"
   ],
   "tasks": {
     "redstone relay": {
@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "electron tube": {
+    "electron_tube": {
       "title": "",
       "icon": {
         "item": {
@@ -46,20 +33,33 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A power switch"
     },
     "description": [
-      "The redstone relay controls energy flow with Redstone."
+      "The /e/Redstone Relay/e/ uses a redstone signal to turn energy flow on and off."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          140
+          -180,
+          -360
         ]
       }
     },
@@ -72,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Redstone Relay"
+      "text": "Redstone Relay"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

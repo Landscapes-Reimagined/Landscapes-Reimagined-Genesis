@@ -1,7 +1,23 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Incendium"
+  ],
   "tasks": {
-    "citadel": {
+    "dunes": {
+      "type": "heracles:biome",
+      "biomes": "incendium:infernal_dunes",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "totem_of_undying": {
       "title": "",
       "icon": {
         "item": {
@@ -10,13 +26,12 @@
         },
         "type": "heracles:item"
       },
-      "advancements": [
-        "friendsandfoes:nether/find_citadel"
-      ],
-      "type": "heracles:advancement"
-    }
-  },
-  "rewards": {
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,22 +41,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Find the summoning altar"
     },
     "description": [
-      "The Infernal Altar is a special structure inside the Infernal Dunes where you summon the Hovering Inferno from Incendium. "
+      "Find the /e/Infernal Dunes/e/ biome in the Nether. The /e/Infernal Altar/e/ that summons the Hovering Inferno is hidden here.",
+      "",
+      "To summon the boss, use a /e/Nether Star/e/ on the altar."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          40,
+          60,
           40
         ]
       }
@@ -55,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Infernal Altar"
+      "text": "The Infernal Dunes"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

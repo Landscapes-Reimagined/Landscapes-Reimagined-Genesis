@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Diamond Tool"
+    "Netherite Diamond Tool",
+    "Netherite Emerald Armor"
   ],
   "tasks": {
     "h": {
@@ -85,25 +86,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_diamond_block": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "n": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_diamond_block",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -112,34 +100,41 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 900,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "All four pieces"
     },
     "description": [
-      "Piglins will behave passive towards players wearing Netherite-Diamond armor",
-      "Endermen will behave passive towards players wearing Netherite-Diamond armor",
-      "Phantoms will behave passive towards players wearing Netherite-Diamond armor",
+      "Upgrade a full set of armour to /e/Netherite-Diamond/e/.",
       "",
-      "Toughness Change",
-      "- 4 vs 3 of standard netherite",
+      "/6/Set bonus/6/",
+      "• Piglins, Endermen and Phantoms are all passive towards you",
       "",
-      "Enchantability  Change",
-      "- 15 vs 15 of standard netherite",
-      " ",
-      "Durability and Armor Points",
-      "- Helmet: 517, 5",
-      "- Chestplate: 752, 9",
-      "- Leggings: 705, 7",
-      "- Boots: 611, 5"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Toughness: /e/4/e/ vs 3",
+      "• Enchantability: /e/15 (same as Netherite)/e/",
+      "• Durability / armour: Helmet 517/5, Chest 752/9, Legs 705/7, Boots 611/5"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          140,
-          100
+          120,
+          120
         ]
       }
     },
@@ -155,7 +150,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Diamond Armor"
+      "text": "Netherite-Diamond Armour"
     }
   },
   "settings": {

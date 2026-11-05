@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Destination: Mercury and Venus"
     },
     "description": [
-      "This rocket will allow you to travel to Mercury",
-      "and Venus."
+      "The /e/Tier 3 Rocket/e/ can reach /6/Mercury/6/ and /6/Venus/6/."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          90,
+          120,
           0
         ]
       }
@@ -58,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tier 3 Rocket"
+      "text": "Tier 3 Rocket"
     }
   },
   "settings": {

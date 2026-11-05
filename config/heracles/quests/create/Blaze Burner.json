@@ -17,31 +17,51 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Blaze Burner": {
+    "empty_blaze_burner": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:empty_blaze_burner",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Used to heat a basin below a mixer"
+      "text": "Heat for your basins"
     },
     "description": [
-      ""
+      "Use an /e/Empty Blaze Burner/e/ on a Blaze to capture it, then put it under a basin.",
+      "",
+      "Feed it fuel to /e/heat/e/ the mixer. Feed it a /e/Blaze Cake/e/ to /c/superheat/c/ it.",
+      "",
+      "The reward gives you a spare empty burner."
     ],
     "groups": {
       "Create": {
         "position": [
-          50,
-          50
+          -80,
+          -40
         ]
       }
     },
@@ -51,12 +71,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Burner"
+      "text": "Blaze Burner"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

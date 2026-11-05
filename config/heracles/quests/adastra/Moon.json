@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Tier 1 Rocket"
+    "Tier 1 Rocket",
+    "Space Suit"
   ],
   "tasks": {
     "moon": {
@@ -19,6 +20,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,25 +44,26 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 700,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "One small step..."
     },
     "description": [
-      "Welcome to the moon, watch out for new lifeforms!",
+      "Welcome to /6/the Moon/6/! Watch out for its new life forms.",
       "",
-      "Keep an eye out for a new ore, desh, you will need",
-      "it to progress further into Ad Astra."
+      "Look for /e/Desh/e/ ore. You need it to build the next rocket.",
+      "",
+      "The reward gives you fuel for the trip home."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          0,
+          -80,
           0
         ]
       }
@@ -60,7 +77,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Moon"
+      "text": "The Moon"
     }
   },
   "settings": {

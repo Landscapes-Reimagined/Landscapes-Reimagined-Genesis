@@ -20,7 +20,8 @@
     }
   },
   "rewards": {
-    "x": {
+    "golden_apple": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,24 +29,38 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 5,
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 700,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Hunt in the Otherside"
     },
     "description": [
-      "Kill a Stalker"
+      "Defeat a /c/Stalker/c/, one of the Otherside's most dangerous hunters. Stalkers drop /e/Soul Crystals/e/."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          20,
-          140
+          -80,
+          200
         ]
       }
     },
@@ -58,12 +73,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Stalker"
+      "text": "Defeat a Stalker"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

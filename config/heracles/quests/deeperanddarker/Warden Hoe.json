@@ -25,25 +25,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "reinforced_echo_shard": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "shard": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:reinforced_echo_shard",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -52,24 +39,38 @@
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Damage 2",
-      "- Reach 3",
-      "- Attack Speed 4",
+      "Upgrade the netherite version the same way.",
       "",
-      "Crafted with Netherite hoe, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Damage 2",
+      "- Attack speed 4",
+      "- Reach 3"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          100
+          160,
+          -40
         ]
       }
     },
@@ -85,7 +86,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Hoe"
+      "text": "Warden Hoe"
     }
   },
   "settings": {

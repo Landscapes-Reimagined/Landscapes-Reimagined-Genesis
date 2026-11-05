@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "TB Upgrades"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:smoker_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "beef": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:beef",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Backpack upgrade"
+    },
+    "description": [
+      "Adds a /e/smoker/e/ that cooks food faster than a furnace."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -280,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:smoker_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Smoker Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

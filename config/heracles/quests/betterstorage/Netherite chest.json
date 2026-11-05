@@ -12,30 +12,31 @@
   },
   "rewards": {
     "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Scrapt": {
-      "item": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The final chest upgrade"
+      "text": "144 slots"
     },
     "description": [
-      "Has 144 slots, fire and blast proof"
+      "A /e/Netherite Chest/e/ from /6/Reinforced Chests/6/ holds /e/144 slots/e/. /c/Fire- and blast-proof./c/"
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -150,
-          -170
+          -60,
+          20
         ]
       }
     },
@@ -45,12 +46,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite chest"
+      "text": "Netherite Chest"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "andesite_alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
-        "count": 4
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make andesite alloy"
+      "text": "Create's basic building material"
     },
     "description": [
-      "To make andesite alloy you will need 2 andesite and 2 iron or zinc nuggets"
+      "/e/Andesite Alloy/e/ is in almost every early Create recipe.",
+      "",
+      "Craft it from /e/2 andesite + 2 iron or zinc nuggets/e/. Once you have a Mixer, it can make alloy much more cheaply."
     ],
     "groups": {
       "Create": {
         "position": [
-          -250,
-          -50
+          -240,
+          -40
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Andesite Alloy"
+      "text": "Andesite Alloy"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

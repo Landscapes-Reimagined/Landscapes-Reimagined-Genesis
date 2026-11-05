@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Connector"
   ],
   "tasks": {
     "portal interface": {
@@ -33,20 +33,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "brass casing": {
+    "brass_casing": {
       "title": "",
       "icon": {
         "item": {
@@ -60,20 +47,33 @@
         "count": 3
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Power on the move"
     },
     "description": [
-      "The Portable energy interface transfers energy to and from contraptions."
+      "Like the Portable Storage Interface but for energy: the /e/Portable Energy Interface/e/ moves FE to and from moving contraptions."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          300
+          -180,
+          -280
         ]
       }
     },
@@ -86,12 +86,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Portable Energy Interface"
+      "text": "Portable Energy Interface"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

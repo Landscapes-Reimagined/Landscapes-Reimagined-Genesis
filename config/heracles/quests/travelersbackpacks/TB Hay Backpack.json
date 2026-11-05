@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TB Collection"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:hay",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "hay_block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:hay_block",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Food & Plant backpack"
+    },
+    "description": [
+      "The /e/Hay Backpack/e/ is part of the food & plant collection.",
+      "",
+      "/6/Ability: /6/Chance for extra crop drops, and for edible crops from grass."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:hay",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Hay Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

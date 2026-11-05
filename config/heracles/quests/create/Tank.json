@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Copper": {
+    "fluid_tank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 4
+        "id": "create:fluid_tank",
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "A large liquid container"
+      "text": "Store fluids in bulk"
     },
     "description": [
-      "The fluid tank is an easy way to store a large amount of liquid. The biggest it can be is a 3x3 base and up to 30 tall, which stores a crazy amountThe fluid tank is an easy way to store a large amount of liquid. The biggest it can be is a 3x3 base and up to 30 tall, which stores a crazy amount"
+      "/e/Fluid Tanks/e/ merge into one big tank when placed next to each other. A tank can be up to /e/3x3 wide/e/ and many blocks tall.",
+      "",
+      "Tanks are also the base of the Steam Engine."
     ],
     "groups": {
       "Create": {
         "position": [
-          -50,
-          -100
+          -80,
+          -160
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tank"
+      "text": "Fluid Tank"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

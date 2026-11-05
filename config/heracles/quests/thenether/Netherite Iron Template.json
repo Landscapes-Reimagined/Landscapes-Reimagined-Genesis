@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite 1"
+    "Netherite 1",
+    "Smithing upgrade"
   ],
   "tasks": {
     "iron": {
@@ -19,6 +20,21 @@
     }
   },
   "rewards": {
+    "netherite_iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,42 +44,28 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
-    },
-    "iron": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_iron_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "advancednetherite:netherite_iron_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A custom smithing template"
     },
     "description": [
-      "In order to upgrade your netherite tools or armor you will need a Netherite Iron Smithing Template.",
+      "Upgrading your Netherite gear needs a /e/Netherite Iron Smithing Template/e/. It is made with Create Foundry:",
       "",
-      "This is how you make that template",
-      "- Superheat Mix 700mb of Molten Netherite with 900mb of Molten Iron to get Molten Netherite Iron",
-      "- Then Superheat Mixing 100mb of the Molten Netherite Iron with a Netherite Smithing Template"
+      "1) Superheat-mix /e/700mb Molten Netherite/e/ with /e/900mb Molten Iron/e/ to get /e/Molten Netherite Iron/e/.",
+      "2) Superheat-mix /e/100mb/e/ of it with a /e/Netherite Upgrade Smithing Template/e/.",
+      "",
+      "/7/Tip: superheating needs a Blaze Burner fed with a Blaze Cake./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          60,
-          -20
+          40,
+          0
         ]
       }
     },
@@ -76,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Iron Template"
+      "text": "Netherite Iron Template"
     }
   },
   "settings": {

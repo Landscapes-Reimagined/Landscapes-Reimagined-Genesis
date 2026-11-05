@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "reinforced_echo_shard": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "ec": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:reinforced_echo_shard",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,35 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The warden upgrade material"
     },
     "description": [
-      "Crafted using 4 Carapaces, 4 phantom membranes, and 1 echo shard"
+      "Craft a /e/Reinforced Echo Shard/e/ from /e/4 warden carapace, 4 phantom membranes and 1 echo shard/e/.",
+      "",
+      "Every piece of warden gear needs a netherite item, a warden upgrade template and one of these."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          20
+          -40,
+          -40
         ]
       }
     },
@@ -72,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Reinforced Echo Shard"
+      "text": "Reinforced Echo Shard"
     }
   },
   "settings": {

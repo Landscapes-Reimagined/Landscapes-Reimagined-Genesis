@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "creative_fluid_tank": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:creative_fluid_tank",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,30 +33,44 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 3500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Infinite energy"
     },
     "description": [
-      "The Creative Generator is a Crafts and Additions item,",
-      "that provides an infinite supply of enegry.",
+      "The /e/Creative Energy/e/ block from Crafts & Additions provides an endless supply of FE.",
       "",
-      "This item is crafted using these items:",
-      "- 20 Dragons Breath",
-      "- 4 Acculators",
+      "/6/Mechanical Crafter recipe/6/ /7/(6x6 grid)/7/",
+      "- 20 Dragon's Breath",
       "- 4 Alternators",
+      "- 4 Modular Accumulators",
       "- 2 Tesla Coils",
       "- 2 Nether Stars",
-      "- 2 Warden Hearts",
-      "- 2 Creative Tanks"
+      "- 2 Hearts of the Deep",
+      "- 2 Creative Fluid Tanks",
+      "",
+      "The reward gives you back a Creative Fluid Tank."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -150,
-          -50
+          0,
+          -20
         ]
       }
     },
@@ -82,7 +83,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Generator"
+      "text": "Creative Generator"
     }
   },
   "settings": {

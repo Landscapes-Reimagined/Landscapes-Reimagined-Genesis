@@ -15,6 +15,21 @@
     }
   },
   "rewards": {
+    "bread": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -24,23 +39,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Where every journey begins"
     },
     "description": [
-      ""
+      "Welcome to the /6/Overworld/6/ chapter!",
+      "",
+      "These quests walk you from punching your first tree to standing in front of the End Portal. Follow the arrows from left to right: wood, stone, iron and diamond, then on to the Nether and beyond.",
+      "",
+      "/7/Tip: this quest completes as soon as you are standing in any Overworld biome./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -1,
-          -120
+          -320,
+          -60
         ]
       }
     },
@@ -53,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Overworld"
+      "text": "Overworld"
     }
   },
   "settings": {

@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TB Collection"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:warden",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1200,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "echo_shard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Monster backpack"
+    },
+    "description": [
+      "The /e/Warden Backpack/e/ is part of the monster collection.",
+      "",
+      "/6/Ability: /6/+4 max health, and inflicts Slowness II on enemies you hit."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          280,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:warden",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Warden Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

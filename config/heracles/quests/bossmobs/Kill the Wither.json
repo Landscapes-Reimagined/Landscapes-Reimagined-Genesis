@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Wither": {
       "icon": {
@@ -18,20 +20,7 @@
     }
   },
   "rewards": {
-    "Wither xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Wither Skull": {
+    "nether_star": {
       "title": "",
       "icon": {
         "item": {
@@ -41,24 +30,41 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:wither_skeleton_skull",
+        "id": "minecraft:nether_star",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Kill the Wither"
+      "text": "Three heads, one star"
     },
     "description": [
-      ""
+      "Summon /c/the Wither/c/ with 4 soul sand in a T shape and 3 wither skeleton skulls on top.",
+      "",
+      "It explodes when it spawns, destroys blocks and inflicts Wither. Fight it somewhere you don't mind wrecking, such as deep underground or in the Nether.",
+      "",
+      "It drops a /e/Nether Star/e/, and the reward gives you a second one. The endgame needs many."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          0,
-          120
+          -60,
+          0
         ]
       }
     },
@@ -71,7 +77,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Kill the Wither"
+      "text": "Defeat the Wither"
     }
   },
   "settings": {

@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,38 +49,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:diamond",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Heavy hitter"
     },
     "description": [
-      "Gather a Diamond Axe"
+      "A /e/Diamond Axe/e/ chops quickly and is one of the hardest-hitting weapons around."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          20,
-          60
+          80,
+          20
         ]
       }
     },
@@ -81,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond Axe"
+      "text": "Diamond Axe"
     }
   },
   "settings": {

@@ -33,20 +33,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Obsidian": {
+    "gold_ingot": {
       "title": "",
       "icon": {
         "item": {
@@ -56,23 +43,40 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:obsidian",
-        "count": 4
+        "id": "minecraft:gold_ingot",
+        "count": 6
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Obsidian and fire"
     },
     "description": [
-      "Collect the resources to travel to the nether"
+      "Collect /e/10 Obsidian/e/ and craft a /e/Flint and Steel/e/.",
+      "",
+      "Build a 4x5 obsidian frame (the corners are optional) and light the inside to open a portal to the Nether.",
+      "",
+      "/7/Tip: wear at least one piece of gold armour in the Nether so Piglins leave you alone./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          60,
+          120,
           -60
         ]
       }
@@ -86,12 +90,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Build a Portal"
+      "text": "Build a Portal"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

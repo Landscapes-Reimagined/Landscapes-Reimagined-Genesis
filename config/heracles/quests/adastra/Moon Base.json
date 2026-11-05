@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "emerald": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,25 +41,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 600,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Trade with the locals"
     },
     "description": [
-      "This structure is full of Lunarian Villages,",
-      "which will allow you to trade for special",
-      "Ad Astra items."
+      "Find a /e/Lunarian Village/e/. Lunarians trade special Ad Astra items for emeralds."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          0,
-          -30
+          -80,
+          -40
         ]
       }
     },
@@ -57,7 +70,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Moon Village"
+      "text": "Lunarian Village"
     }
   },
   "settings": {

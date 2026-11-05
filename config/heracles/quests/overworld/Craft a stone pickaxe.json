@@ -22,20 +22,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Cobblestone": {
+    "coal": {
       "title": "",
       "icon": {
         "item": {
@@ -45,24 +32,37 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:cobblestone",
-        "count": 3
+        "id": "minecraft:coal",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Strong enough for iron"
     },
     "description": [
-      "Gather a Stone Pickaxe, and then submit the pickaxe"
+      "A /e/Stone Pickaxe/e/ can mine iron ore, and iron is the next big step."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -60,
-          20
+          -80,
+          -60
         ]
       }
     },
@@ -78,12 +78,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Stone Pickaxe"
+      "text": "Stone Pickaxe"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

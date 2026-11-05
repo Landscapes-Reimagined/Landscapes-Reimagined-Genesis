@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Rolling Mill"
   ],
   "tasks": {
     "motor": {
@@ -61,20 +61,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "wire": {
+    "gold_spool": {
       "title": "",
       "icon": {
         "item": {
@@ -88,20 +75,35 @@
         "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "FE in, rotation out"
     },
     "description": [
-      "Generates kinetic energy from Forge Energy."
+      "The /e/Electric Motor/e/ turns Forge Energy into rotation. Set its speed in the value panel.",
+      "",
+      "Collect the motor and its parts: a copper spool, an iron rod and a capacitor."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          260
+          -220,
+          -440
         ]
       }
     },
@@ -114,12 +116,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Electric Motor"
+      "text": "Electric Motor"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

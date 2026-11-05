@@ -1,0 +1,120 @@
+{
+  "dependencies": [
+    "Introduction"
+  ],
+  "tasks": {
+    "read": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "book": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:writable_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "link_book": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "nbt": {
+          "title": "Report an Issue",
+          "author": "Landscapes Reimagined",
+          "generation": 0,
+          "pages": [
+            "[\"\",{\"text\":\"Landscapes\\nReimagined\\n\\n\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"Issues & Suggestions\\n\\n\",\"bold\":true,\"color\":\"black\"},{\"text\":\"Report bugs and suggest ideas on our GitHub.\\n\\n\",\"color\":\"black\"},{\"text\":\"> Click here <\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Landscapes-Reimagined/Issues-and-Suggestions\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"https://github.com/Landscapes-Reimagined/Issues-and-Suggestions\"}},{\"text\":\"\\n\\nhttps://github.com/Landscapes-Reimagined/Issues-and-Suggestions\",\"color\":\"dark_gray\"}]"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Help us improve the pack"
+    },
+    "description": [
+      "/6/Found a bug? Have an idea?/6/",
+      "",
+      "We track bug reports and suggestions on GitHub. Before opening a new issue, check whether someone has already reported it.",
+      "",
+      "/e/When reporting a bug, please include:/e/",
+      "• What happened, and what you expected to happen",
+      "• Steps to reproduce it, if you can",
+      "• Your crash report or latest.log (in the logs folder), if the game crashed",
+      "",
+      "/e/Report it here:/e/",
+      "https://github.com/Landscapes-Reimagined/Issues-and-Suggestions",
+      "",
+      "/a/Claim the rewards to get a book with a clickable link. Open the book and click the link./a/",
+      "/7/Minecraft will ask whether to open the link or copy it to your clipboard./7/",
+      "",
+      "/7/Click the checkmark to complete this quest./7/"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          40,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:writable_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Issues & Suggestions"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

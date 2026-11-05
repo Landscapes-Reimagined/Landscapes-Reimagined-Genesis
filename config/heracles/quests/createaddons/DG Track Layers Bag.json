@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Diesal Generators"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "track": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:track",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Lay track faster"
+    },
+    "description": [
+      "The /e/Track Layer's Bag/e/ holds track and lays it as you go.",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          260,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Track Layer's Bag"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

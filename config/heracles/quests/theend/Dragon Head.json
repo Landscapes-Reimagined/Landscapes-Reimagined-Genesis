@@ -33,6 +33,21 @@
     }
   },
   "rewards": {
+    "wither_skeleton_skull": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -41,28 +56,31 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 25,
+      "xptype": "POINTS",
+      "amount": 800,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A rare trophy"
     },
     "description": [
-      "There are three different methods of",
-      "obtaining a dragon head:",
-      "- Kill the Ender Dragon",
-      "- Find an End City Ship",
-      "- Craft one with Liquid Dragons Breath and a wither skull"
+      "Get a /e/Dragon Head/e/ and a bucket of /e/Liquid Dragon's Breath/e/.",
+      "",
+      "There are three ways to get a dragon head:",
+      "- Defeat the Ender Dragon",
+      "- Find one on the bow of an End Ship",
+      "- Craft one from Liquid Dragon's Breath and a Wither Skeleton Skull",
+      "",
+      "Dragon heads are needed for the /6/Creative Blaze Cake/6/."
     ],
     "groups": {
       "The End": {
         "position": [
-          -250,
-          -95
+          40,
+          -60
         ]
       }
     },
@@ -75,7 +93,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon Head"
+      "text": "Dragon Head"
     }
   },
   "settings": {

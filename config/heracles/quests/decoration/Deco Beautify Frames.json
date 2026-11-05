@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:spruce_picture_frame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "painting": {
+      "item": {
+        "id": "minecraft:painting",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Art for your walls"
+    },
+    "description": [
+      "/e/Picture Frames/e/ show all the 16x16 vanilla painting motifs, plus a few extras.",
+      "",
+      "/7/Craft a Spruce Picture Frame to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -20,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:spruce_picture_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Picture Frames"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

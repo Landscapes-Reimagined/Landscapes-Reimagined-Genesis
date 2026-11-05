@@ -9,31 +9,51 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Andesite": {
+    "andesite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:andesite",
         "count": 16
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Welcome to Create"
     },
     "description": [
-      ""
+      "Welcome to /6/Create/6/, the heart of this pack!",
+      "",
+      "Create is all about rotational power: shafts, cogs and belts that drive machines. Everything starts with /e/andesite/e/, a common grey stone found in large patches underground and in mountains.",
+      "",
+      "/7/Tip: hold W over any Create item to open its Ponder scene./7/"
     ],
     "groups": {
       "Create": {
         "position": [
-          -350,
-          -50
+          -280,
+          -40
         ]
       }
     },
@@ -43,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Andesite"
+      "text": "Andesite"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

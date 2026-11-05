@@ -23,7 +23,15 @@
     }
   },
   "rewards": {
-    "Cake Base": {
+    "blaze_cake_base": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:blaze_cake_base",
         "count": 1
@@ -31,30 +39,35 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 150,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "This will help you create your first blaze cake"
+      "text": "Step one of superheating"
     },
     "description": [
-      "Gather these items to help you create your first",
-      "blaze cake base:",
-      "- 1 egg",
-      "- 1 sugar",
-      "- 1 cinder flour",
+      "Collect /e/1 egg, 1 sugar and 1 cinder flour/e/.",
       "",
-      "Once you gather these items, put them in a basin and compact",
-      "them with a press to make the cake base."
+      "Put them in a basin and compact them with a Mechanical Press to make a /e/Blaze Cake Base/e/.",
+      "",
+      "/7/Tip: cinder flour comes from milling or crushing netherrack./7/"
     ],
     "groups": {
       "Create": {
         "position": [
-          50,
-          100
+          -80,
+          0
         ]
       }
     },
@@ -64,12 +77,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Cake Base"
+      "text": "Blaze Cake Base"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

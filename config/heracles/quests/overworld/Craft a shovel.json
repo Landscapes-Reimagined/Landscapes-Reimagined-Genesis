@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Craft some Planks"
+    "Craft a crafting table"
   ],
   "tasks": {
     "Craft a shovel": {
@@ -22,22 +22,22 @@
     }
   },
   "rewards": {
-    "Receive Oak Plank": {
+    "campfire": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:oak_planks",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:oak_planks",
+        "id": "minecraft:campfire",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "Shovel xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -46,23 +46,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Dig dirt, sand and gravel"
     },
     "description": [
-      "Craft a shovel to make resource collection quicker, and then submit the shovel"
+      "A /e/Shovel/e/ makes quick work of dirt, sand, gravel and clay."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
-          100
+          -160,
+          60
         ]
       }
     },
@@ -78,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft a shovel"
+      "text": "Wooden Shovel"
     }
   },
   "settings": {

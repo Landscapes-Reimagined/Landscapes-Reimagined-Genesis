@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Emerald Template"
+    "Netherite Emerald Template",
+    "Netherite Gold Tool"
   ],
   "tasks": {
     "pick": {
@@ -25,6 +26,21 @@
     }
   },
   "rewards": {
+    "netherite_emerald_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_emerald_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,65 +50,34 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
-    },
-    "n": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_emerald_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "advancednetherite:netherite_emerald_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Upgrade a pickaxe to complete"
     },
     "description": [
-      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
-      "- Emerald Ore, 40% of emerald when mined, min drops of 1 and max of 1",
+      "Upgrade a pickaxe from the previous tier in a Smithing Table. Every Netherite-Emerald tool works the same way.",
       "",
-      "Swords have a special perk by default: chance on a bonus mob drop!",
-      "- Enderman, 30% of ender pearl when killed, min drops of 0 and max of 1",
+      "/6/Bonus drops/6/",
+      "• Pickaxe: 40% chance of an extra emerald from emerald ore",
+      "• Sword: 30% chance of an ender pearl from Endermen",
       "",
-      "Durability Change",
-      "- 2651 vs 2031 of standard netherite",
-      "",
-      "Breaking Speed",
-      "- 29 vs 9 of standard netherite",
-      "",
-      "Enchantability",
-      "- 20 vs 15 of standard netherite",
-      "",
-      "Attack Damage",
-      "- Axe : 12",
-      "- Hoe: 1",
-      "- Pick: 7",
-      "- Shovel: 7",
-      "- Sword: 10",
-      "",
-      "Attack Speed",
-      "- Axe : 1",
-      "- Hoe: 4",
-      "- Pick: 1.2",
-      "- Shovel: 1",
-      "- Sword: 1.6"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Durability: /e/2651/e/ vs 2031",
+      "• Mining speed: /e/29/e/ vs 9",
+      "• Enchantability: /e/20 vs 15/e/",
+      "• Attack damage: Sword 10, Axe 12, Pick 7, Shovel 7, Hoe 1",
+      "• Attack speed: Sword 1.6, Pick 1.2, Axe 1, Shovel 1, Hoe 4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
-          60
+          80,
+          80
         ]
       }
     },
@@ -108,7 +93,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Emerald Tool"
+      "text": "Netherite-Emerald Tools"
     }
   },
   "settings": {

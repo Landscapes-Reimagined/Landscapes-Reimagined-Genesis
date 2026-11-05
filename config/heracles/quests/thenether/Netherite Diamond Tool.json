@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Diamond Template"
+    "Netherite Diamond Template",
+    "Netherite Emerald Tool"
   ],
   "tasks": {
     "pick": {
@@ -25,6 +26,21 @@
     }
   },
   "rewards": {
+    "netherite_diamond_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_diamond_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,65 +50,34 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 600,
       "title": "",
       "type": "heracles:xp"
-    },
-    "ne": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_diamond_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "advancednetherite:netherite_diamond_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Upgrade a pickaxe to complete"
     },
     "description": [
-      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
-      "- Diamond Ore, 25% of diamond when mined, min drops of 1 and max of 1",
+      "Upgrade a pickaxe from the previous tier in a Smithing Table. Every Netherite-Diamond tool works the same way.",
       "",
-      "Swords have a special perk by default: chance on a bonus mob drop!",
-      "- Has all other tiers perks",
+      "/6/Bonus drops/6/",
+      "• Pickaxe: 25% chance of an extra diamond from diamond ore",
+      "• Sword: has every bonus drop from the lower tiers",
       "",
-      "Durability Change",
-      "- 3092 vs 2031 of standard netherite",
-      "",
-      "Breaking Speed",
-      "- 39 vs 9 of standard netherite",
-      "",
-      "Enchantability",
-      "- 15 vs 15 of standard netherite",
-      "",
-      "Attack Damage",
-      "- Axe : 13",
-      "- Hoe: 1",
-      "- Pick: 7",
-      "- Shovel: 7",
-      "- Sword: 11",
-      "",
-      "Attack Speed",
-      "- Axe : 1",
-      "- Hoe: 4",
-      "- Pick: 1.2",
-      "- Shovel: 1",
-      "- Sword: 1.6"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Durability: /e/3092/e/ vs 2031",
+      "• Mining speed: /e/39/e/ vs 9",
+      "• Enchantability: /e/15 (same as Netherite)/e/",
+      "• Attack damage: Sword 11, Axe 13, Pick 7, Shovel 7, Hoe 1",
+      "• Attack speed: Sword 1.6, Pick 1.2, Axe 1, Shovel 1, Hoe 4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
-          100
+          80,
+          120
         ]
       }
     },
@@ -108,7 +93,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Diamond Tool"
+      "text": "Netherite-Diamond Tools"
     }
   },
   "settings": {

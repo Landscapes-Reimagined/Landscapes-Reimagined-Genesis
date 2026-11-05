@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "Stock Ticker"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "emerald": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Open for business"
+    },
+    "description": [
+      "/e/Table Cloths/e/ come in many colours and materials. Put items on them as a display, or use them to run a /e/shop/e/ connected to a Stock Keeper.",
+      "",
+      "Customers browse the table, take a shopping list and pay at the counter, and the stock keeper delivers their order.",
+      "",
+      "Craft a table cloth, then click the checkmark."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:white_carpet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Table Cloths & Shops"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

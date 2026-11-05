@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:oak_trellis",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "vine": {
+      "item": {
+        "id": "minecraft:vine",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Plants on walls"
+    },
+    "description": [
+      "/e/Lattices/e/ let you grow plants on walls and ceilings.",
+      "",
+      "/7/Craft an Oak Trellis to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          100,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:oak_trellis",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lattices"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

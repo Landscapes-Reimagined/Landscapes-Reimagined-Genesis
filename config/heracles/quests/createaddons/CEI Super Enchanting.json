@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "CEI Blaze Enchanter"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:super_experience_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "enchanted_golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:enchanted_golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 800,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Beyond the normal limits"
+    },
+    "description": [
+      "/e/Super Enchanting/e/ pushes enchantments /c/past their normal level caps/c/.",
+      "",
+      "It runs on /e/Super Experience/e/, the most concentrated form of experience. Make a /e/Block of Super Experience/e/ to complete this quest.",
+      "",
+      "/7/Tip: how far past the cap you can go is set in the server config./7/"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          300,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:super_experience_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Super Enchanting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

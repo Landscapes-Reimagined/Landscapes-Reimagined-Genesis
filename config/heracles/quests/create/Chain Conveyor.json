@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Packager"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:chain_conveyor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "chain": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chain",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Packages on a zipline"
+    },
+    "description": [
+      "/e/Chain Conveyors/e/ are powered wheels you connect with chains to carry packages over long distances, around corners and up hills."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:chain_conveyor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Chain Conveyor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

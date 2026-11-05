@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 1000,
+      "amount": 1500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Destination: another star"
     },
     "description": [
-      "This is the final rocket, allowing you to travel to Glacio.",
-      ""
+      "The /e/Tier 4 Rocket/e/ is the final rocket. It can leave the solar system and reach /6/Glacio/6/."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          180,
+          240,
           0
         ]
       }
@@ -58,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tier 4 Rocket"
+      "text": "Tier 4 Rocket"
     }
   },
   "settings": {

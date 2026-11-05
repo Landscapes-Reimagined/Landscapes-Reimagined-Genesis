@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Stock Link"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:stock_ticker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "See and order everything"
+    },
+    "description": [
+      "The /e/Stock Ticker/e/ shows everything stored in its network. Request items and they're packaged and sent to the address you choose.",
+      "",
+      "/7/Tip: seat a mob behind the ticker to make it a Stock Keeper. Then you can order by talking to it./7/"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          120,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:stock_ticker",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stock Ticker"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

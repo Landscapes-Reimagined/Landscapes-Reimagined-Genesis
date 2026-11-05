@@ -11,45 +11,68 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
+    "crushed_raw_iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:crushed_raw_iron",
+        "count": 16
+      },
+      "type": "heracles:item"
     },
-    "Give Crushed Ore": {
+    "crushed_raw_zinc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:crushed_raw_zinc",
         "count": 16
       },
       "type": "heracles:item"
     },
-    "Give Ore": {
-      "item": {
-        "id": "create:crushed_raw_iron",
-        "count": 16
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crushing stuff"
+      "text": "Ore doubling and more"
     },
     "description": [
-      "The crushing wheel is used to start processing raw resources more automatically",
-      " ",
-      "Some natural spawning blocks from create can be crushed to get resources the list is:",
-      " ",
-      "/4/Crimsite/4/ is crushed to get a 40% chance at raw crushed Iron and a nugget",
-      "/b/Asurine/b/ is crushed to get a 30% chance at raw crushed Zinc and a nugget",
-      "/a/Veridium/a/ is crushed to get a 80% chance at raw crushed Copper and a nugget",
-      "/e/Ochrum/e/ is crushed to get a 20% chance at raw crushed Gold and a nugget"
+      "Two /e/Crushing Wheels/e/ spinning towards each other crush items dropped between them. Crushed ore smelts into extra ingots.",
+      "",
+      "Create's decorative stones can be crushed for ore too:",
+      "• /c/Crimsite/c/: 40% crushed iron + nugget",
+      "• /b/Asurine/b/: 30% crushed zinc + nugget",
+      "• /a/Veridium/a/: 80% crushed copper + nugget",
+      "• /e/Ochrum/e/: 20% crushed gold + nugget"
     ],
     "groups": {
       "Create": {
         "position": [
-          255,
-          40
+          80,
+          -40
         ]
       }
     },
@@ -59,12 +82,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Crushing Wheel"
+      "text": "Crushing Wheels"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

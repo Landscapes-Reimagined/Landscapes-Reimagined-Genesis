@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "Brass Block": {
+    "brass_block": {
       "title": "",
       "icon": {
         "item": {
@@ -34,7 +34,7 @@
       },
       "type": "heracles:item"
     },
-    "10": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,24 +42,24 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The upgraded loader"
     },
     "description": [
-      ""
+      "The /e/Brass Chunk Loader/e/ is the advanced version. It can even ride along on contraptions and trains."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          140,
-          20
+          180,
+          400
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Brass Powerloader"
+      "text": "Brass Chunk Loader"
     }
   },
   "settings": {

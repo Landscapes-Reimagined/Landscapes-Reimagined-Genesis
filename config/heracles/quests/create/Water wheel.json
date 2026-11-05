@@ -11,33 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Water Wheel": {
+    "water_wheel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:water_wheel",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "A method of generation stress"
+      "text": "Your first real power source"
     },
     "description": [
-      "When you place the water wheel you can flow water over it to start producing stress units, it will produce the same stress whether 1 or more sides are covered in water",
-      " ",
-      "You can change the aesthetic of the water wheel by right clicking it with a plank and it will appear like that plank type"
+      "Pour running water over a /e/Water Wheel/e/ to generate stress. It produces the same amount whether one or more sides are covered.",
+      "",
+      "/7/Tip: right-click it with any planks to change how it looks./7/"
     ],
     "groups": {
       "Create": {
         "position": [
-          -150,
-          -100
+          -120,
+          -120
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Water wheel"
+      "text": "Water Wheel"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

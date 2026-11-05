@@ -85,12 +85,12 @@
     }
   },
   "rewards": {
-    "calorite": {
+    "venus_calorite_ore": {
       "title": "",
       "icon": {
         "item": {
-          "id": "ad_astra:venus_calorite_ore",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -109,23 +109,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Fly anywhere"
     },
     "description": [
-      "This space suit is the highest tier and allows you to fly."
+      "The /e/Jet Suit/e/ is the best space suit in the game, and it lets you /e/fly/e/.",
+      "",
+      "Collect all four pieces."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          150,
-          30
+          200,
+          40
         ]
       }
     },
@@ -141,7 +143,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Jet Suit"
+      "text": "Jet Suit"
     }
   },
   "settings": {

@@ -11,24 +11,47 @@
     }
   },
   "rewards": {
+    "andesite_funnel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_funnel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crafted with andesite alloy and dried kelp"
+      "text": "Belts meet chests"
     },
     "description": [
-      "Andesite funnels are used to pull items out of a chest one at a time, they will drop the items onto a belt or depot below it"
+      "/e/Andesite Funnels/e/ pull items out of an inventory one at a time and drop them onto a belt or depot. They can also insert items into an inventory."
     ],
     "groups": {
       "Create": {
         "position": [
-          -300,
-          50
+          -120,
+          -80
         ]
       }
     },
@@ -38,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Andesite Funnel"
+      "text": "Andesite Funnel"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

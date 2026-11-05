@@ -17,7 +17,7 @@
     }
   },
   "rewards": {
-    "Give gold": {
+    "gold_block": {
       "title": "",
       "icon": {
         "item": {
@@ -32,7 +32,7 @@
       },
       "type": "heracles:item"
     },
-    "Bastion XP": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -41,23 +41,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find and enter a bastion"
+      "text": "Piglin strongholds"
     },
     "description": [
-      "Find a bastion and enter it"
+      "Find a /e/Bastion Remnant/e/, a huge blackstone fortress full of Piglins and gold.",
+      "",
+      "/c/Piglins attack if you open their chests or mine gold,/c/ even when you're wearing gold armour.",
+      "",
+      "Bastion chests are the main source of the /e/Netherite Upgrade/e/ smithing template."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -20,
-          -100
+          -80,
+          -40
         ]
       }
     },
@@ -70,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Find a bastion"
+      "text": "Find a Bastion"
     }
   },
   "settings": {

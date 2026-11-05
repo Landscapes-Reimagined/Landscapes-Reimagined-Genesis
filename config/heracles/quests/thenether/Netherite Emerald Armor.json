@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Emerald Tool"
+    "Netherite Emerald Tool",
+    "Netherite Gold Armor"
   ],
   "tasks": {
     "h": {
@@ -85,25 +86,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_emerald_block": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "n": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_emerald_block",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -112,32 +100,41 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 700,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "All four pieces"
     },
     "description": [
-      "Endermen will behave passive towards players wearing Netherite-Emerald armor",
+      "Upgrade a full set of armour to /e/Netherite-Emerald/e/.",
       "",
-      "Toughness Change",
-      "- 3.5 vs 3 of standard netherite",
+      "/6/Set bonus/6/",
+      "• Endermen are passive towards you",
       "",
-      "Enchantability  Change",
-      "- 20 vs 15 of standard netherite",
-      " ",
-      "Durability and Armor Points",
-      "- Helmet: 473, 4",
-      "- Chestplate: 688, 9",
-      "- Leggings: 645, 7",
-      "- Boots: 559, 4"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Toughness: /e/3.5/e/ vs 3",
+      "• Enchantability: /e/20 vs 15/e/",
+      "• Durability / armour: Helmet 473/4, Chest 688/9, Legs 645/7, Boots 559/4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          140,
-          60
+          120,
+          80
         ]
       }
     },
@@ -153,7 +150,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Emerald Armor"
+      "text": "Netherite-Emerald Armour"
     }
   },
   "settings": {

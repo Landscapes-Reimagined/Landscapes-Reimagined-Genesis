@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Friends & Foes Minibosses"
+  ],
+  "tasks": {
+    "citadel": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "friendsandfoes:nether/find_citadel"
+      ],
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "The Wildfire's home"
+    },
+    "description": [
+      "Wildfires live inside /e/Citadels/e/, a Nether structure added by Friends & Foes.",
+      "",
+      "Explore the Nether until you find one."
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          60,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:blackstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Find a Citadel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

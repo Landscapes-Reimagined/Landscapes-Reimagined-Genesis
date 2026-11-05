@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Mine stone"
+    "Craft a stone pickaxe"
   ],
   "tasks": {
     "Raw iron": {
@@ -19,22 +19,22 @@
     }
   },
   "rewards": {
-    "iron": {
+    "raw_iron": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:iron_ore",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_ore",
-        "count": 1
+        "id": "minecraft:raw_iron",
+        "count": 4
       },
       "type": "heracles:item"
     },
-    "Raw iron xp": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -43,22 +43,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The Iron Age"
     },
     "description": [
-      "Mine and collect some iron to improve your gear"
+      "Find /e/iron ore/e/ in caves and mountainsides and mine it with a stone pickaxe or better.",
+      "",
+      "Smelt the raw iron in a furnace to get iron ingots. They are used for tools, armour, buckets and a lot of Create machinery."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -20,
+          -40,
           -60
         ]
       }
@@ -72,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mine Iron"
+      "text": "Mine Iron"
     }
   },
   "settings": {

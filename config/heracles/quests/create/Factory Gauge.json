@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Stock Ticker"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:factory_gauge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 500,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Automated production goals"
+    },
+    "description": [
+      "Place /e/Factory Gauges/e/ on a packager and set a target amount for an item.",
+      "",
+      "Link gauges together and they request the ingredients they're missing and send them to your production line. It's Create's version of auto-crafting."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          120,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:factory_gauge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Factory Gauge"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

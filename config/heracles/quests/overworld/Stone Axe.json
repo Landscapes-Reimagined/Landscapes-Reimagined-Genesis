@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "oak_log": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,38 +49,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
       "title": "",
       "type": "heracles:xp"
-    },
-    "cobble": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:cobblestone",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:cobblestone",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Faster wood gathering"
     },
     "description": [
-      "Gather a Stone Axe, and then submit the axe"
+      "The /e/Stone Axe/e/ chops faster and doubles as a decent weapon."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -60,
-          60
+          -80,
+          20
         ]
       }
     },
@@ -81,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Stone Axe"
+      "text": "Stone Axe"
     }
   },
   "settings": {

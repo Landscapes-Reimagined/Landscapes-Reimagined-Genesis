@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Warden": {
       "icon": {
@@ -18,20 +20,7 @@
     }
   },
   "rewards": {
-    "Warden xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Carcus": {
+    "warden_carapace": {
       "title": "",
       "icon": {
         "item": {
@@ -45,20 +34,67 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "echo_shard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "enchanted_golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:enchanted_golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 1500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Kill a warden"
+      "text": "Fear the dark"
     },
     "description": [
-      "Kill the Warden"
+      "The /c/Warden/c/ is blind but tracks you by sound and smell, and hits harder than almost anything else.",
+      "",
+      "Bring your best armour and a bow, and keep moving. Its sonic boom goes through shields and armour.",
+      "",
+      "Wardens drop the /e/Heart of the Deep/e/, which opens the way to /6/Deeper and Darker/6/."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          0,
-          80
+          -60,
+          40
         ]
       }
     },
@@ -71,7 +107,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Kill the Warden"
+      "text": "Defeat the Warden"
     }
   },
   "settings": {

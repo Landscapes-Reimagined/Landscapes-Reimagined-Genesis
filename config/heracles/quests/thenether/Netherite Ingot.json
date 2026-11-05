@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give scraps": {
+    "netherite_scrap": {
       "title": "",
       "icon": {
         "item": {
@@ -46,20 +33,35 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The toughest metal"
     },
     "description": [
-      "Make your first netherite ingot to be upgrade your tool"
+      "Smelt ancient debris into /e/Netherite Scrap/e/, then combine /e/4 scrap with 4 gold ingots/e/ to make one /e/Netherite Ingot/e/.",
+      "",
+      "Netherite is the starting point for every Advanced Netherite tier below."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          20,
-          -60
+          0,
+          -40
         ]
       }
     },
@@ -72,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Ingot"
+      "text": "Netherite Ingot"
     }
   },
   "settings": {

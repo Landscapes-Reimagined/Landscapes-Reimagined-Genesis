@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "Collect a log reward": {
+    "oak_log": {
       "title": "",
       "icon": {
         "item": {
@@ -30,22 +30,52 @@
       },
       "item": {
         "id": "minecraft:oak_log",
-        "count": 1
+        "count": 6
       },
       "type": "heracles:item"
+    },
+    "apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The first step of every world"
     },
     "description": [
-      "Chop down a log to start you on your adventure"
+      "Every great base starts with a single log. Hold down attack on a tree trunk until it breaks.",
+      "",
+      "Any type of log counts."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -140,
+          -280,
           -60
         ]
       }
@@ -59,12 +89,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Get a log"
+      "text": "Punch a Tree"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

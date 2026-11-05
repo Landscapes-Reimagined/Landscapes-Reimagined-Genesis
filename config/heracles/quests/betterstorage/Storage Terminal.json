@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Inventory Connector"
+  ],
   "tasks": {
     "terminal": {
       "type": "heracles:item",
@@ -9,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give mechanism": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:precision_mechanism",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "See into all connected chest within the network"
+      "text": "Search all your storage"
     },
     "description": [
-      ""
+      "Place a /e/Storage Terminal/e/ next to the connector to search, insert and take items from your entire network."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -300,
-          -20
+          100,
+          -140
         ]
       }
     },
@@ -43,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Storage Terminal"
+      "text": "Storage Terminal"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

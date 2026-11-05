@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Intro"
+  ],
+  "tasks": {
+    "upgrade_base": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:upgrade_base",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Upgrades for blocks"
+    },
+    "description": [
+      "Sophisticated Storage has its own /e/Upgrade Base/e/ and upgrades: pickup, magnet, filter, void, compacting, feeding, smelting, crafting, stonecutter, stack and more.",
+      "",
+      "They work much like the backpack versions."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          120,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:upgrade_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Storage Upgrade Base"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

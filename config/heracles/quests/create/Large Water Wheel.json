@@ -11,33 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "give large water wheel": {
+    "large_water_wheel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:large_water_wheel",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Bigger but slower"
+      "text": "Slower, but stronger"
     },
     "description": [
-      "The large water wheel works the same as the regular water wheel but has a few differences, it will spin slower than a regular water wheel but it can produce a higher stress capacity before it stops from over stressing. It also doesn't matter if 1 or more sides are covered as it will produce the same amount of stress units",
-      " ",
-      "It can also be aesthetically changed to match any plank type you right click on it"
+      "The /e/Large Water Wheel/e/ spins slower but provides /e/much more stress capacity/e/ than the regular wheel.",
+      "",
+      "Like the small wheel, it produces the same amount however many sides are covered, and right-clicking it with planks changes its look."
     ],
     "groups": {
       "Create": {
         "position": [
-          -150,
-          -150
+          -80,
+          -120
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Large water wheel"
+      "text": "Large Water Wheel"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

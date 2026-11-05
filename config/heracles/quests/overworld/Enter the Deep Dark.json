@@ -4,44 +4,37 @@
   ],
   "tasks": {
     "deep dark": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "biomes": "minecraft:deep_dark",
       "type": "heracles:biome"
     }
   },
   "rewards": {
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
+      "amount": 300,
       "type": "heracles:xp"
+    },
+    "white_wool": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Quiet... very quiet"
     },
     "description": [
-      "Find a deep dark biome"
+      "Find a /e/Deep Dark/e/ biome far underground, recognisable by its sculk-covered floors.",
+      "",
+      "/c/Sculk Shriekers summon the Warden./c/ Sneak to avoid triggering sculk sensors."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          100,
+          200,
           -60
         ]
       }
@@ -59,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

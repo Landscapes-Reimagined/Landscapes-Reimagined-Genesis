@@ -11,7 +11,30 @@
     }
   },
   "rewards": {
-    "lava bucket": {
+    "obsidian": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "lava_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:lava_bucket",
         "count": 1
@@ -19,24 +42,31 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Crushed volcanic glass"
     },
     "description": [
-      "Powdered obsidian is created by tossing",
-      "obsidian into the crushing wheels."
+      "Drop /e/obsidian/e/ into your crushing wheels to get /e/Powdered Obsidian/e/."
     ],
     "groups": {
       "Create": {
         "position": [
-          255,
-          0
+          120,
+          -40
         ]
       }
     },
@@ -46,12 +76,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Powdered Obsidian"
+      "text": "Powdered Obsidian"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

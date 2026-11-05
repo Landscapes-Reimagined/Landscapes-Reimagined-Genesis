@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite 3"
+    "Netherite 3",
+    "Netherite Gold Template"
   ],
   "tasks": {
     "emerald": {
@@ -19,25 +20,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_emerald_ingot": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "emerald": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_emerald_ingot",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,24 +34,38 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A custom smithing template"
     },
     "description": [
-      "In order to upgrade your netherite gold tools or armor you will need a Netherite Emerald Smithing Template.",
+      "Upgrading your Netherite-Gold gear needs a /e/Netherite Emerald Smithing Template/e/. It is made with Create Foundry:",
       "",
-      "This is how you make that template",
-      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Emerald to get Molten Netherite Emerald",
-      "- Then Superheat Mixing 100mb of the Molten Netherite Emerald with a Netherite Gold Smithing Template"
+      "1) Superheat-mix /e/700mb Molten Netherite/e/ with /e/900mb Molten Emerald/e/ to get /e/Molten Netherite Emerald/e/.",
+      "2) Superheat-mix /e/100mb/e/ of it with a /e/Netherite Gold Smithing Template/e/.",
+      "",
+      "/7/Tip: superheating needs a Blaze Burner fed with a Blaze Cake./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          60,
-          60
+          40,
+          80
         ]
       }
     },
@@ -76,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Emerald Template"
+      "text": "Netherite Emerald Template"
     }
   },
   "settings": {

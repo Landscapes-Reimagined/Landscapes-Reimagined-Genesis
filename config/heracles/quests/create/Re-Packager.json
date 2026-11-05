@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Packager"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:repackager",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "cardboard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:cardboard",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Put split orders back together"
+    },
+    "description": [
+      "Big orders can arrive as several packages. A /e/Re-Packager/e/ combines the pieces back into complete packages before they're delivered."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:repackager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Re-Packager"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

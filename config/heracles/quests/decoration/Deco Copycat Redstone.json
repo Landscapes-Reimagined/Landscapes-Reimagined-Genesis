@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Copycats"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "copycats:copycat_wooden_button",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "redstone": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Hidden controls"
+    },
+    "description": [
+      "Copycat /e/buttons/e/, /e/pressure plates/e/, /e/fence gates/e/ and /e/ladders/e/ blend into any wall.",
+      "",
+      "/7/Craft a Copycat Wooden Button to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          20,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "copycats:copycat_wooden_button",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Buttons, Plates & Ladders"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

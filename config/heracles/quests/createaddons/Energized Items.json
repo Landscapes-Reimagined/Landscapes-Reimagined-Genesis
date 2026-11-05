@@ -3,21 +3,7 @@
     "Basic Energizer"
   ],
   "tasks": {
-    "gold": {
-      "type": "heracles:item",
-      "item": "create_new_age:overcharged_gold",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:overcharged_gold",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "iron": {
+    "overcharged_iron": {
       "type": "heracles:item",
       "item": "create_new_age:overcharged_iron",
       "amount": 1,
@@ -25,28 +11,29 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "create_new_age:overcharged_iron",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "diamond": {
-      "type": "heracles:item",
-      "item": "create_new_age:overcharged_diamond",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:overcharged_diamond",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "overcharged_iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_iron",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -56,44 +43,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
-    },
-    "magnetite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:magnetite_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "create_new_age:magnetite_block",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Your first charged material"
     },
     "description": [
-      "There are seven different overcharged/energized items available in Create New Age:",
-      "- Overcharged Gold",
-      "- Overcharged Iron",
-      "- Overcharged Diamond",
-      "- Overcharged Gold Sheet",
-      "- Overcharged Iron Sheet",
-      "- Bottle > Bottle o' Enchanting"
+      "Energise an iron ingot to make /e/Overcharged Iron/e/. It's used for better motors, wires and the next energiser tier."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          60,
-          60
+          -220,
+          -120
         ]
       }
     },
@@ -106,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Energized Items"
+      "text": "Overcharged Iron"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

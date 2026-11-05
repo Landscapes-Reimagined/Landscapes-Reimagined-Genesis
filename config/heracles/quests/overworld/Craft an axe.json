@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Craft some Planks"
+    "Craft a crafting table"
   ],
   "tasks": {
     "Craft an axe": {
@@ -22,7 +22,22 @@
     }
   },
   "rewards": {
-    "Axe xp": {
+    "oak_sapling": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:oak_sapling",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -31,38 +46,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
-    },
-    "planks": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:oak_planks",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:oak_planks",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Chop faster"
     },
     "description": [
-      "Craft an axe to chop trees quicker, and then submit the axe"
+      "An /e/Axe/e/ cuts wood much faster than your hands. Later you can also use it to strip logs."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
-          60
+          -160,
+          20
         ]
       }
     },
@@ -78,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft an axe"
+      "text": "Wooden Axe"
     }
   },
   "settings": {

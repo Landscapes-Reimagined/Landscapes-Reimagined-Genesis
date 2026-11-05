@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "shaft": {
       "title": "",
       "icon": {
         "item": {
@@ -42,24 +29,39 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
+        "id": "create:shaft",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crafted with 2 andesite alloy"
+      "text": "Carry rotation in a line"
     },
     "description": [
-      "Shafts are way to transfer a rotation in a straight line either vertical or horizontal"
+      "/e/Shafts/e/ carry rotation in a straight line, horizontally or vertically.",
+      "",
+      "Encase them with andesite or brass casing to make them look tidier. They keep working the same way."
     ],
     "groups": {
       "Create": {
         "position": [
-          -250,
-          0
+          -200,
+          -80
         ]
       }
     },
@@ -72,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Shaft"
+      "text": "Shaft"
     }
   },
   "settings": {

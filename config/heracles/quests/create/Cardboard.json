@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Pulp"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:cardboard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "cardboard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:cardboard",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "The packaging material"
+    },
+    "description": [
+      "Press pulp into /e/Cardboard/e/. Every package, packager and frogport needs it.",
+      "",
+      "Cardboard can also stand in for /e/leather/e/ in some recipes. Check your recipe viewer."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          160,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cardboard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Cardboard"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

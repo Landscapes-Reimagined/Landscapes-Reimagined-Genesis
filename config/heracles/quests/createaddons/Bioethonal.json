@@ -18,21 +18,50 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "straw": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createaddition:straw",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Fuel for blazes"
     },
     "description": [
-      "Bioethonal is crated by heating biomass with cinder flour",
-      "and sugar. This new fuel is used to super heat blazes after",
-      "they are given a straw."
+      "Heat-mix /e/biomass with cinder flour and sugar/e/ to make /e/Bioethanol/e/.",
+      "",
+      "Give a Blaze Burner a /e/Straw/e/ and it can drink liquid fuels like this one. Bioethanol is also used to make /6/Ad Astra/6/ oil."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          20
+          -220,
+          -280
         ]
       }
     },
@@ -45,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bioethonal"
+      "text": "Bioethanol"
     }
   },
   "settings": {

@@ -12,30 +12,33 @@
   },
   "rewards": {
     "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give scraps": {
-      "item": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The final shulker upgrade"
+      "text": "144 slots"
     },
     "description": [
-      "Has 144 slots, fire and blast proof"
+      "A /e/Netherite Shulker Box/e/ from /6/Reinforced Shulker Boxes/6/ holds /e/144 slots/e/. /c/Fire- and blast-proof./c/",
+      "",
+      "Like a vanilla shulker box, it keeps its contents when broken."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -150,
-          -70
+          -60,
+          100
         ]
       }
     },
@@ -45,12 +48,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite shulker"
+      "text": "Netherite Shulker Box"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

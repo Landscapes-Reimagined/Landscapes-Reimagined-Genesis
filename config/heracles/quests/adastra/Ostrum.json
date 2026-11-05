@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "mars_ostrum_ore": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:mars_ostrum_ore",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,37 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 900,
       "title": "",
       "type": "heracles:xp"
-    },
-    "ostrum": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ad_astra:mars_ostrum_ore",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "ad_astra:mars_ostrum_ore",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Martian metal"
     },
     "description": [
-      "This ore will allow you to craft a new space suit and a new rocket."
+      "Mine /e/Ostrum/e/ on Mars. It's used for the Netherite Space Suit and the Tier 3 Rocket."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
+          80,
           0
         ]
       }
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ostrum"
+      "text": "Ostrum"
     }
   },
   "settings": {

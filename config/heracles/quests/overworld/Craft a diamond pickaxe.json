@@ -19,6 +19,36 @@
     }
   },
   "rewards": {
+    "lapis_lazuli": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,38 +58,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "Give Diamonds": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:diamond",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Strong enough for obsidian"
     },
     "description": [
-      "Gather a Diamond Pickaxe"
+      "A /e/Diamond Pickaxe/e/ can mine obsidian, which you need to build a Nether Portal.",
+      "",
+      "Now is a good time to set up an enchanting table."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          20,
-          20
+          80,
+          -60
         ]
       }
     },
@@ -75,12 +92,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond Pickaxe"
+      "text": "Diamond Pickaxe"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

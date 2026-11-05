@@ -11,35 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Belt": {
+    "belt_connector": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:belt_connector",
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crafted with 6 dried kelp"
+      "text": "Move items in bulk"
     },
     "description": [
-      "An efficient way to transport items",
-      " ",
-      "You can also use the belts to transfer rotation force by connecting them to 2 shafts at either end of where you want to belt to go along",
-      " ",
-      "They do go diagonal up or down but not always at some angles you can tell if it will as there will be rainbow particles showing it can be place"
+      "Use a /e/Belt Connector/e/ on two shafts to link them with a belt.",
+      "",
+      "Belts carry items, entities and rotation. They can slope up or down at 45 degrees, and rainbow particles show you where a belt can be placed."
     ],
     "groups": {
       "Create": {
         "position": [
-          -250,
-          50
+          -160,
+          -80
         ]
       }
     },
@@ -49,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Belt"
+      "text": "Mechanical Belt"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

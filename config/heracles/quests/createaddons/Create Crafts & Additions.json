@@ -1,13 +1,8 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
-    "sappling": {
-      "type": "heracles:item",
-      "item": "#minecraft:saplings",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "read": {
+      "type": "heracles:check",
       "title": "",
       "icon": {
         "item": {
@@ -19,7 +14,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,41 +23,47 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Bridge kinetic and electric power"
     },
     "description": [
-      "Create Crafts & Additions extends Create and acts as a bridge between electricity and kinetic energy from Create by adding an Electric Motor which generates kinetic energy from Forge energy and an Alternator which does the opposite at 75% efficiency. To craft these items you need to make a Rolling Mill which is a kinetic machine that is used to make rods and wires."
+      "/6/Create Crafts & Additions/6/ connects Create's rotational power with /e/Forge Energy (FE)/e/.",
+      "",
+      "The /e/Electric Motor/e/ turns FE into rotation, and the /e/Alternator/e/ does the opposite at 75% efficiency.",
+      "",
+      "Everything here starts with the /e/Rolling Mill/e/, which makes the rods and wires.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          -60
+          -300,
+          -360
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "createaddition:biomass_pellet",
+        "id": "createaddition:electric_motor",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create Crafts & Additions"
+      "text": "Crafts & Additions"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

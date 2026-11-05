@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "Deco Adorn"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "adorn:stone_brick_chimney",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "torch": {
+      "item": {
+        "id": "minecraft:torch",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Finishing touches"
+    },
+    "description": [
+      "/e/Stone torches/e/ make brighter, sturdier lights than wooden torches.",
+      "",
+      "Adorn also adds /e/picket and chain-link fences/e/ and /e/chimneys/e/ that puff smoke.",
+      "",
+      "/7/Craft a Stone Brick Chimney to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          20,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adorn:stone_brick_chimney",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lights, Fences & Chimneys"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

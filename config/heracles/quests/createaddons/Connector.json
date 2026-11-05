@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Rolling Mill"
   ],
   "tasks": {
     "copper rod": {
@@ -33,20 +33,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "slime": {
+    "copper_spool": {
       "title": "",
       "icon": {
         "item": {
@@ -56,25 +43,39 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:slime_ball",
-        "count": 16
+        "id": "createaddition:copper_spool",
+        "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Wire up your power"
     },
     "description": [
-      "The connector is used in conjunction with wires",
-      "to transfer energy."
+      "/e/Connectors/e/ link machines together with /e/wire spools/e/ to move energy over distance.",
+      "",
+      "Use a spool on one connector, then on another, to string a wire between them."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          100
+          -220,
+          -360
         ]
       }
     },
@@ -87,12 +88,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Connector"
+      "text": "Connectors"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,9 +1,20 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
-    "c": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "experience_nugget": {
       "title": "",
       "icon": {
         "item": {
@@ -12,11 +23,13 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
-    }
-  },
-  "rewards": {
-    "x": {
+      "item": {
+        "id": "create:experience_nugget",
+        "count": 9
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,41 +38,47 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Experience, industrialised"
     },
     "description": [
-      "Welcome to Create Enchantment Industry, a mod offering more tools and methods to handle experience & enchantment in Create."
+      "/6/Create: Enchantment Industry/6/ turns experience into a fluid you can pipe, store and put to work.",
+      "",
+      "With it you can automate enchanting, combining and repairing gear, copying books, and even push enchantments past their normal level caps.",
+      "",
+      "/7/Tip: version 2.x replaced the old Disenchanter, Enchanting Guide and Hyper Experience. If you remember those, things work differently now!/7/",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -140,
-          -60
+          100,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:enchanting_table",
+        "id": "create_enchantment_industry:blaze_enchanter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Enchantment Industry"
+      "text": "Create: Enchantment Industry"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

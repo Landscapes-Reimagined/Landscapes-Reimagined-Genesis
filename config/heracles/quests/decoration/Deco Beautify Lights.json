@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:lamp_candelabra",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "glowstone_dust": {
+      "item": {
+        "id": "minecraft:glowstone_dust",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Light it up"
+    },
+    "description": [
+      "Light your builds with /e/bamboo lanterns/e/, /e/candelabras and chandeliers/e/, /e/glowessence jars/e/ and /e/light bulbs/e/.",
+      "",
+      "/7/Craft a Candelabra to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          60,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:lamp_candelabra",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lamps & Lanterns"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

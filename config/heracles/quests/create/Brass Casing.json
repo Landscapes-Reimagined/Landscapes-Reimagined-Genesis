@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Brass": {
+    "brass_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:brass_ingot",
-        "count": 2
+        "id": "create:brass_casing",
+        "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The next generation of casing"
+      "text": "Advanced machine housing"
     },
     "description": [
-      "The brass casing is the upgrade of the andesite casing with it's ability to make better quality items for automation"
+      "/e/Brass Casing/e/ is the upgrade from andesite casing. Use brass on a stripped log or stripped wood to make it.",
+      "",
+      "It's the base for Create's more advanced machines."
     ],
     "groups": {
       "Create": {
         "position": [
-          150,
-          50
+          0,
+          -40
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Brass Casing"
+      "text": "Brass Casing"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -11,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Iron": {
+    "gold_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:iron_ingot",
-        "count": 4
+        "id": "minecraft:gold_ingot",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The second chest upgrade"
+      "text": "53 slots"
     },
     "description": [
-      "Has 53 slots"
+      "A /e/Iron Chest/e/ from /6/Reinforced Chests/6/ holds /e/53 slots/e/."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -300,
-          -170
+          -180,
+          20
         ]
       }
     },
@@ -45,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Iron chest"
+      "text": "Iron Chest"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

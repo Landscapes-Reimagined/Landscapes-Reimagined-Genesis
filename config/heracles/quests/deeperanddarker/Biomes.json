@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Enter the Otherside",
-    "Heart of the warden"
+    "Enter the Otherside"
   ],
   "tasks": {
     "c": {
@@ -17,7 +16,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,23 +25,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Three biomes to explore"
     },
     "description": [
-      "Within the mod Deeper and Darker you currently have access to 3 different biomes, you can find more info about each biome in the quests below."
+      "The Otherside has /e/three biomes/e/. The quests to the right cover each one.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -60,
-          -60
+          -80,
+          -200
         ]
       }
     },
@@ -55,12 +56,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Biomes"
+      "text": "Otherside Biomes"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

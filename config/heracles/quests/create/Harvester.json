@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Bearing"
   ],
   "tasks": {
     "harv": {
@@ -11,24 +11,62 @@
     }
   },
   "rewards": {
+    "wheat_seeds": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "bone_meal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 75,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Crop harvesting"
+      "text": "Hands-free farming"
     },
     "description": [
-      "The harvester will automatically harvest crops when added to a machine"
+      "Attach a /e/Mechanical Harvester/e/ to a moving contraption and it harvests and replants mature crops as it passes."
     ],
     "groups": {
       "Create": {
         "position": [
-          -100,
-          0
+          -200,
+          40
         ]
       }
     },
@@ -38,12 +76,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Harvester"
+      "text": "Mechanical Harvester"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

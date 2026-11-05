@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Iron": {
+    "gold_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:iron_ingot",
-        "count": 4
+        "id": "minecraft:gold_ingot",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The second shulker upgrade"
+      "text": "53 slots"
     },
     "description": [
-      "Has 53 slots"
+      "A /e/Iron Shulker Box/e/ from /6/Reinforced Shulker Boxes/6/ holds /e/53 slots/e/.",
+      "",
+      "Like a vanilla shulker box, it keeps its contents when broken."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -300,
-          -70
+          -180,
+          100
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Iron shulker"
+      "text": "Iron Shulker Box"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

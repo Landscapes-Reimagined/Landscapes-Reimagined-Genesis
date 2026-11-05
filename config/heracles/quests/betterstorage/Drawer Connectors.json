@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Drawer Access Point"
+  ],
   "tasks": {
     "Drawer connector": {
       "type": "heracles:item",
@@ -9,26 +11,47 @@
     }
   },
   "rewards": {
-    "Connector xp": {
+    "connector": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "extended_drawers:connector",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Connects drawers to eachother but don't store items within them"
+      "text": "Bridge the gaps"
     },
     "description": [
-      "The drawer connectors work as a way to link drawers that are not directly next to eachother",
-      " ",
-      "They can not store any item within them but make it so the access point can connect to more drawers"
+      "/e/Connectors/e/ link drawers that aren't directly touching to an access point. They don't store anything themselves."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -200,
-          -220
+          -140,
+          -100
         ]
       }
     },
@@ -38,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Drawer Connectors"
+      "text": "Drawer Connectors"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

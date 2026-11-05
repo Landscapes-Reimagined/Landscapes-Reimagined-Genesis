@@ -17,7 +17,22 @@
     }
   },
   "rewards": {
-    "Fortress xp": {
+    "arrow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:arrow",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,23 +41,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find and enter a Nether Fortress"
+      "text": "Dark brick halls"
     },
     "description": [
-      "Find a nether fortress and enter it"
+      "Explore the Nether until you find a /e/Nether Fortress/e/.",
+      "",
+      "Fortresses hold nether wart, Blazes and Wither Skeletons, and their chests often contain useful loot."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -70,
-          -60
+          -80,
+          -120
         ]
       }
     },
@@ -55,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Find a nether fortress"
+      "text": "Nether Fortress"
     }
   },
   "settings": {

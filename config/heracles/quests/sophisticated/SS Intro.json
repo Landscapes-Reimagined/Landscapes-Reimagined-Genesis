@@ -1,0 +1,88 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "chest": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chest",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Chests, barrels and shulkers, upgraded"
+    },
+    "description": [
+      "Welcome to /6/Sophisticated Storage/6/!",
+      "",
+      "It adds /e/chests, barrels, shulker boxes and limited barrels/e/ in every wood type, with tiers from copper to netherite and upgrade slots like the backpacks.",
+      "",
+      "Connect them all to a /e/Controller/e/ to treat them as one big storage system.",
+      "",
+      "/7/Tip: Sophisticated Storage uses its own upgrades. Backpack upgrades don't fit in storage blocks./7/",
+      "",
+      "Click the checkmark to begin."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          120,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Sophisticated Storage"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

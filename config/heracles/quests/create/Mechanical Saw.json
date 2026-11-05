@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Bearing"
   ],
   "tasks": {
     "saw": {
@@ -11,33 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Casing": {
+    "oak_log": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_casing",
-        "count": 1
+        "id": "minecraft:oak_log",
+        "count": 32
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Advanced Lumberjacking"
+      "text": "Timber!"
     },
     "description": [
-      "The mechanical saw lets you chop down a whole tree with only destroying one of the logs using the saw.",
-      " ",
-      "It can also be used to process different wooden resources, just make sure that the saw is moving in the same direction as the items are flowing"
+      "A /e/Mechanical Saw/e/ fells a whole tree by cutting a single log.",
+      "",
+      "Facing up, it processes wood items that pass over it. Make sure it spins in the same direction the items are moving."
     ],
     "groups": {
       "Create": {
         "position": [
-          -100,
-          100
+          -200,
+          80
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mechanical Saw"
+      "text": "Mechanical Saw"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

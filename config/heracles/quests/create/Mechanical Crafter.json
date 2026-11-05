@@ -11,39 +11,56 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Casing": {
+    "mechanical_crafter": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:brass_casing",
-        "count": 1
+        "id": "create:mechanical_crafter",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "A large crafting table"
+      "text": "Big recipes, automated"
     },
     "description": [
-      "The mechanical crafter can be made into a multi block to craft different items, the biggest item it will need to craft is the crushing wheels",
-      " ",
-      "The largest size and shape of the crushing wheel is shown below with an X the O don't have any mechanical crafters",
-      " ",
-      "OXXXO ",
-      "XXXXX ",
-      "XXXXX ",
-      "XXXXX ",
-      "OXXXO "
+      "/e/Mechanical Crafters/e/ link together into a crafting grid of up to /e/9x9/e/.",
+      "",
+      "The biggest recipe you'll need soon is the Crushing Wheel, which uses this shape (X = crafter):",
+      "OXXXO",
+      "XXXXX",
+      "XXXXX",
+      "XXXXX",
+      "OXXXO",
+      "",
+      "The reward gives you a head start on the crafters you'll need."
     ],
     "groups": {
       "Create": {
         "position": [
-          215,
-          40
+          40,
+          -40
         ]
       }
     },
@@ -53,12 +70,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mechanical Crafter"
+      "text": "Mechanical Crafter"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Closest to the sun"
     },
     "description": [
-      "Mercury is a planent full on new ores."
+      "Welcome to /6/Mercury/6/, a scorching planet full of new ores."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          120,
-          -30
+          160,
+          -40
         ]
       }
     },
@@ -57,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mercury"
+      "text": "Mercury"
     }
   },
   "settings": {

@@ -1,7 +1,8 @@
 {
   "dependencies": [],
   "tasks": {
-    "c": {
+    "read": {
+      "type": "heracles:check",
       "title": "",
       "icon": {
         "item": {
@@ -9,12 +10,11 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -23,23 +23,31 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Electricity, Create-style"
     },
     "description": [
-      "Create: New Age is an addon for the Create mod that adds integration with electricity."
+      "/6/Create: New Age/6/ adds Create-style electricity:",
+      "• /e/Generator coils/e/ turn rotation into power",
+      "• /e/Wires/e/ carry it around your base",
+      "• /e/Energisers/e/ charge materials",
+      "• /e/Motors/e/ turn power back into rotation",
+      "",
+      "Later on you'll find solar heat and /c/nuclear reactors/c/ for driving Create's boilers.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          60,
-          -60
+          -300,
+          -160
         ]
       }
     },
@@ -52,12 +60,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create New Age"
+      "text": "Create: New Age"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

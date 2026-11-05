@@ -1,0 +1,102 @@
+{
+  "dependencies": [
+    "Gold Backpack"
+  ],
+  "tasks": {
+    "upgrade": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:diamond_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:diamond_tier_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "blank_upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "leather": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "9x6 storage"
+    },
+    "description": [
+      "The /e/Diamond/e/ tier has /e/9x6 storage/e/ and fluid tanks holding /e/5 buckets/e/ each.",
+      "",
+      "Apply it in a Smithing Table with your backpack and a piece of leather."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -280,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:diamond_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Diamond Backpack Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

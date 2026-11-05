@@ -11,33 +11,48 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "sheet": {
+    "sturdy_sheet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:sturdy_sheet",
         "count": 9
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Train-grade plating"
     },
     "description": [
-      "The sturdy sheet is crafted by pouring lava onto",
-      "a powdered obsidian via a spout then pressing it.",
+      "Spout /e/lava/e/ onto powdered obsidian, then press it, to make a /e/Sturdy Sheet/e/.",
       "",
-      "The sturdy sheet will be used to create many other items."
+      "Sturdy sheets are needed for Train Casing and other heavy-duty parts."
     ],
     "groups": {
       "Create": {
         "position": [
-          255,
+          160,
           -40
         ]
       }
@@ -48,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sturdy Sheet"
+      "text": "Sturdy Sheet"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "redstone_contact": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
+        "id": "create:redstone_contact",
+        "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Part of the elevator"
+      "text": "Mark each floor"
     },
     "description": [
-      "The redstone contact is used to dictate where the elevator will stop at when the 2 contacts connect to each other"
+      "/e/Redstone Contacts/e/ mark where the elevator stops. One goes on the cabin and one on each floor.",
+      "",
+      "The reward gives you a spare."
     ],
     "groups": {
       "Create": {
         "position": [
-          120,
-          150
+          80,
+          -160
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Redstone Contact"
+      "text": "Redstone Contact"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

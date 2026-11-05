@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Heart of the warden"
+    "Reinforced Echo Shard"
   ],
   "tasks": {
     "sword": {
@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "netherite_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,42 +49,28 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
-    },
-    "shard": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Damage 9",
-      "- Reach 3",
-      "- Attack Speed 1.6",
+      "/e/Warden Sword/e/ is upgraded in a Smithing Table from its netherite version, a /e/warden upgrade template/e/ and a reinforced echo shard.",
       "",
-      "Crafted with Netherite sword, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Damage 9",
+      "- Attack speed 1.6",
+      "- Reach 3"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          -60
+          0,
+          -40
         ]
       }
     },
@@ -85,12 +86,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Tools"
+      "text": "Warden Sword"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

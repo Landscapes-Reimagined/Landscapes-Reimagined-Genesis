@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Storage Link"
+  ],
+  "tasks": {
+    "storage_tool": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:storage_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Link, lock and inspect"
+    },
+    "description": [
+      "The /e/Storage Tool/e/ links Storage Links, /e/locks/e/ storage so pipes and hoppers can only insert matching items, and toggles what's shown on blocks (locks, counts, fill levels, tiers, upgrades).",
+      "",
+      "Sneak and scroll to switch modes."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          200,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:storage_tool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Storage Tool"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

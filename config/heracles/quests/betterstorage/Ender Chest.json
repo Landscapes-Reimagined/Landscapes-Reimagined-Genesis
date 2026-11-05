@@ -11,38 +11,51 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 150,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Storage linked across dimensions"
     },
     "description": [
-      "Dimensional storage chest. Contents are accessible from any other of the same color and network.",
-      "Use dyes on the bands to change colors. Unique bands, unique contents.",
-      "Storage can be expanded, and made private or team access.",
-      "Upgrades are applied by a Shift+Right-click with an item.",
-      "An Enderpearl or Endereye will add storage space. 3 and 9 slots respectively, up to 27 slots",
-      "A Diamond will make it a private network. An Emerald will make it a team network.",
-      "Private network allows color codes unique for each player.",
-      "Team network functions like private network but for players of the team. (/spc_teams)"
+      "These /e/Ender Chests/e/ share their contents with every other chest of the same colour and network.",
+      "• Dye the bands to change the colour. Each colour combination is its own network.",
+      "• /e/Diamond/e/: makes it a private network. /e/Emerald/e/: makes it a team network.",
+      "• Apply upgrades with shift-right-click.",
+      "• /e/Ender pearl/e/ +3 slots, /e/Eye of ender/e/ +9 slots, up to 27 in total."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -200,
-          30
+          180,
+          -20
         ]
       }
     },
@@ -52,12 +65,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ender Chest"
+      "text": "Dimensional Ender Chest"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

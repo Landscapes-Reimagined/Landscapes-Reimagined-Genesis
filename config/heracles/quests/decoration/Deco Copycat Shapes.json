@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Deco Copycats"
+  ],
+  "tasks": {
+    "read": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "zinc_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Fine detail"
+    },
+    "description": [
+      "Slabs, stairs, vertical stairs, beams, /e/slices/e/ (resizable to 8 sizes), /e/bytes/e/ (8 make a block) and more, for detailed builds.",
+      "",
+      "/7/Craft one, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -100,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copycat_step",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Slices, Bytes & Beams"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

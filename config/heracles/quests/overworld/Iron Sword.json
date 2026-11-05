@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,37 +49,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "iron": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:iron_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:iron_ingot",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Hold your ground"
     },
     "description": [
-      "Gather a Iron Sword, and then submit the sword"
+      "An /e/Iron Sword/e/ is reliable for most of the early game."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -20,
+          0,
           -20
         ]
       }
@@ -81,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Iron Sword"
+      "text": "Iron Sword"
     }
   },
   "settings": {

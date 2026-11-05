@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Iron Tool"
+    "Netherite Iron Tool",
+    "Netherite Armor"
   ],
   "tasks": {
     "h": {
@@ -85,25 +86,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_iron_block": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "n": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_iron_block",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -112,32 +100,41 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "All four pieces"
     },
     "description": [
-      "Phantoms will behave passive towards players wearing Netherite-Iron armor",
+      "Upgrade a full set of armour to /e/Netherite-Iron/e/.",
       "",
-      "Toughness Change",
-      "- 3.5 vs 3 of standard netherite",
+      "/6/Set bonus/6/",
+      "• Phantoms are passive towards you",
       "",
-      "Enchantability  Change",
-      "- Same as Netherite",
-      " ",
-      "Durability and Armor Points",
-      "- Helmet: 429, 4",
-      "- Chestplate: 624, 8",
-      "- Leggings: 585, 6",
-      "- Boots: 507, 4"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Toughness: /e/3.5/e/ vs 3",
+      "• Enchantability: /e/same as Netherite/e/",
+      "• Durability / armour: Helmet 429/4, Chest 624/8, Legs 585/6, Boots 507/4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          140,
-          -20
+          120,
+          0
         ]
       }
     },
@@ -153,7 +150,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Iron Armor"
+      "text": "Netherite-Iron Armour"
     }
   },
   "settings": {

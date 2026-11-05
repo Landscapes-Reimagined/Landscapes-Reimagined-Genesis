@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "World Shaper"
+  ],
   "tasks": {
     "2": {
       "type": "heracles:item",
@@ -101,12 +103,12 @@
     }
   },
   "rewards": {
-    "trophy": {
+    "trophy_block": {
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:trophy_block",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -115,29 +117,39 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10000,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "You beat Landscapes Reimagined Genesis"
     },
     "description": [
-      "Congratulations! You have succeffully completed the pack,",
-      "Landscapes Reimagined Genesis! For completing the pack you will be",
-      "given a special trophy. If you're not already on our Discord Server, join",
-      "and post screenshots of you and this trophy bragging about this great",
-      "accomplishment.",
-      "Note this trophy can only be mined with a pickaxe and no other tool, so be careful so you don't loose it.",
+      "/6/Congratulations!/6/ Hold every Creative item at once to finish /6/Landscapes Reimagined Genesis/6/.",
       "",
-      "Upon Completion, you should try out the sequal to this pack, Landscapes",
-      "Reimagined Forge Frontier, which will be released on Modrinth",
-      "in January of 2024."
+      "As a reward you get a special /e/trophy/e/. Join our Discord and post a screenshot of you and your trophy!",
+      "",
+      "/c/The trophy can only be mined with a pickaxe,/c/ so be careful not to lose it.",
+      "",
+      "Next, try the sequel: /6/Landscapes Reimagined Forge Frontier/6/, available on Modrinth."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -126,
-          -117
+          120,
+          -20
         ]
       }
     },
@@ -150,7 +162,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "translate": "Pack Complete!"
+      "text": "Pack Complete!"
     }
   },
   "settings": {

@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "Generator Coil"
+  ],
+  "tasks": {
+    "layered_magnet": {
+      "type": "heracles:item",
+      "item": "create_new_age:layered_magnet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "redstone_magnet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:redstone_magnet",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "fluxuated_magnetite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:fluxuated_magnetite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "More force, more power"
+    },
+    "description": [
+      "Stronger magnets make coils produce more energy:",
+      "• Magnetite: force 1",
+      "• Redstone Magnet: force 2",
+      "• Layered Magnet: force 4",
+      "• Fluxuated Magnetite: force 8",
+      "• Netherite Magnet: force 24",
+      "",
+      "The higher tiers are crafted from overcharged materials. Make a /e/Layered Magnet/e/ to complete this quest."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -220,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_new_age:layered_magnet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stronger Magnets"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

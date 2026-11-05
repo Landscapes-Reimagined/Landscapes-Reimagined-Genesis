@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,24 +43,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 600,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Destination: the Moon"
     },
     "description": [
-      "The Tier 1 Rocket is crafted using",
-      "the NASA Workbench, and will allow you",
-      "to travel to the moon."
+      "Build a /e/Tier 1 Rocket/e/ in the NASA Workbench. It can reach /6/the Moon/6/.",
+      "",
+      "Fill it with fuel before you launch. The reward gives you some to get started."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -30,
+          -120,
           0
         ]
       }
@@ -59,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tier 1 Rocket"
+      "text": "Tier 1 Rocket"
     }
   },
   "settings": {

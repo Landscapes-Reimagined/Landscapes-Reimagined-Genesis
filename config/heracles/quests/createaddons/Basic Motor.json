@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "overcharged_iron": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "energy iron": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:overcharged_iron",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Electricity into rotation"
     },
     "description": [
-      "The basic motor generates stress and rotation when provided energry. It generates 512 su with a maximum speed of 128 RMP, storing a total of 16K fe"
+      "The /e/Basic Motor/e/ turns electricity back into rotation: /e/512 SU/e/ at up to 128 RPM, with 16,000 energy of storage."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          60,
-          100
+          -220,
+          -80
         ]
       }
     },
@@ -72,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Basic Motor"
+      "text": "Basic Motor"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

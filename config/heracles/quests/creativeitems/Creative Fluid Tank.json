@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "creative blaze cake": {
+    "creative_blaze_cake": {
       "title": "",
       "icon": {
         "item": {
@@ -46,33 +33,44 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 2500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Infinite fluids"
     },
     "description": [
-      "Clicking the Creative Fluid Tank with a Potion, Water Bucket,",
-      "Lava Bucket, Milk Bucket, Honey Bucket, Chocolate Bucket",
-      "or Builder's Tea will fill the block with that fluid.",
-      "[This also applies to any other modded fluid.]",
-      "Extracting fluid via a Mechanical Pump will make the tank act",
-      "like an infinite source.",
+      "Click the /e/Creative Fluid Tank/e/ with any fluid container (water, lava, milk, honey, potions or modded fluids) to set its fluid.",
       "",
-      "This is crafted with these items using a Mechanical Crafter Setup",
-      "- 16 Dragons Breathe",
-      "- 4 Void Tanks",
+      "Pump from it and it never runs dry.",
+      "",
+      "/6/Mechanical Crafter recipe/6/ /7/(5x5 grid)/7/",
+      "- 16 Dragon's Breath",
+      "- 4 Ender Tanks",
       "- 3 Creative Blaze Cakes",
       "- 1 Hose Pulley",
-      "- 1 Warden Heart",
-      " "
+      "- 1 Heart of the Deep",
+      "",
+      "The reward gives you back a Creative Blaze Cake."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -50,
-          -50
+          -80,
+          -20
         ]
       }
     },
@@ -85,7 +83,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Fluid Tank"
+      "text": "Creative Fluid Tank"
     }
   },
   "settings": {

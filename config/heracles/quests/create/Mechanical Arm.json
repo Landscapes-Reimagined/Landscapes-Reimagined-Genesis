@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Casing": {
+    "brass_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_casing",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "A helping hand"
+      "text": "Pick and place"
     },
     "description": [
-      "The mechanical arm can be setup to move items from one spot to another spot like depot to depot"
+      "The /e/Mechanical Arm/e/ moves items between inputs and outputs within its range, such as depots, belts, funnels and inventories.",
+      "",
+      "Right-click targets with the arm in your hand before you place it."
     ],
     "groups": {
       "Create": {
         "position": [
-          190,
-          100
+          40,
+          -80
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mechanical Arm"
+      "text": "Mechanical Arm"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

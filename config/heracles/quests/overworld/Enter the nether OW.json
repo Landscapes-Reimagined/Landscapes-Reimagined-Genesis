@@ -18,7 +18,22 @@
     }
   },
   "rewards": {
-    "Nether OW": {
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,23 +42,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A world of fire"
     },
     "description": [
-      "Enter the Nether"
+      "Step through your portal into /6/the Nether/6/.",
+      "",
+      "Watch out for lava lakes, Ghasts and Piglins. The /6/Nether/6/ chapter will guide you from here."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          60,
-          -20
+          160,
+          -60
         ]
       }
     },
@@ -59,7 +76,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the Nether"
+      "text": "Enter the Nether"
     }
   },
   "settings": {

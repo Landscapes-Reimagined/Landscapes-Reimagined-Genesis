@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "bread": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,38 +49,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
       "title": "",
       "type": "heracles:xp"
-    },
-    "cobble": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:cobblestone",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:cobblestone",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Dig faster"
     },
     "description": [
-      "Gather a Stone Shovel, and then submit the shovel"
+      "A /e/Stone Shovel/e/ for moving dirt, sand and gravel quickly."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -60,
-          100
+          -80,
+          60
         ]
       }
     },
@@ -81,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Stone Shovel"
+      "text": "Stone Shovel"
     }
   },
   "settings": {

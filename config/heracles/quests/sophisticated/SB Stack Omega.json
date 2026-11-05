@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SB Stack 4"
+  ],
+  "tasks": {
+    "stack_upgrade_omega_tier": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:stack_upgrade_omega_tier",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "nether_star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 3000,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Practically infinite"
+    },
+    "description": [
+      "The /e/Omega Tier/e/ is made from /e/nine Tier 4 upgrades/e/ and raises stack sizes to an absurd level, effectively unlimited.",
+      "",
+      "/6/The ultimate backpack upgrade./6/"
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          -80,
+          140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:stack_upgrade_omega_tier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stack Upgrade: Omega"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

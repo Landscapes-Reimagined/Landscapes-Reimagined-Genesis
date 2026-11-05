@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "debris": {
+    "ancient_debris": {
       "title": "",
       "icon": {
         "item": {
@@ -46,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten ancient debris, you need to mix",
-      "ancient debris in a mixer while super heated.",
+      "Superheat-mix /e/ancient debris/e/ to get a bucket of /e/Molten Ancient Debris/e/.",
       "",
-      "This bucket can be converted into one block ancient debris",
-      "or netherite, when mixed with gold."
+      "It can be turned back into a block of ancient debris, or into netherite when mixed with gold."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          18,
-          -23
+          40,
+          80
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Ancient Debris"
+      "text": "Molten Ancient Debris"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

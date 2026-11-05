@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "SS Intro"
+  ],
+  "tasks": {
+    "brush": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:paintbrush",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:paintbrush",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "white_dye": {
+      "item": {
+        "id": "minecraft:white_dye",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Decorate in place"
+    },
+    "description": [
+      "The /e/Paintbrush/e/ applies colours and materials to placed storage blocks. Use it on a Controller to decorate the whole network at once.",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          160,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:brush",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Paintbrush"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

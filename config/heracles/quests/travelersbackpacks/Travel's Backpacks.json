@@ -1,0 +1,100 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "backpack": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:standard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:standard",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "blank_upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "leather": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Storage on your back"
+    },
+    "description": [
+      "The standard /e/Traveler's Backpack/e/ has /e/9x3 storage/e/ and two fluid tanks holding 2 buckets each.",
+      "",
+      "Upgrade it in a Smithing Table with an upgrade, your backpack and leather."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -400,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:standard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Traveler's Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

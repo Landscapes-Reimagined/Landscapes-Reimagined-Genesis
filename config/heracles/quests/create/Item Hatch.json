@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "High Logistics"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:item_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Empty your pockets"
+    },
+    "description": [
+      "Attach an /e/Item Hatch/e/ to a container and click it to deposit your items straight into that container."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          40,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:item_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Item Hatch"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

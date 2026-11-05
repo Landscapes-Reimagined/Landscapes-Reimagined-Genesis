@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "steel_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:steel_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Where rockets are built"
     },
     "description": [
-      "This nasa workbnech will allow you to",
-      "create all of your future space ships."
+      "The /e/NASA Workbench/e/ is where you build every rocket in Ad Astra."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -60,
+          -160,
           0
         ]
       }
@@ -58,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nasa Workbench"
+      "text": "NASA Workbench"
     }
   },
   "settings": {

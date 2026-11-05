@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Barrel"
+  ],
+  "tasks": {
+    "shulker_box": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:shulker_box",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "shulker_shell": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:shulker_shell",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Portable, tiered"
+    },
+    "description": [
+      "A /e/Sophisticated Shulker Box/e/ keeps its contents when broken and can be upgraded through every tier.",
+      "",
+      "Right-click it in your inventory while holding items to stash them."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          240,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:shulker_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Shulker Box"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

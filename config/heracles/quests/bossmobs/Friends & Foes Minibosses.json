@@ -13,17 +13,35 @@
       "type": "heracles:check"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "New creatures, new fights"
     },
-    "description": [],
+    "description": [
+      "/6/Friends & Foes/6/ adds mobs from past Minecraft mob votes, including the fiery /c/Wildfire/c/.",
+      "",
+      "Click the checkmark to begin."
+    ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          -40,
-          0
+          20,
+          -40
         ]
       }
     },
@@ -36,7 +54,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
     "title": {
-      "translate": "Friends & Foes Minibosses"
+      "text": "Friends & Foes"
     }
   },
   "settings": {

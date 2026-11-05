@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +41,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A purple, quieter refuge"
     },
     "description": [
-      "This biome often generates in layers consisting of Sculk, Sculk Stone, and Echo Soil. Echo trees populate the biome making The Otherside more vibrant with their purple leaves and Sculk Gleam. The fog color in this biome is purple much like the leaves, and the only mobs that spawn here are Shattered, which makes this biome a pleasant change from the many horrors of the Otherside Deeplands."
+      "The /e/Echoing Forest/e/ is layered with sculk, sculk stone and echo soil, and filled with purple-leaved /e/Echo Trees/e/ and sculk gleam.",
+      "",
+      "Only /e/Shattered/e/ spawn here, so it's a welcome break from the rest of the Otherside."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -60,
-          20
+          -40,
+          -160
         ]
       }
     },
@@ -55,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Echoing forest"
+      "text": "Echoing Forest"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -3,7 +3,21 @@
     "Blaze Cake"
   ],
   "tasks": {
-    "Blaze Cake": {
+    "start": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "blaze_cake": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -11,13 +25,13 @@
         },
         "type": "heracles:item"
       },
-      "item": "create:blaze_cake",
-      "title": "",
-      "type": "heracles:item_interaction"
-    }
-  },
-  "rewards": {
-    "1": {
+      "item": {
+        "id": "create:blaze_cake",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,25 +40,29 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Where molten dreams come true"
     },
     "description": [
-      "Welcome to /6/Create Foundry/6/ Where all your molten Desires come to life!!!",
+      "Welcome to /6/Create Foundry/6/!",
       "",
-      "In this mod you can smelt down most types of ore or material, and get a molten version, if you are wanting to make an auto miner that gets the raw variants and turns them into even more processed materials."
+      "With a /c/superheated/c/ mixer you can melt ores and materials into molten fluids. They can be cast back into blocks and ingots, often for more than you put in, or alloyed into new materials.",
+      "",
+      "Combine it with an auto-miner and you can process raw ores straight into finished materials.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -42,
-          -113
+          0,
+          0
         ]
       }
     },
@@ -57,12 +75,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Create Foundry"
+      "text": "Create Foundry"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

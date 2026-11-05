@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
     "goggles": {
       "type": "heracles:item",
@@ -19,7 +17,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,23 +26,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Goggles that don't take a helmet slot"
     },
     "description": [
-      "Adds Helmets with Create Mod Goggle Function and Vanilla Armorstats. If you want to wear a full netherite armor but want also see the goggle stats or use your Backtank, this is the mod or you!"
+      "The /6/Create Goggles/6/ addon combines Create's goggles and backtanks with vanilla armour.",
+      "",
+      "Now you can wear full netherite and still see goggle info or use your backtank.",
+      "",
+      "Grab a pair of /e/Engineer's Goggles/e/ to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -20,
-          -60
+          100,
+          240
         ]
       }
     },
@@ -57,12 +59,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create Goggles"
+      "text": "Create Goggles"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

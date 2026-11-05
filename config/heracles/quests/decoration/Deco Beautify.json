@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "flower_pot": {
+      "item": {
+        "id": "minecraft:flower_pot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Cosy decorations"
+    },
+    "description": [
+      "/6/Beautify/6/ adds cosy decorations: hanging plants, blinds, picture frames, book stacks and lots of lights.",
+      "",
+      "Most blocks have small extra features. For example, bone meal can duplicate certain potted plants.",
+      "",
+      "Click the checkmark to begin."
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -140,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:botanist_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Beautify"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

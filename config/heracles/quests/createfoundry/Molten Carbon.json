@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "coal": {
+    "coal_block": {
       "title": "",
       "icon": {
         "item": {
@@ -46,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten carbon, you need to mix coal",
-      "ore in a mixer while super heated.",
+      "Superheat-mix /e/coal ore/e/ to get a bucket of /e/Molten Carbon/e/.",
       "",
-      "This bucket can be converted into one block of coal and",
-      "one coal or molten diamond when pressed."
+      "It can be turned back into a block of coal plus a coal. Pressing it while superheated makes Molten Diamond."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -20,
-          -82
+          -40,
+          -60
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Carbon"
+      "text": "Molten Carbon"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

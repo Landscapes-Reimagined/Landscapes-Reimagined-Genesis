@@ -3,7 +3,7 @@
     "Diesal Generators"
   ],
   "tasks": {
-    "basin lid": {
+    "basin_lid": {
       "type": "heracles:item",
       "item": "createdieselgenerators:basin_lid",
       "amount": 1,
@@ -11,27 +11,13 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "createdieselgenerators:basin_lid",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       }
     },
-    "seed oil": {
-      "type": "heracles:item",
-      "item": "createaddition:seed_oil_bucket",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "createaddition:seed_oil_bucket",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fuel 2": {
+    "ethanol_bucket": {
       "type": "heracles:item",
       "item": "createdieselgenerators:ethanol_bucket",
       "amount": 1,
@@ -39,14 +25,29 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "createdieselgenerators:ethanol_bucket",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "biodiesel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createdieselgenerators:biodiesel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -56,52 +57,40 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "biodesal": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "createdieselgenerators:biodiesel_bucket",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "createdieselgenerators:biodiesel_bucket",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "What engines burn"
     },
     "description": [
-      "These fuel sources are used inside the diesel engines",
-      "to produce kenetic energy."
+      "Engines run on liquid fuels. The easiest early ones are /e/plant oil/e/, /e/ethanol/e/ and /e/biodiesel/e/.",
+      "",
+      "Put a /e/Basin Lid/e/ on a basin to /e/ferment/e/ ingredients into ethanol.",
+      "",
+      "Collect a basin lid and a bucket of ethanol."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -100,
-          -20
+          140,
+          -400
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "createdieselgenerators:biodiesel_bucket",
+        "id": "createdieselgenerators:basin_lid",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fuel Sources"
+      "text": "Fuels & Basin Fermenting"
     }
   },
   "settings": {

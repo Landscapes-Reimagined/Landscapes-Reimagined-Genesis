@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Warden Hoe"
+    "Ancient temple"
   ],
   "tasks": {
     "transmitter": {
@@ -19,7 +19,22 @@
     }
   },
   "rewards": {
-    "x": {
+    "ender_pearl": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,27 +43,29 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Open blocks from a distance"
     },
     "description": [
-      "The Sculk Transmitter sculk transmitter is an item used to link to certain blocks.",
+      "The /e/Sculk Transmitter/e/ links to a block so you can open it remotely.",
       "",
-      "Sculk transmitters can be linked to shulker boxes, anvils, crafting tables, stonecutters, cartography tables, smithing tables, grindstones, looms, furnaces, smokers, blast furnaces, enchanting tables, brewing stands, beacons, chests, barrels, dispensers, droppers, hoppers and trapped chests.",
+      "• /e/Sneak + use/e/ on a block to link it",
+      "• /e/Use/e/ to open the linked block from anywhere",
+      "• /e/Sneak + use/e/ in the air to unlink",
       "",
-      "To link the sculk transmitter to a block, use it on the block while sneaking. To open the block's interface, you can simply use the transmitter without sneaking. To unlink the sculk transmitter, use it while sneaking."
+      "It works with chests, barrels, shulker boxes, furnaces, crafting tables, anvils, enchanting tables, brewing stands, beacons and most other blocks with a menu."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          140
+          0,
+          -80
         ]
       }
     },
@@ -61,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sculk Transmitter"
+      "text": "Sculk Transmitter"
     }
   },
   "settings": {

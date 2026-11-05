@@ -11,27 +11,49 @@
     }
   },
   "rewards": {
+    "track_station": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:track_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Assemble your train"
     },
     "description": [
-      "The train station allows you to connect your",
-      "first train to the tracks, and also allows you ",
-      "to name your train if you plan on creating a",
-      "massive train station."
+      "Place a /e/Train Station/e/ next to your tracks, then build your train on the tracks beside it and assemble it at the station.",
+      "",
+      "Stations also let you name your train, which is handy for big networks."
     ],
     "groups": {
       "Create": {
         "position": [
-          230,
-          -80
+          240,
+          -40
         ]
       }
     },
@@ -41,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Train Station"
+      "text": "Train Station"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

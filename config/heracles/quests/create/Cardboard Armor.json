@@ -1,0 +1,129 @@
+{
+  "dependencies": [
+    "Cardboard"
+  ],
+  "tasks": {
+    "cardboard_helmet": {
+      "type": "heracles:item",
+      "item": "create:cardboard_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cardboard_chestplate": {
+      "type": "heracles:item",
+      "item": "create:cardboard_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cardboard_leggings": {
+      "type": "heracles:item",
+      "item": "create:cardboard_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cardboard_boots": {
+      "type": "heracles:item",
+      "item": "create:cardboard_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "cardboard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:cardboard",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "The finest in box fashion"
+    },
+    "description": [
+      "Craft a full set of /e/Cardboard Armour/e/.",
+      "",
+      "It barely protects you, but it's a perfect disguise. Who suspects a box?"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cardboard_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Cardboard Armour"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

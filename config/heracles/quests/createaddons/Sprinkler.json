@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fluid_pipe": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,28 +43,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 150,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Water, lava, potions..."
     },
     "description": [
-      "The Sprinkler is a block which, when provided with a fluid using a pipe, will distribute it in a small area below.",
-      "Different fluids can have different effects.",
-      "- Lava applies a small amount of fire damage to entities below",
-      "- Water makes the area below wet, making the world think it's raining there.",
-      "- Potions apply their affect for a short duration to entities below",
-      "- Liquid Fertilizer, a new fluid, applies a bonemeal affect to blocks."
+      "Pipe a fluid into a /e/Sprinkler/e/ and it spreads it over a small area below:",
+      "• /3/Water/3/: makes the area wet, as if it were raining",
+      "• /c/Lava/c/: deals light fire damage",
+      "• /e/Potions/e/: apply their effect briefly",
+      "• /a/Liquid Fertilizer/a/: works like bone meal"
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -180,
-          20
+          140,
+          120
         ]
       }
     },
@@ -62,12 +76,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sprinkler"
+      "text": "Sprinkler"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

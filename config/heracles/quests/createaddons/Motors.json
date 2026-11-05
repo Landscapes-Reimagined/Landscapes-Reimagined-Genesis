@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Energized Items",
     "Basic Motor"
   ],
   "tasks": {
@@ -34,7 +33,8 @@
     }
   },
   "rewards": {
-    "x": {
+    "overcharged_gold": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,63 +42,55 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "iron": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:overcharged_iron",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
       "item": {
-        "id": "create_new_age:overcharged_iron",
+        "id": "create_new_age:overcharged_gold",
         "count": 2
       },
       "type": "heracles:item"
     },
-    "diamond": {
+    "overcharged_diamond": {
       "title": "",
       "icon": {
         "item": {
-          "id": "create_new_age:overcharged_diamond",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
         "id": "create_new_age:overcharged_diamond",
-        "count": 6
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 500,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Bigger motors"
     },
     "description": [
-      "In Create New Age there are two higher tiers of motors",
-      "- Strong",
-      "Generates: 2048 su",
-      "Stores: 64K fe",
-      "Maximun Speed: 256 RPM",
-      "",
-      "- Reinforced",
-      "Generates: 8192 su",
-      "Stores: 128K fe",
-      "Maximun Speed: 256 RPM"
+      "Two higher motor tiers:",
+      "• /e/Advanced Motor/e/: 2,048 SU, 256 RPM, 64,000 storage",
+      "• /e/Reinforced Motor/e/: 8,192 SU, 256 RPM, 128,000 storage"
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          60,
-          180
+          -180,
+          -80
         ]
       }
     },
@@ -111,12 +103,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Motors"
+      "text": "Advanced & Reinforced Motors"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

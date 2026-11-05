@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "gold": {
+    "gold_block": {
       "title": "",
       "icon": {
         "item": {
@@ -43,27 +43,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 150,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten gold, you need to mix gold",
-      "ore or gold zinc in a mixer while super heated.",
+      "Superheat-mix /e/gold ore or raw gold/e/ to get a bucket of /e/Molten Gold/e/.",
       "",
-      "This bucket can be converted into one block of gold and",
-      "one gold ingot."
+      "It can be turned back into a block of gold plus a gold ingot."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -20,
-          -23
+          40,
+          40
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Gold"
+      "text": "Molten Gold"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

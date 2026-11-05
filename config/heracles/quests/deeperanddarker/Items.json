@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "echo_shard": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "shard": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:echo_shard",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Fragments of the deep"
     },
     "description": [
-      "Found in Ancient City Loot"
+      "/e/Echo Shards/e/ are found in Ancient City loot. They're needed to make Reinforced Echo Shards for warden gear."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          -60
+          -120,
+          -40
         ]
       }
     },
@@ -72,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Items"
+      "text": "Echo Shards"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

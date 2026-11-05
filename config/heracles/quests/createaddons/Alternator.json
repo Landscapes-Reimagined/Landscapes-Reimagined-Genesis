@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Rolling Mill"
   ],
   "tasks": {
     "alternator": {
@@ -61,20 +61,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "spool": {
+    "gold_spool": {
       "title": "",
       "icon": {
         "item": {
@@ -88,20 +75,35 @@
         "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Rotation in, FE out"
     },
     "description": [
-      "Generates Forge Energy from kinetic energy."
+      "The /e/Alternator/e/ generates Forge Energy from rotation.",
+      "",
+      "Collect the alternator and its parts: a copper spool, an iron rod and a capacitor."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          220
+          -220,
+          -400
         ]
       }
     },
@@ -114,12 +116,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Alternator"
+      "text": "Alternator"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

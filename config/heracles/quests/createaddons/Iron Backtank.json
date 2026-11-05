@@ -2,8 +2,35 @@
   "dependencies": [
     "Create Goggles"
   ],
-  "tasks": {},
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -13,58 +40,43 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "diamonds": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond_ore",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Chestplate + backtank"
     },
     "description": [
-      "This diamond backtank will allow you",
-      "to wear a diamond chestplate and a backtank",
-      "at the same time."
+      "A /e/Diamond Backtank/e/ gives you a diamond chestplate's protection and stores air for diving and pneumatic tools.",
+      "",
+      "Craft one, then click the checkmark."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -20,
-          20
+          140,
+          280
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "creategoggles:diamond_backtank",
+        "id": "create:copper_backtank",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond Backtank"
+      "text": "Diamond Backtank"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -14,7 +14,22 @@
     }
   },
   "rewards": {
-    "x": {
+    "andesite_alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -23,23 +38,35 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Expanding Create"
     },
     "description": [
-      "Within the pack you have access to many different types of Create Addons"
+      "This pack includes a lot of /6/Create addons/6/. Each block in this chapter covers one of them, and you can start any of them whenever you like:",
+      "",
+      "• /e/Crafts & Additions/e/: electricity and FE",
+      "• /e/New Age/e/: generators, energisers, heat and nuclear power",
+      "• /e/Create Connected/e/: gearboxes, clutches, storage, copycats and fan catalysts",
+      "• /e/Ore Excavation/e/: infinite ore veins",
+      "• /e/Diesel Generators/e/: engines, oil refining and industry",
+      "• /e/Enchantment Industry/e/: liquid experience, automated enchanting and anvils",
+      "• /e/Slice & Dice/e/: Farmer's Delight automation",
+      "• /e/Goggles/e/: goggle helmets and backtanks",
+      "• /e/Power Loader/e/: chunk loaders",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          0,
-          -120
+          -300,
+          -520
         ]
       }
     },
@@ -52,7 +79,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Create Addons"
+      "text": "Create Addons"
     }
   },
   "settings": {

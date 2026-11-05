@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "warden_carapace": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "cara": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:warden_carapace",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Armour plating from the Warden"
     },
     "description": [
-      "Obtained when killing the warden"
+      "/e/Warden Carapace/e/ is dropped by the Warden. You'll need a lot of it."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          -20
+          -80,
+          -40
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Carapace"
+      "text": "Warden Carapace"
     }
   },
   "settings": {

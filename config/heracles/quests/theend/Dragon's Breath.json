@@ -19,6 +19,36 @@
     }
   },
   "rewards": {
+    "dragon_breath": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 9
+      },
+      "type": "heracles:item"
+    },
+    "glass_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glass_bottle",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,41 +58,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Bottled dragon fire"
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "Use empty /e/Glass Bottles/e/ on the purple cloud left by the dragon's breath attack.",
+      "",
+      "You'll need a /c/lot/c/ of it: most Creative items use 12 to 28 bottles each. Start collecting early."
     ],
     "groups": {
       "The End": {
         "position": [
-          -300,
-          -95
+          0,
+          -60
         ]
       }
     },
@@ -75,7 +89,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "text": "Dragon's Breath"
     }
   },
   "settings": {

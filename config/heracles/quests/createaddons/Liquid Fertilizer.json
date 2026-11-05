@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Slice & Dice"
+    "Sprinkler"
   ],
   "tasks": {
     "fertilizer": {
@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "fertilizer": {
+    "tree_fertilizer": {
       "title": "",
       "icon": {
         "item": {
@@ -46,21 +33,33 @@
         "count": 16
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Bone meal on tap"
     },
     "description": [
-      "Liquid Fertilizer, a new fluid, applies a bonemeal affect to blocks.",
-      "This is created by mixing tree fertilizer and water together."
+      "Mix /e/tree fertilizer with water/e/ to make /e/Liquid Fertilizer/e/. Spray it with a sprinkler for a bone meal effect."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -180,
-          60
+          180,
+          120
         ]
       }
     },
@@ -73,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Liquid Fertilizer"
+      "text": "Liquid Fertilizer"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

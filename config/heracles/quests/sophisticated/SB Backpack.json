@@ -1,0 +1,104 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "leather": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "string": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:string",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Storage that grows with you"
+    },
+    "description": [
+      "Welcome to /6/Sophisticated Backpacks/6/!",
+      "",
+      "Backpacks can be /e/upgraded through tiers/e/ for more space, and fitted with /e/upgrades/e/ that pick up items, smelt, craft, feed you and much more.",
+      "",
+      "Craft a /e/Leather Backpack/e/ to begin. Wear it on your back or place it on the ground.",
+      "",
+      "/7/Tip: set a keybind for opening your backpack in the controls menu./7/"
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          -280,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Sophisticated Backpacks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

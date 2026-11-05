@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Iron": {
+    "iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:iron_ingot",
-        "count": 3
+        "count": 4
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "A way to move items"
+      "text": "Vertical item transport"
     },
     "description": [
-      "The chute acts similar to a hopper and dropper combined, as you can stack them on top of each other and they will continue to funnel the items down and drop them once they reach the end but they can also push items up if there is an encased fan blowing air up through the chute"
+      "/e/Chutes/e/ move items straight down, like a hopper and dropper combined. Stack them as high as you like.",
+      "",
+      "With an Encased Fan blowing up through them, they carry items upward too."
     ],
     "groups": {
       "Create": {
         "position": [
-          -250,
-          100
+          -120,
+          0
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chute"
+      "text": "Chute"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

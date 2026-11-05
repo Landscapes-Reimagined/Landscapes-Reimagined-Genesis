@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Packager"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:package_filter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Sort by address"
+    },
+    "description": [
+      "A /e/Package Filter/e/ matches packages by their /e/address/e/.",
+      "",
+      "Put it in a funnel, brass tunnel or other filter slot to route packages along your belts."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          240,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:package_filter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Package Filter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

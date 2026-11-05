@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "Give Blaze Rob": {
+    "blaze_rod": {
       "title": "",
       "icon": {
         "item": {
@@ -48,7 +48,22 @@
       },
       "type": "heracles:item"
     },
-    "Give XP": {
+    "glass_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glass_bottle",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -57,23 +72,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Collect a nether wart and a soul sand"
+      "text": "The basis of every potion"
     },
     "description": [
-      "Collect a nether wart and a soul sand to start growing your own to brew potions"
+      "Collect /e/Nether Wart/e/ (found in fortress stairwells) and /e/Soul Sand/e/.",
+      "",
+      "Nether wart only grows on soul sand. Plant a small farm and you'll have the base ingredient for almost every potion.",
+      "",
+      "The blaze rods below will get your Brewing Stand started."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -70,
-          -20
+          -40,
+          -120
         ]
       }
     },
@@ -86,7 +105,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Nether wart and soul sand"
+      "text": "Nether Wart & Soul Sand"
     }
   },
   "settings": {

@@ -18,6 +18,21 @@
     }
   },
   "rewards": {
+    "torch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -27,23 +42,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Into the dark"
     },
     "description": [
-      ""
+      "Step through the portal into /6/the Otherside/6/.",
+      "",
+      "It's pitch black and full of sculk. Bring plenty of light, and remember that noise attracts danger."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -100,
-          -60
+          -120,
+          -120
         ]
       }
     },
@@ -56,12 +73,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Enter the Otherside"
+      "text": "Enter the Otherside"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

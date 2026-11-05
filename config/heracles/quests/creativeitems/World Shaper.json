@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "creative_crate": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 10000,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "crate": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:creative_crate",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,35 +33,46 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 5000,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Reshape the world"
     },
     "description": [
-      "A Creative Worldshaper can Place, Merge and Attach Blocks.",
-      "It can also place cubes, cylinders and spheres ",
-      "up to X32 Y32 Z32.",
+      "The /e/Creative Worldshaper/e/ places, merges and attaches blocks in cubes, cylinders and spheres up to 32x32x32.",
       "",
-      "To set what the Worldshaper places, left click the",
-      "desired block and right click to place blocks. ",
-      "Shift right click to adjust the settings.",
+      "Left-click a block to select it, right-click to place, and shift-right-click to change settings.",
       "",
-      "The Worldshaper can be crafted using these items",
-      "- 21 Dragons Breath",
+      "/6/Mechanical Crafter recipe/6/ /7/(9x6 grid)/7/",
+      "- 21 Dragon's Breath",
       "- 3 Nether Stars",
       "- 2 Creative Blaze Cakes",
-      "- 1 Netherite Diamond Shovel",
+      "- 1 Netherite-Diamond Shovel",
       "- 1 Warden Shovel",
       "- 1 Creative Generator",
-      "- 1 Creative Crate"
+      "- 1 Creative Crate",
+      "",
+      "The reward gives you back the Creative Crate."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -250,
-          -50
+          80,
+          -20
         ]
       }
     },
@@ -87,7 +85,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Worldshaper"
+      "text": "Creative Worldshaper"
     }
   },
   "settings": {

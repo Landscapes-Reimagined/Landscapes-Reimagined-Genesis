@@ -11,33 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "white_sail": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_alloy",
-        "count": 2
+        "id": "create:white_sail",
+        "count": 16
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "More sails = quicker windmill = more stress created"
+      "text": "Bigger blades, more power"
     },
     "description": [
-      "Connecting sails to a plank or any block on top of the windmill bearing will generate more stress",
-      " ",
-      "You can place them in any shape you like"
+      "Attach /e/Sails/e/ to the blocks on your windmill bearing. You can build them in any shape you like.",
+      "",
+      "The more sail blocks, the more stress the windmill produces. Dye them to match your build."
     ],
     "groups": {
       "Create": {
         "position": [
-          -350,
-          50
+          -280,
+          -120
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sail"
+      "text": "Sails"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

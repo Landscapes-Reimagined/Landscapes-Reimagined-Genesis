@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Gold Template"
+    "Netherite Gold Template",
+    "Netherite Iron Tool"
   ],
   "tasks": {
     "p": {
@@ -25,6 +26,21 @@
     }
   },
   "rewards": {
+    "netherite_gold_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "advancednetherite:netherite_gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,67 +50,34 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 450,
       "title": "",
       "type": "heracles:xp"
-    },
-    "ne": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_gold_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "advancednetherite:netherite_gold_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Upgrade a pickaxe to complete"
     },
     "description": [
-      "Pickaxes have a special perk by default: chance on a bonus ore drop!",
-      "- Gold Ore, 30% of raw gold when mined, min drops of 1 and max of 1",
-      "- Nether Gold Ore, 60% of gold nugget when mined, min drops of 1 and max of 3",
+      "Upgrade a pickaxe from the previous tier in a Smithing Table. Every Netherite-Gold tool works the same way.",
       "",
-      "Swords have a special perk by default: chance on a bonus mob drop!",
-      "- Piglin, 15% of gold ingot when killed, min drops of 1 and max of 1",
-      "- Zombie Piglin, 50% of gold nugget when killed, min drops of 0 and max of 3",
+      "/6/Bonus drops/6/",
+      "• Pickaxe: 30% chance of extra raw gold from gold ore; 60% chance of 1-3 nuggets from nether gold ore",
+      "• Sword: 15% chance of a gold ingot from Piglins; 50% chance of 0-3 nuggets from Zombified Piglins",
       "",
-      "Durability Change",
-      "- 2313 vs 2031 of standard netherite",
-      "",
-      "Breaking Speed",
-      "- 20 vs 9 of standard netherite",
-      "",
-      "Enchantability",
-      "- 25 vs 15 of standard netherite",
-      "",
-      "Attack Damage",
-      "- Axe : 11",
-      "- Hoe: 1",
-      "- Pick: 6",
-      "- Shovel: 6.5",
-      "- Sword: 8",
-      "",
-      "Attack Speed",
-      "- Axe : 1",
-      "- Hoe: 4",
-      "- Pick: 1.2",
-      "- Shovel: 1",
-      "- Sword: 1.6"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Durability: /e/2313/e/ vs 2031",
+      "• Mining speed: /e/20/e/ vs 9",
+      "• Enchantability: /e/25 vs 15/e/",
+      "• Attack damage: Sword 8, Axe 11, Pick 6, Shovel 6.5, Hoe 1",
+      "• Attack speed: Sword 1.6, Pick 1.2, Axe 1, Shovel 1, Hoe 4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          100,
-          20
+          80,
+          40
         ]
       }
     },
@@ -110,7 +93,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Gold Tool"
+      "text": "Netherite-Gold Tools"
     }
   },
   "settings": {

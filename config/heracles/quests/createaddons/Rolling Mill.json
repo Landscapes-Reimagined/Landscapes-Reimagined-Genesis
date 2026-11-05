@@ -19,19 +19,6 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
     "straw": {
       "title": "",
       "icon": {
@@ -46,21 +33,48 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "copper_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Rods and wires"
     },
     "description": [
-      "The rolling mill is used to create many",
-      "Create Crafts & Addition items."
+      "The /e/Rolling Mill/e/ is a kinetic machine that rolls ingots into /e/rods/e/ and /e/wires/e/. Almost every Crafts & Additions recipe needs them."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          60
+          -260,
+          -360
         ]
       }
     },
@@ -73,12 +87,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Rolling Mill"
+      "text": "Rolling Mill"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

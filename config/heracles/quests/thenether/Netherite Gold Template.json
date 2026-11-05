@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite 2"
+    "Netherite 2",
+    "Netherite Iron Template"
   ],
   "tasks": {
     "gold": {
@@ -19,12 +20,12 @@
     }
   },
   "rewards": {
-    "gold": {
+    "netherite_gold_ingot": {
       "title": "",
       "icon": {
         "item": {
-          "id": "advancednetherite:netherite_gold_ingot",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -34,7 +35,7 @@
       },
       "type": "heracles:item"
     },
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -43,27 +44,28 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 350,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A custom smithing template"
     },
     "description": [
-      "In order to upgrade your netherite iron tools or armor you will need a Netherite Gold Smithing Template.",
+      "Upgrading your Netherite-Iron gear needs a /e/Netherite Gold Smithing Template/e/. It is made with Create Foundry:",
       "",
-      "This is how you make that template",
-      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Gold to get Molten Netherite Gold",
-      "- Then Superheat Mixing 100mb of the Molten Netherite Gold with a Netherite Iron Smithing Template"
+      "1) Superheat-mix /e/700mb Molten Netherite/e/ with /e/900mb Molten Gold/e/ to get /e/Molten Netherite Gold/e/.",
+      "2) Superheat-mix /e/100mb/e/ of it with a /e/Netherite Iron Smithing Template/e/.",
+      "",
+      "/7/Tip: superheating needs a Blaze Burner fed with a Blaze Cake./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          60,
-          20
+          40,
+          40
         ]
       }
     },
@@ -76,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Gold Template"
+      "text": "Netherite Gold Template"
     }
   },
   "settings": {

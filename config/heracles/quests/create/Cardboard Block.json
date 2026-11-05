@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Cardboard"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:cardboard_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Compact storage, nice texture"
+    },
+    "description": [
+      "Store your cardboard as a /e/Cardboard Block/e/. It's a handy building block too."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cardboard_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Cardboard Block"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

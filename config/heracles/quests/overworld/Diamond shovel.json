@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,38 +49,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:diamond",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Dig anything soft, instantly"
     },
     "description": [
-      "Gather a Diamond Shovel"
+      "A /e/Diamond Shovel/e/ for the biggest terraforming jobs. Upgrade it far enough and it becomes part of the Creative Worldshaper recipe."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          20,
-          100
+          80,
+          60
         ]
       }
     },
@@ -81,7 +81,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond Shovel"
+      "text": "Diamond Shovel"
     }
   },
   "settings": {

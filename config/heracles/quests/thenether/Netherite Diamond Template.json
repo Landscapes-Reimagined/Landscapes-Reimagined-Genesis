@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite 4"
+    "Netherite 4",
+    "Netherite Emerald Template"
   ],
   "tasks": {
     "diamond": {
@@ -19,25 +20,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_diamond_ingot": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_diamond_ingot",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,24 +34,38 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 450,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "A custom smithing template"
     },
     "description": [
-      "In order to upgrade your netherite emerald tools or armor you will need a Netherite Diamond Smithing Template.",
+      "Upgrading your Netherite-Emerald gear needs a /e/Netherite Diamond Smithing Template/e/. It is made with Create Foundry:",
       "",
-      "This is how you make that template",
-      "- Superheat Mix 700mb of Molten Netherite  with 900mb of Molten Diamond to get Molten Netherite Diamond",
-      "- Then Superheat Mixing 100mb of the Molten Netherite Diamond with a Netherite Emerald Smithing Template"
+      "1) Superheat-mix /e/700mb Molten Netherite/e/ with /e/900mb Molten Diamond/e/ to get /e/Molten Netherite Diamond/e/.",
+      "2) Superheat-mix /e/100mb/e/ of it with a /e/Netherite Emerald Smithing Template/e/.",
+      "",
+      "/7/Tip: superheating needs a Blaze Burner fed with a Blaze Cake./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          60,
-          100
+          40,
+          120
         ]
       }
     },
@@ -76,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Diamond Template"
+      "text": "Netherite Diamond Template"
     }
   },
   "settings": {

@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Train Controls",
-    "Deployer"
+    "Train Controls"
   ],
   "tasks": {
     "track": {
@@ -12,34 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "tracks": {
+    "track": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:track",
-        "count": 32
+        "count": 64
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Lay the line"
     },
     "description": [
-      "The train tracks is crafted placing nuggets",
-      "on a slab using deployers. These tracks",
-      "will allow you to use your newly crafted",
-      "train."
+      "Make /e/Train Tracks/e/ by deploying nuggets onto slabs.",
+      "",
+      "Click the start and end points to place long curves and slopes in one go."
     ],
     "groups": {
       "Create": {
         "position": [
-          120,
-          -110
+          280,
+          0
         ]
       }
     },
@@ -49,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Train Tracks"
+      "text": "Train Tracks"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

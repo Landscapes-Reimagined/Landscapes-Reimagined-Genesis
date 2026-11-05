@@ -9,31 +9,51 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Copper": {
+    "iron_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 4
+        "id": "minecraft:iron_ingot",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The first shulker upgrade"
+      "text": "45 slots"
     },
     "description": [
-      "Has 45 slots"
+      "A /e/Copper Shulker Box/e/ from /6/Reinforced Shulker Boxes/6/ holds /e/45 slots/e/.",
+      "",
+      "Like a vanilla shulker box, it keeps its contents when broken.",
+      "",
+      "/7/Tip: each tier is upgraded from the one before it./7/"
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
-          -70
+          -220,
+          100
         ]
       }
     },
@@ -43,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Copper shulker"
+      "text": "Copper Shulker Box"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

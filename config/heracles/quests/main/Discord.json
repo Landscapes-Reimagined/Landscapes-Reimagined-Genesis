@@ -1,0 +1,118 @@
+{
+  "dependencies": [
+    "Introduction"
+  ],
+  "tasks": {
+    "read": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "cake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "link_book": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "nbt": {
+          "title": "Discord Invite",
+          "author": "Landscapes Reimagined",
+          "generation": 0,
+          "pages": [
+            "[\"\",{\"text\":\"Landscapes\\nReimagined\\n\\n\",\"bold\":true,\"color\":\"gold\"},{\"text\":\"Join our Discord!\\n\\n\",\"bold\":true,\"color\":\"black\"},{\"text\":\"Get help, share your builds and hear about updates first.\\n\\n\",\"color\":\"black\"},{\"text\":\"> Click here <\",\"color\":\"blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/quenZthXgy\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"https://discord.gg/quenZthXgy\"}},{\"text\":\"\\n\\nhttps://discord.gg/quenZthXgy\",\"color\":\"dark_gray\"}]"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Chat with the community"
+    },
+    "description": [
+      "/6/Join the Landscapes Reimagined Discord!/6/",
+      "",
+      "• Get help when you're stuck",
+      "• Share screenshots of your builds and factories",
+      "• Hear about updates and new packs first",
+      "• Show off your trophy when you finish the pack",
+      "",
+      "/e/Join here:/e/",
+      "https://discord.gg/quenZthXgy",
+      "",
+      "/a/Claim the rewards to get a book with a clickable link. Open the book and click the link./a/",
+      "/7/Minecraft will ask whether to open the link or copy it to your clipboard./7/",
+      "",
+      "/7/Click the checkmark to complete this quest./7/"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          40,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bell",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Join our Discord"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -11,7 +11,15 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
         "count": 1
@@ -19,24 +27,31 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Remote chest access"
     },
     "description": [
-      "Bags link to chests and thus are used to store or access items remotely.\r",
-      "Shift+Right-click on a chest with a bag to link them."
+      "Shift-right-click an Ender Chest with an /e/Ender Bag/e/ to link them. Then open that chest from anywhere."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -250,
-          30
+          140,
+          -20
         ]
       }
     },
@@ -46,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ender Bag"
+      "text": "Ender Bag"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

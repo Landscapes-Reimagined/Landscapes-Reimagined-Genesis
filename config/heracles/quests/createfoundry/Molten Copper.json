@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Copper": {
+    "copper_block": {
       "title": "",
       "icon": {
         "item": {
@@ -46,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten copper, you need to mix copper",
-      "ore or raw copper in a mixer while super heated.",
+      "Superheat-mix /e/copper ore or raw copper/e/ to get a bucket of /e/Molten Copper/e/.",
       "",
-      "This bucket can be converted into one block of copper and",
-      "one copper ingot."
+      "It can be turned back into a block of copper plus a copper ingot."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -62,
-          -22
+          40,
+          -40
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Copper"
+      "text": "Molten Copper"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

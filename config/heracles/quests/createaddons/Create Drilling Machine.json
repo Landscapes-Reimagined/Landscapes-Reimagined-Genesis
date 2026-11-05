@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "drill head": {
+    "drill": {
       "title": "",
       "icon": {
         "item": {
@@ -43,27 +43,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Endless ore"
     },
     "description": [
-      "Upon completion of creating the drilling machine",
-      "you will be able to automatically generate ore,",
-      "via stress going into the drilling machine. ",
-      "Also, don't forget a drill head, I'll give you a basic",
-      "one to help you out."
+      "Place a /e/Drilling Machine/e/ on top of a vein and power it with rotation to extract ore automatically.",
+      "",
+      "It needs a /e/drill head/e/, and the reward gives you a basic one."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          20
+          180,
+          -480
         ]
       }
     },
@@ -76,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Drilling Machine"
+      "text": "Drilling Machine"
     }
   },
   "settings": {

@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +41,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Pillars of amber"
     },
     "description": [
-      "This biome is composed of multiple amber columns, which have a biome-exclusive Crystallized Amber block in each of them. Overcast Columns also have multiple Geysers scattered throughout the terrain, which is composed of Gloomslate and Gloom Sculk."
+      "The /e/Overcast Columns/e/ are filled with amber pillars, each holding biome-exclusive /e/Crystallized Amber/e/.",
+      "",
+      "Geysers are scattered across the gloomslate and gloom sculk terrain."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -60,
-          60
+          -40,
+          -120
         ]
       }
     },
@@ -55,12 +72,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Overcast columns"
+      "text": "Overcast Columns"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

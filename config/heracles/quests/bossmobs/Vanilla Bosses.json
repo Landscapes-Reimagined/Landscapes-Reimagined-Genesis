@@ -13,18 +13,38 @@
       "type": "heracles:check"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The big three"
     },
     "description": [
-      "Welcome to the Vanilla Bosses Tree /4/~~(Not a tree)~~/4/ here we have a couple of bosses that will give us some end game items that will give you the ability to craft super endgame items!! have fun!"
+      "Minecraft's three great bosses each drop materials you need for the pack's endgame /6/Creative Items/6/.",
+      "",
+      "• /c/Ender Dragon/c/: dragon's breath and dragon heads",
+      "• /c/Wither/c/: nether stars",
+      "• /c/Warden/c/: warden carapace and the Heart of the Deep",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          0,
+          -100,
           0
         ]
       }
@@ -38,7 +58,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
     "title": {
-      "translate": "Vanilla Bosses"
+      "text": "Vanilla Bosses"
     }
   },
   "settings": {

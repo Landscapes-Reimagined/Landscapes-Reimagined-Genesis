@@ -1,0 +1,104 @@
+{
+  "dependencies": [
+    "CEI Grindstone Drain"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:blaze_enchanter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "book": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:book",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "lapis_lazuli": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "A smart enchanting table"
+    },
+    "description": [
+      "The /e/Blaze Enchanter/e/ puts a blaze to work as a /e/smart enchanting table/e/. Feed it liquid experience and it enchants items for you.",
+      "",
+      "In /e/Template Enchanting Mode/e/ you put an item in its template slot, and the enchanter copies that item's enchantments onto the items you feed it.",
+      "",
+      "/7/Tip: hold W over any Create item to open its Ponder scene./7/"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          260,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:blaze_enchanter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Blaze Enchanter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

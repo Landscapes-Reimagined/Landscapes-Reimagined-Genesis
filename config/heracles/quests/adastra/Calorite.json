@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Tier 3 Rocket"
+    "Venus"
   ],
   "tasks": {
     "calorite": {
@@ -19,18 +19,18 @@
     }
   },
   "rewards": {
-    "calorite": {
+    "venus_calorite_ore": {
       "title": "",
       "icon": {
         "item": {
-          "id": "ad_astra:venus_calorite_ore",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
       "item": {
         "id": "ad_astra:venus_calorite_ore",
-        "count": 3
+        "count": 6
       },
       "type": "heracles:item"
     },
@@ -43,23 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1200,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The final metal"
     },
     "description": [
-      "This new ore will allow you to craft a jet suit and the tier",
-      "4 rocket."
+      "Mine /e/Calorite/e/ on Venus. It's used for the Jet Suit and the Tier 4 Rocket."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          150,
+          200,
           0
         ]
       }
@@ -73,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Calorite"
+      "text": "Calorite"
     }
   },
   "settings": {

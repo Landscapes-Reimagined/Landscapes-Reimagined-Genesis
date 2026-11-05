@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Reinforced Echo Shard"
+    "Sculk Leech"
   ],
   "tasks": {
     "soul": {
@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "soul_dust": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "dust": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:soul_dust",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "From leeches and snappers"
     },
     "description": [
-      "Obtained when killing Leeches and Snappers"
+      "/e/Soul Dust/e/ is dropped by Sculk Leeches and Sculk Snappers."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          60
+          -40,
+          40
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Soul Dust"
+      "text": "Soul Dust"
     }
   },
   "settings": {

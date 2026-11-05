@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Find a bastion",
     "Netherite Ingot"
   ],
   "tasks": {
@@ -20,6 +19,36 @@
     }
   },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 7
+      },
+      "type": "heracles:item"
+    },
+    "netherrack": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -29,23 +58,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find a netherite upgrade"
+      "text": "A smithing template"
     },
     "description": [
-      "Collect your first netherite upgrade smithing template to start upgrading all your stuff"
+      "Find a /e/Netherite Upgrade Smithing Template/e/ in a bastion chest.",
+      "",
+      "Templates are used up on every upgrade, so make copies: /e/1 template + 7 diamonds + 1 netherrack/e/ gives you two.",
+      "",
+      "The reward gives you the materials for one copy."
     ],
     "groups": {
       "The Nether": {
         "position": [
-          60,
-          -60
+          40,
+          -40
         ]
       }
     },
@@ -58,7 +91,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Upgrade"
+      "text": "Netherite Upgrade"
     }
   },
   "settings": {

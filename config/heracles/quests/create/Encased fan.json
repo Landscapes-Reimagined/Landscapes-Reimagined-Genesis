@@ -11,36 +11,53 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Casing": {
+    "andesite_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Has multiple uses"
+      "text": "Bulk processing"
     },
     "description": [
-      "The encased fan has many different uses, it can be used to blast, wash, haunt and smoke items. The rotation will mean it either pushes or pulls air",
-      " ",
-      "To /4/blast/4/ items you need to put a lava source infront of the fan ",
-      "To /3/wash/3/ items you need to put a water source infront of the fan ",
-      "To /b/haunt/b/ items you need to put a soul campfire infront of the fan ",
-      "To /6/smoke/6/ items you need to put a campire infront of the fan "
+      "An /e/Encased Fan/e/ pushes or pulls air (depending on its rotation) and processes items in its airflow.",
+      "",
+      "Put this in front of the fan:",
+      "• /c/Lava/c/ to /c/blast/c/ (smelt)",
+      "• /3/Water/3/ to /3/wash/3/",
+      "• /b/Soul fire/b/ to /b/haunt/b/",
+      "• /6/Fire or a campfire/6/ to /6/smoke/6/ (cook food)"
     ],
     "groups": {
       "Create": {
         "position": [
-          -50,
-          99
+          -200,
+          0
         ]
       }
     },
@@ -50,12 +67,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Encased fan"
+      "text": "Encased Fan"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

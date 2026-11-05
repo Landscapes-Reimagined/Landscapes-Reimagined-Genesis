@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Cardboard"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:cardboard_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Mostly harmless"
+    },
+    "description": [
+      "The /e/Cardboard Sword/e/ does almost no damage, but it's great for settling arguments among friends."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cardboard_sword",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Cardboard Sword"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

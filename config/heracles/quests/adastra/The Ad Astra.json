@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "steel_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:steel_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,28 +43,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "To the stars!"
     },
     "description": [
-      "Welcome to Ad Astra, a mod all about Exploring Space",
-      "and beyond. Through the use of space ships you will",
-      "be able to visit the moon and other planents.",
+      "Welcome to /6/Ad Astra/6/, a mod all about space travel. Build rockets to visit the Moon, the planets and beyond.",
       "",
-      "To start, you will need to gather steel.",
-      "To craft steel you super heat iron and thallasium",
-      "in a mixer."
+      "Everything starts with /e/Steel/e/. In this pack you make it by /c/superheat-mixing/c/ iron and thallasium in a mixer."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -150,
+          -280,
           0
         ]
       }
@@ -63,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ad Astra"
+      "text": "Ad Astra"
     }
   },
   "settings": {

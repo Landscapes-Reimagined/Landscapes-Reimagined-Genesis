@@ -1,17 +1,16 @@
 {
   "dependencies": [
-    "Generator Coil"
+    "NA Wiring"
   ],
   "tasks": {
     "basic": {
       "type": "heracles:item",
-      "item": "create_new_age:energiser_t1",
+      "item": "create_new_age:basic_energiser",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "",
       "icon": {
         "item": {
-          "id": "create_new_age:energiser_t1",
+          "id": "create_new_age:basic_energiser",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,67 +18,54 @@
     }
   },
   "rewards": {
-    "x": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
+    "xp": {
       "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
+      "amount": 200,
       "type": "heracles:xp"
     },
-    "magnetite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create_new_age:magnetite_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
+    "magnetite_block": {
       "item": {
         "id": "create_new_age:magnetite_block",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Tier 1 charging"
     },
     "description": [
-      "The basic energizer is a block similar to the Tesla Coil, but requires both rotation and energy in order to energize items below. It generates 4fe/t per 10 RPM and can store up to 10K fe"
+      "The /e/Basic Energiser/e/ needs both rotation and electricity. It charges items placed below it.",
+      "",
+      "This tier makes /e/Overcharged Iron/e/ and /e/Overcharged Iron Sheets/e/."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          60,
-          20
+          -260,
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create_new_age:energiser_t1",
+        "id": "create_new_age:basic_energiser",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Basic Energizer"
+      "translate": "Basic Energiser"
     }
   },
   "settings": {
-    "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

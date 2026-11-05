@@ -11,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Copper": {
+    "copper_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_ingot",
-        "count": 4
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Liquid used in crafting?"
+      "text": "Fill items with fluid"
     },
     "description": [
-      "The spout can be used to drop liquid onto an item that's below it on a depot or belt to be able to change what the item is"
+      "A /e/Spout/e/ pours fluid onto the item below it on a depot or belt. Use it to fill bottles and buckets, and for recipes like the Blaze Cake."
     ],
     "groups": {
       "Create": {
         "position": [
-          -100,
-          -100
+          -80,
+          -200
         ]
       }
     },
@@ -45,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Spout"
+      "text": "Spout"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

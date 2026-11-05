@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Create Crafts & Additions"
+    "Connector"
   ],
   "tasks": {
     "copper rod": {
@@ -61,20 +61,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "brass casing": {
+    "brass_casing": {
       "title": "",
       "icon": {
         "item": {
@@ -103,21 +90,35 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Store your energy"
     },
     "description": [
-      "The accumulator is a multi block block, using",
-      "4 accumulators. This multiblock is used to store energy."
+      "The /e/Modular Accumulator/e/ stores FE. Place several together to build one large battery.",
+      "",
+      "Collect 4 accumulators, plus a copper rod, a gold wire and 2 capacitors."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          340
+          -180,
+          -320
         ]
       }
     },
@@ -130,12 +131,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Accumulator"
+      "text": "Accumulator"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

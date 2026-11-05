@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "Give shulker": {
+    "shulker_box": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:shulker_box",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "Level 4 upgrade xp": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The fourth tier of upgrade"
+      "text": "More items per drawer"
     },
     "description": [
-      "The fourth and last level of storage upgrade for drawers"
+      "The /e/fourth and final/e/ storage upgrade. Right-click a drawer with it to increase its capacity.",
+      "",
+      "/7/Tip: the Creative Drawer Upgrade is the end of this path, in the Creative Items chapter./7/"
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          50,
-          -220
+          -20,
+          -140
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Drawer upgrade 4"
+      "text": "Storage Upgrade 4"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

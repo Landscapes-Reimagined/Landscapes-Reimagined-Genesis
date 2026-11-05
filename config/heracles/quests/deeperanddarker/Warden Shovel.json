@@ -25,6 +25,21 @@
     }
   },
   "rewards": {
+    "netherite_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -34,42 +49,30 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
-    },
-    "netherite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:netherite_ingot",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Damage 7.5",
-      "- Reach 3",
-      "- Attack Speed 1",
+      "Upgrade the netherite version the same way.",
       "",
-      "Crafted with Netherite shovel, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Damage 7.5",
+      "- Attack speed 1",
+      "- Reach 3",
+      "",
+      "/7/Tip: the warden shovel is part of the Creative Worldshaper recipe./7/"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          100,
-          60
+          120,
+          -40
         ]
       }
     },
@@ -85,7 +88,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Shovel"
+      "text": "Warden Shovel"
     }
   },
   "settings": {

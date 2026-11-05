@@ -1,0 +1,87 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "glassblower": {
+      "type": "heracles:item",
+      "item": "chipped:glassblower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "glass": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glass",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Decorative glass blocks"
+    },
+    "description": [
+      "The /e/Glassblower/e/ turns glass blocks into dozens of decorative variants, free of charge.",
+      "",
+      "Put blocks in the input slot, pick the variant you want, and take as many as you need.",
+      "",
+      "/7/Tip: none of the Chipped quests depend on each other. Do them in any order./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -20,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chipped:glassblower",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Glassblower"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

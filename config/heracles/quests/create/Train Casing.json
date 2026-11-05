@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Brass Casing",
     "Sturdy Sheet"
   ],
   "tasks": {
@@ -12,30 +11,43 @@
     }
   },
   "rewards": {
-    "Train Casing": {
+    "railway_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:railway_casing",
-        "count": 1
+        "count": 4
       },
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 300,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "All aboard!"
     },
     "description": [
-      "To craft a train casing you right click a brass casing with",
-      "a sturdy sheet.",
+      "Use a sturdy sheet on /e/brass casing/e/ to make /e/Train Casing/e/.",
       "",
-      "This train casing will be used in both the creation",
-      "of your first train and also for other parts",
-      "of the train"
+      "It's used to build trains and their stations, controls and bogeys."
     ],
     "groups": {
       "Create": {
@@ -51,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Train Casing"
+      "text": "Train Casing"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -11,24 +11,49 @@
     }
   },
   "rewards": {
+    "brass_funnel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:brass_funnel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 150,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "An upgraded funnel"
+      "text": "Filtered, faster funnels"
     },
     "description": [
-      "The brass funnel is an upgraded andesite funnel, lets you add item filters and moves up to a stack at a time"
+      "/e/Brass Funnels/e/ can have a /e/filter/e/ and move up to a whole stack at a time.",
+      "",
+      "Scroll on the funnel to set how many items it moves."
     ],
     "groups": {
       "Create": {
         "position": [
-          100,
-          100
+          -40,
+          0
         ]
       }
     },
@@ -38,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Brass Funnel"
+      "text": "Brass Funnel"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

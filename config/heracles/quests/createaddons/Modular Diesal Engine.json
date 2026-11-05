@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "large_diesel_engine": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "createdieselgenerators:large_diesel_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,44 +43,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
-    },
-    "engine": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "createdieselgenerators:large_diesel_engine",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "createdieselgenerators:large_diesel_engine",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Chain them together"
     },
     "description": [
-      "Similar to the Diesel engine, this can be used to produce ",
-      "kenetic energy in a compact way. One thing different about",
-      "this is that if linked to other modular engines you can have",
-      "the fuel come in one of them and it automatically provide fuel",
-      "to the other, if you close off the top.",
+      "/e/Modular Diesel Engines/e/ link into a row and share a single fuel supply.",
       "",
-      "Check ponder for more info."
+      "They can be fitted with turbochargers too."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -100,
-          60
+          220,
+          -400
         ]
       }
     },
@@ -78,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Modular Diesel Engine"
+      "text": "Modular Diesel Engine"
     }
   },
   "settings": {

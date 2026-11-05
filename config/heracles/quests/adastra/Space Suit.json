@@ -85,6 +85,21 @@
     }
   },
   "rewards": {
+    "oxygen_can": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra_giselle_addon:oxygen_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -94,40 +109,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
-    },
-    "tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ad_astra_giselle_addon:oxygen_can",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "ad_astra_giselle_addon:oxygen_can",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Breathe in space"
     },
     "description": [
-      "The space suit will allow you to travel",
-      "to space, make sure you fill it up with",
-      "oxygen using the oxygen loader before leaving the Overworld"
+      "You can't survive in space without a /e/Space Suit/e/.",
+      "",
+      "/c/Fill it with oxygen/c/ in an /e/Oxygen Loader/e/ before you leave the Overworld."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -30,
-          30
+          -120,
+          40
         ]
       }
     },
@@ -143,7 +143,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Space Suit"
+      "text": "Space Suit"
     }
   },
   "settings": {

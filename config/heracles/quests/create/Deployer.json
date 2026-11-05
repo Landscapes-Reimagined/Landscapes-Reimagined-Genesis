@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Brass",
     "Polished Rose Quartz"
   ],
   "tasks": {
@@ -12,31 +11,64 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Brass": {
+    "brass_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "electron_tube": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:electron_tube",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Start of automation"
+      "text": "A robotic hand"
     },
     "description": [
-      "The deployer is the start of automation as it is used in many different multi step crafts like precision mechanisms and many others"
+      "The /e/Deployer/e/ uses the item it holds, just like a player right-clicking.",
+      "",
+      "It's the key to sequenced assembly, the multi-step recipes behind Precision Mechanisms, tracks and more."
     ],
     "groups": {
       "Create": {
         "position": [
-          100,
-          -40
+          40,
+          0
         ]
       }
     },
@@ -46,12 +78,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Deployer"
+      "text": "Deployer"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

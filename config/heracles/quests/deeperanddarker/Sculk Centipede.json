@@ -20,6 +20,21 @@
     }
   },
   "rewards": {
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -29,32 +44,28 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Know your enemy"
     },
     "description": [
-      "Deeper and Darker has a few different mobs that spawn",
-      "- Warden",
-      "- Phantom",
-      "- Sculk Snapper",
-      "- Sculk Leech",
-      "- Shattered",
-      "- Shriek Worm",
-      "- Sculk Centipede",
+      "/6/Deeper and Darker/6/ adds a whole ecosystem of sculk creatures:",
+      "- Warden, Phantom, Sculk Snapper",
+      "- Sculk Leech, Shattered, Shriek Worm",
+      "- Stalker and Sculk Centipede",
       "",
-      "This first quest you need to kill a Sculk Centipede"
+      "Start by defeating a /e/Sculk Centipede/e/. Several of the other creatures drop materials for the /e/Soul Elytra/e/."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          20,
-          -60
+          -120,
+          120
         ]
       }
     },
@@ -67,12 +78,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Mobs"
+      "text": "Creatures of the Deep"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

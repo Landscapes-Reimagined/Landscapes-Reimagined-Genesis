@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Mine iron"
+    "Craft an iron pick"
   ],
   "tasks": {
     "diamond": {
@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,37 +43,24 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:diamond_ore",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond_ore",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The Diamond Age"
     },
     "description": [
-      "Collect diamonds to upgrade your gear"
+      "Head deep underground and look for /e/diamond ore/e/. It is most common near the bottom of the world.",
+      "",
+      "/7/Tip: bring plenty of torches, and never dig straight down./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          20,
+          40,
           -60
         ]
       }
@@ -72,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mine Diamonds"
+      "text": "Mine Diamonds"
     }
   },
   "settings": {

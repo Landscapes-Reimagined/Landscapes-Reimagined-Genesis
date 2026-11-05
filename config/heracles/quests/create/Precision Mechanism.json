@@ -11,31 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Mechanism": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:precision_mechanism",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Used in some crafting recipes"
+      "text": "Sequenced assembly"
     },
     "description": [
-      "The precision mechanism is used in making some more advanced items like the rotational speed controller and it requires a gold sheet to have 3 items deployed onto it in a specific order of small cogwheel then large cogwheel and lastly an iron nugget. That process is repeated 5x and has an 80% chance to work at the end"
+      "Assemble a /e/Precision Mechanism/e/ on a /e/golden sheet/e/. Deploy a cogwheel, then a large cogwheel, then an iron nugget, and repeat the sequence 5 times.",
+      "",
+      "Each attempt has a /e/chance of failing/e/, so automate it with a belt loop."
     ],
     "groups": {
       "Create": {
         "position": [
-          140,
-          -40
+          80,
+          0
         ]
       }
     },
@@ -45,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Precision Mechanism"
+      "text": "Precision Mechanism"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

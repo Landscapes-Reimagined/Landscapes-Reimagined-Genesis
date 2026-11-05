@@ -11,33 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Gold": {
+    "shaft": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:gold_ingot",
-        "count": 1
+        "id": "create:shaft",
+        "count": 8
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The most used item in create"
+      "text": "The engineer's best friend"
     },
     "description": [
-      "The Wrench is used to pick up create items really easily, just shift right click a create block to pick it up",
-      " ",
-      "It can also rotate blocks by just regular right clicking on a side "
+      "Right-click with the /e/Wrench/e/ to rotate a block. /e/Shift-right-click/e/ picks it up instantly.",
+      "",
+      "It's the quickest way to fix and rearrange your contraptions."
     ],
     "groups": {
       "Create": {
         "position": [
-          -200,
-          -99
+          -160,
+          -160
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Wrench"
+      "text": "Wrench"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

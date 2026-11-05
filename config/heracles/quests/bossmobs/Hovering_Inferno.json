@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Infernal_Altar"
+  ],
   "tasks": {
     "fallen to ashes": {
       "title": "",
@@ -17,6 +19,21 @@
     }
   },
   "rewards": {
+    "nether_star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +43,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 1000,
+      "amount": 2000,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Incendium's fire boss"
     },
     "description": [
-      "In order to spawn the hovering inferno, you need to right click a nether star on the altar. Good luck killing this boss!"
+      "Use a Nether Star on the Infernal Altar and defeat the /c/Hovering Inferno/c/.",
+      "",
+      "Fire Resistance potions and strong ranged attacks help a lot. Good luck!",
+      "",
+      "The reward gives you back the Nether Star you used to summon it."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          40,
-          80
+          100,
+          40
         ]
       }
     },
@@ -55,7 +76,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Hovering Inferno"
+      "text": "Defeat the Hovering Inferno"
     }
   },
   "settings": {

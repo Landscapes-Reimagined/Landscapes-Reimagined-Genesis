@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Extended Drawers Book"
+  ],
   "tasks": {
     "Drawer lock": {
       "type": "heracles:item",
@@ -9,26 +11,32 @@
     }
   },
   "rewards": {
-    "Drawer lock xp": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The way to lock draws"
+      "text": "Remember what goes where"
     },
     "description": [
-      "The drawer lock is used to remember items within a drawer so if the drawer gets emptied out",
-      "then it will save the item within the drawers memory so when you get more of the item it will",
-      "go back into the drawer that it was in before it got emptied"
+      "A locked drawer /e/remembers its item/e/ even when it's empty, so the item always goes back into the same drawer."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          100,
-          -220
+          -180,
+          -60
         ]
       }
     },
@@ -38,12 +46,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Drawer lock"
+      "text": "Drawer Lock"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

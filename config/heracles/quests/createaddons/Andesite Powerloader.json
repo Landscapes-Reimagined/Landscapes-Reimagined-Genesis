@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "1": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 2,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "andesite alloy": {
+    "andesite_alloy_block": {
       "title": "",
       "icon": {
         "item": {
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 200,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Keep your base running"
     },
     "description": [
-      ""
+      "Place an /e/Andesite Chunk Loader/e/ and give it rotation to keep the surrounding chunks loaded."
     ],
     "groups": {
       "Create Addons": {
         "position": [
           140,
-          -20
+          400
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Andesite Powerloader"
+      "text": "Andesite Chunk Loader"
     }
   },
   "settings": {

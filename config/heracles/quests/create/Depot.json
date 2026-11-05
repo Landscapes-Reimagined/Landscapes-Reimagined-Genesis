@@ -11,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Casing": {
+    "depot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:andesite_casing",
-        "count": 1
+        "id": "create:depot",
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Holds items on it and can be used with multiple machines"
+      "text": "A one-block workbench"
     },
     "description": [
-      "The depot is used to hold items on one block"
+      "A /e/Depot/e/ holds a stack of items so a press, spout, fan or deployer above it can work on them."
     ],
     "groups": {
       "Create": {
         "position": [
-          -200,
-          150
+          -160,
+          0
         ]
       }
     },
@@ -45,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Depot"
+      "text": "Depot"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

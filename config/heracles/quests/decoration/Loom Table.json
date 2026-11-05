@@ -1,0 +1,87 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "loom": {
+      "type": "heracles:item",
+      "item": "chipped:loom_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "white_wool": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Decorative wool and carpet blocks"
+    },
+    "description": [
+      "The /e/Loom Table/e/ turns wool and carpet blocks into dozens of decorative variants, free of charge.",
+      "",
+      "Put blocks in the input slot, pick the variant you want, and take as many as you need.",
+      "",
+      "/7/Tip: none of the Chipped quests depend on each other. Do them in any order./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          20,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chipped:loom_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Loom Table"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

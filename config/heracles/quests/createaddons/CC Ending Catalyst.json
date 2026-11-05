@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "CC Empty Fan Catalyst"
+  ],
+  "tasks": {
+    "breath": {
+      "type": "heracles:item",
+      "item": "create_connected:fan_ending_catalyst_dragons_breath",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "dragon_breath": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 500,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Dragons Plus: dragon's breath"
+    },
+    "description": [
+      "/e/Bulk Ending/e/ processes items with the power of the End. It uses /e/liquid dragon's breath/e/ or a /e/Dragon Head/e/.",
+      "",
+      "Make an Ending catalyst of either kind to complete this quest."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -260,
+          440
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_connected:fan_ending_catalyst_dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Bulk Ending"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

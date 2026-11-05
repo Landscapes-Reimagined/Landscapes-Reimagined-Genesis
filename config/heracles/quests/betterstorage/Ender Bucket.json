@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Ender Chest"
+  ],
   "tasks": {
     "ender bucket": {
       "type": "heracles:item",
@@ -9,7 +11,15 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
         "count": 1
@@ -17,24 +27,31 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Remote fluid access"
     },
     "description": [
-      "Buckets link to tanks and thus are used to store or place liquid remotely.\r",
-      "Shift+Right-Click on a tank with a bucket to link them."
+      "Shift-right-click an Ender Tank with an /e/Ender Bucket/e/ to link them. Then place or collect fluids remotely."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -150,
-          30
+          100,
+          60
         ]
       }
     },
@@ -44,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ender Bucket"
+      "text": "Ender Bucket"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

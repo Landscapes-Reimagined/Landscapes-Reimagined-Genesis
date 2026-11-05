@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Friends & Foes Minibosses"
+    "Citadel"
   ],
   "tasks": {
     "Wildfire": {
@@ -20,7 +20,22 @@
     }
   },
   "rewards": {
-    "100": {
+    "blaze_rod": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,23 +44,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 800,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Queen of the Blazes"
     },
     "description": [
-      "This is the Wildfire, it can drop Wildfire Crown Pieces which is a new Helmet that you can wear and it will give you better armor toughness than an Iron Helmet, and give you Fire Resistance until you take it off or it breaks"
+      "The /c/Wildfire/c/ is a blaze boss protected by spinning shields, and it calls in blazes to help.",
+      "",
+      "Fire Resistance is a must.",
+      "",
+      "It can drop /e/Wildfire Crown pieces/e/. The crown is a helmet with more toughness than iron that gives Fire Resistance while worn."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          -40,
-          40
+          100,
+          -40
         ]
       }
     },
@@ -61,7 +80,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "WildFire"
+      "text": "Defeat the Wildfire"
     }
   },
   "settings": {

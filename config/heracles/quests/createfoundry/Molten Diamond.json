@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Molten Carbon",
-    "Create Foundry"
+    "Molten Carbon"
   ],
   "tasks": {
     "diamond": {
@@ -20,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "diamond": {
+    "diamond_block": {
       "title": "",
       "icon": {
         "item": {
@@ -47,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Carbon under pressure"
     },
     "description": [
-      "In order to get a bucket of molten diamond, you need to mix diamond",
-      "ore in a mixer while super heated or press molten carbon, while superheated.",
+      "Superheat-mix /e/diamond ore/e/, or /e/press Molten Carbon/e/ while superheated, to get /e/Molten Diamond/e/.",
       "",
-      "This bucket can be converted into one block of diamond and",
-      "one diamond."
+      "It can be turned back into a block of diamond plus a diamond. Turning coal into diamonds makes this one of the most valuable recipes in the pack."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -20,
-          -51
+          -80,
+          -60
         ]
       }
     },
@@ -77,14 +74,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Diamond"
+      "text": "Molten Diamond"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
-    "individual_progress": true,
+    "individual_progress": false,
     "hidden": "LOCKED"
   }
 }

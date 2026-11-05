@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "SS Intro"
+  ],
+  "tasks": {
+    "packing_tape": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:packing_tape",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "slime_ball": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Move full chests"
+    },
+    "description": [
+      "Use /e/Packing Tape/e/ on a storage block to /e/pack it up/e/ with everything inside, so you can carry it somewhere else."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          120,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:packing_tape",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Packing Tape"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

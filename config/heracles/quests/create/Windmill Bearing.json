@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Alloy"
+    "Shaft"
   ],
   "tasks": {
     "wind bearing": {
@@ -11,31 +11,64 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give Alloy": {
+    "andesite_alloy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_alloy",
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "white_sail": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:white_sail",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 75,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "An alternative stress source to water"
+      "text": "Free power from the wind"
     },
     "description": [
-      "When you place a windmill bearing down you can place a plank on top of it to be able to connect the sails to"
+      "Place a /e/Windmill Bearing/e/, then glue a frame of blocks to its face and add sails.",
+      "",
+      "Right-click the bearing to start it. More sails produce more stress capacity."
     ],
     "groups": {
       "Create": {
         "position": [
-          -300,
-          0
+          -240,
+          -120
         ]
       }
     },
@@ -45,12 +78,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Windmill Bearing"
+      "text": "Windmill Bearing"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Tier 2"
+  ],
+  "tasks": {
+    "gold_to_diamond_tier_upgrade": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Upgrade in place"
+    },
+    "description": [
+      "Right-click a placed gold storage block with this to upgrade it to /e/Diamond/e/. Its contents stay inside.",
+      "",
+      "Every tier adds more slots and more upgrade slots."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          240,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Gold to Diamond Tier Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

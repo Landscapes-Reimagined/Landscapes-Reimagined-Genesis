@@ -9,32 +9,49 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_pearl": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "minecraft:ender_eye",
-        "count": 1
+        "id": "minecraft:ender_pearl",
+        "count": 4
       },
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 50,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Your personal pocket dimension"
     },
     "description": [
-      "The standard vanilla chest, note we have better ender chests",
-      "in pack, so make sure to switch to one of those soon!"
+      "The vanilla /e/Ender Chest/e/ gives you the same private inventory from any ender chest in the world.",
+      "",
+      "The pack has much better dimensional storage. Follow the quests to the right."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
-          30
+          60,
+          20
         ]
       }
     },
@@ -44,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Vanilla Ender Chest"
+      "text": "Ender Chest (Vanilla)"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

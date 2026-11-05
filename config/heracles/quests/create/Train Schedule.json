@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Sturdy Sheet",
     "Train Station"
   ],
   "tasks": {
@@ -12,32 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "cap": {
+    "black_conductor_cap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "railways:black_conductor_cap",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Fully automatic trains"
     },
     "description": [
-      "The train schedule allows you to put a mob as your train",
-      "conductor to automate movement of your trains."
+      "Write a route on a /e/Train Schedule/e/, then give it to a seated mob to make it your conductor.",
+      "",
+      "The train will follow the schedule on its own, forever."
     ],
     "groups": {
       "Create": {
         "position": [
-          255,
-          -120
+          280,
+          -40
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Train Schedule"
+      "text": "Train Schedule"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

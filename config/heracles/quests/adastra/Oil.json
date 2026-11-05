@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "oil_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:oil_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Rocket fuel feedstock"
     },
     "description": [
-      "Oil is crafted by superheat mixing molten",
-      "carbon and bioethanol."
+      "In this pack /e/Oil/e/ is made by /c/superheat-mixing/c/ /e/Molten Carbon/e/ (Create Foundry) and /e/Bioethanol/e/ (Crafts & Additions)."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          -120,
+          -240,
           0
         ]
       }
@@ -58,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Oil"
+      "text": "Oil"
     }
   },
   "settings": {

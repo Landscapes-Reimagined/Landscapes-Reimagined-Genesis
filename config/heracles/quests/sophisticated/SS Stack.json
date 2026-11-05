@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Upgrade Base"
+  ],
+  "tasks": {
+    "stack_upgrade_tier_1": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:stack_upgrade_tier_1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "iron_block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Bigger stacks in blocks"
+    },
+    "description": [
+      "Storage stack upgrades multiply slot capacity: /e/2x, 4x, 8x and 16x/e/ for tiers 1 to 4, and they multiply together.",
+      "",
+      "Craft a Tier 1 to complete this quest."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          200,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:stack_upgrade_tier_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Storage Stack Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

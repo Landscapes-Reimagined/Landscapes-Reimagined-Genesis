@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "fuel_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -28,23 +43,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 900,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The red planet"
     },
     "description": [
-      "This planet can be dangerous, but allow access to Ostrum."
+      "Welcome to /6/Mars/6/. It's dangerous, but it's the only source of /e/Ostrum/e/."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
-          30
+          40,
+          0
         ]
       }
     },
@@ -57,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mars"
+      "text": "Mars"
     }
   },
   "settings": {

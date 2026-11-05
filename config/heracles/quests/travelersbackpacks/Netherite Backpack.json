@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Diamond Backpack"
+  ],
+  "tasks": {
+    "upgrade": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:netherite_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "travelersbackpack:netherite_tier_upgrade",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "leather": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "9x7 storage"
+    },
+    "description": [
+      "The /e/Netherite/e/ tier has /e/9x7 storage/e/ and fluid tanks holding /e/6 buckets/e/ each.",
+      "",
+      "Apply it in a Smithing Table with your backpack and a piece of leather."
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -240,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:netherite_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Netherite Backpack Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -20,6 +20,21 @@
     }
   },
   "rewards": {
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -29,23 +44,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 400,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Hunt in the Otherside"
     },
     "description": [
-      "Kill a Shriek Worm"
+      "Defeat a /e/Shriek Worm/e/."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          20,
-          100
+          -80,
+          160
         ]
       }
     },
@@ -58,12 +73,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Shriek Worm"
+      "text": "Defeat a Shriek Worm"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

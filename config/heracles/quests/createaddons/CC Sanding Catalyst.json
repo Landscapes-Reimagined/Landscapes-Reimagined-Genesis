@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "CC Empty Fan Catalyst"
+  ],
+  "tasks": {
+    "fan_sanding_catalyst": {
+      "type": "heracles:item",
+      "item": "create_connected:fan_sanding_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "sand": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sand",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Dragons Plus: quicksand"
+    },
+    "description": [
+      "/e/Bulk Sanding/e/ polishes items with a fan instead of sandpaper. It needs a sanding catalyst such as /e/quicksand/e/.",
+      "",
+      "The /e/Fan Sanding Catalyst/e/ gives you one."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -260,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_connected:fan_sanding_catalyst",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Bulk Sanding"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -33,20 +33,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Chorus fruit": {
+    "chorus_fruit": {
       "title": "",
       "icon": {
         "item": {
@@ -57,11 +44,11 @@
       },
       "item": {
         "id": "minecraft:chorus_fruit",
-        "count": 3
+        "count": 8
       },
       "type": "heracles:item"
     },
-    "Give End Stone": {
+    "end_stone": {
       "title": "",
       "icon": {
         "item": {
@@ -72,23 +59,38 @@
       },
       "item": {
         "id": "minecraft:end_stone",
-        "count": 1
+        "count": 16
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Collect a chorus flower and fruit"
+      "text": "Strange purple fruit"
     },
     "description": [
-      "Collect a chorus fruit and chorus flower"
+      "Collect a /e/Chorus Fruit/e/ and a /e/Chorus Flower/e/ from the outer islands.",
+      "",
+      "Eating chorus fruit teleports you a short distance, which can get you out of a tight spot. Popped chorus fruit is used to craft purpur blocks and End Rods."
     ],
     "groups": {
       "The End": {
         "position": [
-          -300,
-          -50
+          0,
+          -20
         ]
       }
     },
@@ -101,7 +103,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chorus flower"
+      "text": "Chorus Plants"
     }
   },
   "settings": {

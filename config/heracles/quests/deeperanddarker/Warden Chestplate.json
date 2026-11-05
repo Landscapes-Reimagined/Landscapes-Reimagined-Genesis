@@ -25,25 +25,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_ingot": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 2,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "netherite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -52,24 +39,38 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 600,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Armor +9",
-      "- Toughness +4",
-      "- Knockback Resistance +10%",
+      "Upgrade the netherite version the same way.",
       "",
-      "Crafted with Netherite chestplate, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Armour +9",
+      "- Toughness +4",
+      "- Knockback resistance +10%"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          140,
-          -20
+          40,
+          0
         ]
       }
     },
@@ -85,7 +86,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Chestplate"
+      "text": "Warden Chestplate"
     }
   },
   "settings": {

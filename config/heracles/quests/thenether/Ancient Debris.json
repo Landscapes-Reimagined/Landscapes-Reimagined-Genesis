@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Debris": {
+    "ancient_debris": {
       "title": "",
       "icon": {
         "item": {
@@ -46,20 +33,52 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "tnt": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:tnt",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Gather an ancient debris"
+      "text": "The rarest ore in the Nether"
     },
     "description": [
-      "Collect an ancient debris to start your journey to making a netherite ingot"
+      "/e/Ancient Debris/e/ is found low in the Nether and is completely blast-proof.",
+      "",
+      "Beds and TNT are a fast way to uncover it: the explosions clear netherrack while the debris survives.",
+      "",
+      "/7/Tip: debris is most common around Y 8-22./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -20,
-          -60
+          -40,
+          -40
         ]
       }
     },
@@ -72,7 +91,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ancient Debris"
+      "text": "Ancient Debris"
     }
   },
   "settings": {

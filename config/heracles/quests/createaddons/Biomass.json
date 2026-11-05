@@ -33,19 +33,6 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
     "biomass": {
       "title": "",
       "icon": {
@@ -60,21 +47,33 @@
         "count": 16
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Green fuel"
     },
     "description": [
-      "Seed oil, is created by compacting seeds in a basin,",
-      "that oil is then mixed with any plant to create Biomass."
+      "Compact seeds in a basin to make /e/Seed Oil/e/, then mix seed oil with plants to make /e/Biomass/e/."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          20,
-          -20
+          -260,
+          -280
         ]
       }
     },
@@ -87,7 +86,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Biomass"
+      "text": "Biomass"
     }
   },
   "settings": {

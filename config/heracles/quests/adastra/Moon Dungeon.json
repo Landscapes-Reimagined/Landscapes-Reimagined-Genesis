@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,27 +41,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 700,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Danger and treasure"
     },
     "description": [
-      "Becareful visiting this structure as it",
-      "has spawners that spawn corrupted Lunarians",
-      "that shoot ice at you. ",
+      "Be careful in /e/Moon Dungeons/e/. Their spawners create /c/Corrupted Lunarians/c/ that shoot ice at you.",
       "",
-      "This structure also has some amazing loot!"
+      "The loot is worth the risk."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          0,
-          -61
+          -40,
+          -40
         ]
       }
     },
@@ -59,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Moon Dungeon"
+      "text": "Moon Dungeon"
     }
   },
   "settings": {

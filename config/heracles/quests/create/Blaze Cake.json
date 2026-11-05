@@ -11,39 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Blaze Cake": {
+    "blaze_cake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:blaze_cake",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "This blaze cake will allow super heating of the mixer"
+      "text": "Superheat unlocked"
     },
     "description": [
-      "Now that you have your first blaze cake base",
-      "its time to create your first blaze cake.",
+      "Fill the cake base with /e/lava/e/ using a Spout over a Depot.",
       "",
-      "Using a spout and a depot, fill your cake base",
-      "with 333 mb of lava thus creating the blaze cake.",
-      "",
-      "This cake will allow you to super heat a mixer allowing",
-      "access to more create recipes and also take you into Create ",
-      "Foundry."
+      "Feeding a Blaze Cake to a Blaze Burner /c/superheats/c/ it. Superheating unlocks advanced mixing recipes and opens up the /6/Create Foundry/6/ chapter."
     ],
     "groups": {
       "Create": {
         "position": [
-          50,
-          150
+          -80,
+          40
         ]
       }
     },
@@ -53,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Cake"
+      "text": "Blaze Cake"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

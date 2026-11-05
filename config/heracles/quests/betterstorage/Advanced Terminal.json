@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Wireless Terminal"
+  ],
   "tasks": {
     "advanced terminal": {
       "type": "heracles:item",
@@ -9,35 +11,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give scrap": {
+    "netherite_scrap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:netherite_scrap",
         "count": 3
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Wirelessly access the network within a 64 block radius"
+      "text": "Storage from anywhere"
     },
     "description": [
-      "This is the advanced version of the terminal",
-      " ",
-      "If you have a tier 1 beacon(9 blocks below it) within 8 blocks of the network connector it will be able to be accessed from within the same dimension",
-      " ",
-      "If you have a tier 4 beacon(Max level beacon) within 8 blocks of the network connector it will be able to be access from any dimension"
+      "The upgraded wireless terminal can reach much further:",
+      "• With a /e/tier 1 beacon/e/ within 8 blocks of the connector, it works anywhere in the same dimension.",
+      "• With a /e/full tier 4 beacon/e/ within 8 blocks of the connector, it works from /e/any dimension/e/."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          0,
-          -20
+          180,
+          -100
         ]
       }
     },
@@ -47,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Advanced Terminal"
+      "text": "Advanced Wireless Terminal"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

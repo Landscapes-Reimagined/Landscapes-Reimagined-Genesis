@@ -20,20 +20,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "netherite": {
+    "netherite_block": {
       "title": "",
       "icon": {
         "item": {
@@ -47,24 +34,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The key to Advanced Netherite"
     },
     "description": [
-      "In order to get a bucket of molten netherite, you need to mix molten",
-      "gold and molten ancient debris in a mixer while super heated.",
+      "Superheat-mix /e/Molten Gold with Molten Ancient Debris/e/ to get /e/Molten Netherite/e/.",
       "",
-      "This bucket can be converted into one block of netherite and",
-      "one netherite ingot."
+      "It can be turned back into a block of netherite plus an ingot. You'll also need it for every /6/Advanced Netherite/6/ smithing template in the Nether chapter."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          0,
-          15
+          80,
+          60
         ]
       }
     },
@@ -77,7 +75,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Netherite"
+      "text": "Molten Netherite"
     }
   },
   "settings": {

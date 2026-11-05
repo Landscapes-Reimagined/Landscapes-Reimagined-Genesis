@@ -25,25 +25,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_ingot": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 2,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "netherite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -52,25 +39,39 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 600,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Armor +7",
-      "- Toughness +4",
-      "- Knockback Resistance +10%",
-      "- Speed +50%",
+      "Upgrade the netherite version the same way.",
       "",
-      "Crafted with Netherite leggings, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Armour +7",
+      "- Toughness +4",
+      "- Knockback resistance +10%",
+      "- Speed +50%"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          140,
-          20
+          80,
+          0
         ]
       }
     },
@@ -86,7 +87,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Warden Leggings"
+      "text": "Warden Leggings"
     }
   },
   "settings": {

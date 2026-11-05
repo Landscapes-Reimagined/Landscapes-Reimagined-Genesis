@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Sculk Bone"
+    "Stalker"
   ],
   "tasks": {
     "soul": {
@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "soul_crystal": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "soul": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:soul_crystal",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "From the Stalker"
     },
     "description": [
-      "Obtained when killing a stalker"
+      "/e/Soul Crystals/e/ are dropped by Stalkers."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          140
+          -40,
+          200
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Soul Crystal"
+      "text": "Soul Crystal"
     }
   },
   "settings": {

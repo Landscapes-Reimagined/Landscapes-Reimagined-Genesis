@@ -85,6 +85,21 @@
     }
   },
   "rewards": {
+    "netherite_oxygen_can": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra_giselle_addon:netherite_oxygen_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -94,39 +109,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1000,
       "title": "",
       "type": "heracles:xp"
-    },
-    "tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "ad_astra_giselle_addon:netherite_oxygen_can",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "ad_astra_giselle_addon:netherite_oxygen_can",
-        "count": 1
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Built for hostile planets"
     },
     "description": [
-      "This space suit will protect you from harsh",
-      "environments on future planets."
+      "The /e/Netherite Space Suit/e/ protects you from the extreme environments of the inner planets.",
+      "",
+      "Collect all four pieces."
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
-          -30
+          80,
+          40
         ]
       }
     },
@@ -142,7 +143,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Space Suit"
+      "text": "Netherite Space Suit"
     }
   },
   "settings": {

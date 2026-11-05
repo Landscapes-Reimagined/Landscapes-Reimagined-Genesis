@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "NA Overcharged Gold"
+  ],
+  "tasks": {
+    "reinforced": {
+      "type": "heracles:item",
+      "item": "create_new_age:reinforced_energiser",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create_new_age:reinforced_energiser",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 400,
+      "type": "heracles:xp"
+    },
+    "overcharged_gold": {
+      "item": {
+        "id": "create_new_age:overcharged_gold",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Tier 3 charging"
+    },
+    "description": [
+      "The /e/Reinforced Energiser/e/ is the top tier, and the only one that can charge diamonds."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -100,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_new_age:reinforced_energiser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reinforced Energiser"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

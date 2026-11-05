@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Soul Dust"
+    "Shattered"
   ],
   "tasks": {
     "bone": {
@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "sculk_bone": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "bone": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "deeperdarker:sculk_bone",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,20 +33,33 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "From the Shattered"
     },
     "description": [
-      "Obtained when killing a shattered"
+      "/e/Sculk Bones/e/ are dropped by the Shattered."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          100
+          -40,
+          120
         ]
       }
     },
@@ -72,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sculk Bone"
+      "text": "Sculk Bone"
     }
   },
   "settings": {

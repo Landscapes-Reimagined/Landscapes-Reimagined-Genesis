@@ -1,6 +1,5 @@
 {
-  "dependencies": [
-  ],
+  "dependencies": [],
   "tasks": {
     "End": {
       "icon": {
@@ -17,7 +16,22 @@
     }
   },
   "rewards": {
-    "End xp": {
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,22 +40,26 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the End"
+      "text": "Welcome to the End chapter"
     },
     "description": [
-      "Enter the end"
+      "Welcome to /6/the End/6/!",
+      "",
+      "The Ender Dragon guards the central island. Once it's defeated, End Gateways lead to the outer islands, where End Cities, Shulkers and Elytra wait.",
+      "",
+      "See /6/Boss Mobs/6/ for the dragon fight, and /6/Ad Astra/6/ unlocks after this quest."
     ],
     "groups": {
       "The End": {
         "position": [
-          -350,
+          -40,
           -20
         ]
       }
@@ -55,7 +73,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the End"
+      "text": "Enter the End"
     }
   },
   "settings": {

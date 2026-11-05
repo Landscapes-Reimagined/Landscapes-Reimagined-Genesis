@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "Biomes",
-    "Heart of the warden"
+    "Enter the Otherside"
   ],
   "tasks": {
     "c": {
@@ -26,23 +25,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Ruins in the dark"
     },
     "description": [
-      "The Otherside currently only has one structure, which you can find more info about it in the quest below."
+      "The Otherside has one structure, the /e/Ancient Temple/e/. The quest to the right covers it.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -20,
-          -60
+          -80,
+          -80
         ]
       }
     },
@@ -55,12 +56,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Structure"
+      "text": "Otherside Structures"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

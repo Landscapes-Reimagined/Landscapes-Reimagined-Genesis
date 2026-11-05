@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Netherite Gold Tool"
+    "Netherite Gold Tool",
+    "Netherite Iron Armor"
   ],
   "tasks": {
     "h": {
@@ -85,25 +86,12 @@
     }
   },
   "rewards": {
-    "x": {
+    "netherite_gold_block": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "n": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "advancednetherite:netherite_gold_block",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -112,32 +100,41 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 600,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "All four pieces"
     },
     "description": [
-      "Piglins will behave passive towards players wearing Netherite-Gold armor",
+      "Upgrade a full set of armour to /e/Netherite-Gold/e/.",
       "",
-      "Toughness Change",
-      "- 3.5 vs 3 of standard netherite",
+      "/6/Set bonus/6/",
+      "• Piglins are passive towards you",
       "",
-      "Enchantability  Change",
-      "- 25 vs 15 of standard netherite",
-      " ",
-      "Durability and Armor Points",
-      "- Helmet: 451, 4",
-      "- Chestplate: 656, 9",
-      "- Leggings: 615, 7",
-      "- Boots: 533, 4"
+      "/6/Stats/6//7/ (vs. standard Netherite)/7/",
+      "• Toughness: /e/3.5/e/ vs 3",
+      "• Enchantability: /e/25 vs 15/e/",
+      "• Durability / armour: Helmet 451/4, Chest 656/9, Legs 615/7, Boots 533/4"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          140,
-          20
+          120,
+          40
         ]
       }
     },
@@ -153,7 +150,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite Gold Armor"
+      "text": "Netherite-Gold Armour"
     }
   },
   "settings": {

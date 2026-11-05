@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Heart of the warden"
+    "Reinforced Echo Shard"
   ],
   "tasks": {
     "helm": {
@@ -25,25 +25,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "netherite_ingot": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 2,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "netherite": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -52,24 +39,40 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 600,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Netherite + template + reinforced echo shard"
     },
     "description": [
-      "- Armor +4",
-      "- Toughness +4",
-      "- Knockback Resistance +10%",
+      "/e/Warden Helmet/e/ is upgraded in a Smithing Table from its netherite version, a /e/warden upgrade template/e/ and a reinforced echo shard.",
       "",
-      "When worn removes Darkness affect when in the Deep Dark and fighting the Warden; Crafted with Netherite helmet, warden upgrade template, and reinforced echo shard"
+      "/6/Stats/6/",
+      "- Armour +4",
+      "- Toughness +4",
+      "- Knockback resistance +10%",
+      "",
+      "Wearing it /e/removes Darkness/e/ in the Deep Dark and while fighting the Warden."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          140,
-          -60
+          0,
+          0
         ]
       }
     },
@@ -85,12 +88,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Armor"
+      "text": "Warden Helmet"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

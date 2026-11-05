@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Vanilla Bosses"
+  ],
   "tasks": {
     "Kill Ender Dragon": {
       "icon": {
@@ -18,7 +20,7 @@
     }
   },
   "rewards": {
-    "Give Dragons Breath": {
+    "dragon_breath": {
       "title": "",
       "icon": {
         "item": {
@@ -33,7 +35,22 @@
       },
       "type": "heracles:item"
     },
-    "Ender Dragon xp": {
+    "end_crystal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,23 +59,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 1500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Kill the Ender Dragon"
+      "text": "Free the End"
     },
     "description": [
-      "Kill the Ender Dragon"
+      "Destroy the /e/End Crystals/e/ on top of the obsidian pillars first, because they heal the dragon. Then bring it down.",
+      "",
+      "You can respawn the dragon by placing /e/4 End Crystals/e/ on the exit portal, one on each side. That's a good way to farm dragon's breath and heads, and the reward gives you a full set of crystals."
     ],
     "groups": {
       "Boss Mobs": {
         "position": [
-          0,
-          40
+          -60,
+          -40
         ]
       }
     },
@@ -71,7 +90,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Kill the Ender Dragon"
+      "text": "Slay the Ender Dragon"
     }
   },
   "settings": {

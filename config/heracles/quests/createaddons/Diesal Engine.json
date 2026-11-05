@@ -3,21 +3,7 @@
     "Fuel Sources"
   ],
   "tasks": {
-    "Piston": {
-      "type": "heracles:item",
-      "item": "createdieselgenerators:engine_piston",
-      "amount": 4,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "createdieselgenerators:engine_piston",
-          "count": 1
-        },
-        "type": "heracles:item"
-      }
-    },
-    "diesal": {
+    "diesel_engine": {
       "type": "heracles:item",
       "item": "createdieselgenerators:diesel_engine",
       "amount": 1,
@@ -25,20 +11,34 @@
       "title": "",
       "icon": {
         "item": {
-          "id": "createdieselgenerators:diesel_engine",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "engine_piston": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:engine_piston",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
-    "mecanism": {
+    "precision_mechanism": {
       "title": "",
       "icon": {
         "item": {
-          "id": "create:precision_mechanism",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
       },
@@ -57,27 +57,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Compact power"
     },
     "description": [
-      "A diesel engine is a compact way of producing kenetic",
-      "energy. Once fuel is pumped into the bottom, it will start",
-      "producting rotation.",
+      "The /e/Diesel Engine/e/ is a compact source of rotation. Pump fuel into it and it starts turning.",
       "",
-      "Check ponder for more info."
+      "Better fuels produce more power. /7/Tip: hold W over any Create item to open its Ponder scene./7/"
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -100,
-          20
+          180,
+          -400
         ]
       }
     },
@@ -90,7 +88,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diesel Engine"
+      "text": "Diesel Engine"
     }
   },
   "settings": {

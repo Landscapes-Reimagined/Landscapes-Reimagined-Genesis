@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +41,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 250,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Sculk as far as the eye can see"
     },
     "description": [
-      "This biome is made up of mostly Sculk and Sculk Stone. Large groups of Phantoms can be seen flying around the caverns of this biome, along with hordes of Sculk Snappers. Sculk Jaws and Infested Sculk are very common in the Deeplands, making it more difficult to navigate."
+      "The /e/Deeplands/e/ are mostly sculk and sculk stone. Swarms of Phantoms and hordes of Sculk Snappers roam the caverns.",
+      "",
+      "/c/Sculk Jaws/c/ and infested sculk are everywhere, so watch your step."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          -60,
-          -20
+          -40,
+          -200
         ]
       }
     },
@@ -55,7 +72,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Deeplands"
+      "text": "Deeplands"
     }
   },
   "settings": {

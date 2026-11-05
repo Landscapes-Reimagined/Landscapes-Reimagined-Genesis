@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "Crafting table reward log": {
+    "chest": {
       "title": "",
       "icon": {
         "item": {
@@ -29,23 +29,53 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:oak_log",
+        "id": "minecraft:chest",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "torch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 25,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make a crafting table"
+      "text": "A full 3x3 grid"
     },
     "description": [
-      "Make a crafting table to start making tools"
+      "Four planks in a square make a /e/Crafting Table/e/. Its 3x3 grid unlocks tools, weapons and most recipes in the pack.",
+      "",
+      "/7/Tip: press your recipe-viewer key (usually R or U) on any item to see how it's made./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
+          -200,
           -60
         ]
       }
@@ -59,12 +89,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft a crafting table"
+      "text": "Crafting Table"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Copycats"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "copycats:copycat_cogwheel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "cogwheel": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Disguised kinetics"
+    },
+    "description": [
+      "Copycat /e/fluid pipes/e/, /e/shafts/e/ and /e/cogwheels/e/ hide your Create machinery inside your builds.",
+      "",
+      "/7/Craft a Copycat Cogwheel to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          60,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "copycats:copycat_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copycat Machinery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,5 +1,7 @@
 {
   "dependencies": [
+    "Soul Dust",
+    "Sculk Bone",
     "Soul Crystal"
   ],
   "tasks": {
@@ -25,7 +27,22 @@
     }
   },
   "rewards": {
-    "x": {
+    "elytra": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:elytra",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -34,44 +51,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 800,
       "title": "",
       "type": "heracles:xp"
-    },
-    "elytra": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:elytra",
-          "count": 1,
-          "nbt": {
-            "Damage": 0
-          }
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:elytra",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Wings of the deep"
     },
     "description": [
-      "Crafted using 3 Soul Dust, 4 Sculk Bones, 1 Soul Crystal, and 1 Elytra"
+      "Craft the /e/Soul Elytra/e/ from /e/3 soul dust, 4 sculk bones, 1 soul crystal and 1 elytra/e/.",
+      "",
+      "The reward gives you back the elytra you used."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          60,
-          180
+          0,
+          120
         ]
       }
     },
@@ -87,7 +85,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Soul Elytra"
+      "text": "Soul Elytra"
     }
   },
   "settings": {

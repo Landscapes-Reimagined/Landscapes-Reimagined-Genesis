@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "creative_fluid_tank": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 150,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:creative_fluid_tank",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,33 +33,44 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 3000,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": " "
+      "text": "Infinite rotation"
     },
     "description": [
-      "The Creative Motor will provide SU of 16384.0x its RPM",
-      "to a connected system.",
+      "The /e/Creative Motor/e/ supplies /e/16384 x RPM/e/ stress to whatever it's connected to. Change its speed on its value panel.",
       "",
-      "The RPM of the Creative Motor can be changed by using",
-      "the Value Settings Screen, accessible on the sides.",
-      "",
-      "This is crafted with these items using a Mechanical Crafter Setup",
-      "- 12 Dragons Breathe",
+      "/6/Mechanical Crafter recipe/6/ /7/(6x5 grid)/7/",
+      "- 12 Dragon's Breath",
       "- 4 Nether Stars",
-      "- 4 Electic Motors",
-      "- 4 Void Motors",
-      "- 2 Diamond Netherite Ingot Blocks",
-      "- 2 Warden Hearts",
-      "- 2 Creative Tanks"
+      "- 4 Electric Motors (Crafts & Additions)",
+      "- 4 Reinforced Motors (New Age)",
+      "- 2 Blocks of Netherite-Diamond",
+      "- 2 Hearts of the Deep",
+      "- 2 Creative Fluid Tanks",
+      "",
+      "The reward gives you back a Creative Fluid Tank."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -100,
-          -50
+          -40,
+          -20
         ]
       }
     },
@@ -85,7 +83,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Motor"
+      "text": "Creative Motor"
     }
   },
   "settings": {

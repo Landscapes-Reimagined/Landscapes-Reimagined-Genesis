@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "Deco Chisel"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "rechiseled:chisel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "stone": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Carve your blocks"
+    },
+    "description": [
+      "Craft a /e/Chisel/e/ and use it to open the chiseling screen.",
+      "",
+      "Put blocks in the input slot, pick the variant you want, and take as many as you need.",
+      "",
+      "/7/Craft a Chisel to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rechiseled:chisel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Chisel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

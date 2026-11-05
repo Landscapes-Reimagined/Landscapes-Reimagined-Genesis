@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:cherry_blinds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "white_wool": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Windows and secret doors"
+    },
+    "description": [
+      "/e/Blinds/e/ decorate your windows, and they can also work as hidden entrances.",
+      "",
+      "/7/Craft Cherry Blinds to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -59,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:cherry_blinds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blinds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

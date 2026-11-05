@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "echo_shard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:echo_shard",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +41,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The key to the Otherside"
     },
     "description": [
-      ""
+      "Welcome to /6/Deeper and Darker/6/!",
+      "",
+      "Defeat the Warden to get the /e/Heart of the Deep/e/. Use it on the reinforced deepslate portal frame in the middle of an Ancient City to open the way to /6/the Otherside/6/, a dark mirror of the Deep Dark.",
+      "",
+      "/7/Tip: see the Boss Mobs chapter for advice on fighting the Warden./7/"
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          20,
-          -120
+          -160,
+          -40
         ]
       }
     },
@@ -55,7 +74,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Heart of the deep"
+      "text": "Heart of the Deep"
     }
   },
   "settings": {

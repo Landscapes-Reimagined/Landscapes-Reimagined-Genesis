@@ -19,25 +19,12 @@
     }
   },
   "rewards": {
-    "xp": {
+    "creative_fluid_tank": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "LEVEL",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "create:creative_fluid_tank",
-          "count": 1
         },
         "type": "heracles:item"
       },
@@ -46,33 +33,46 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 4000,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Infinite items"
     },
     "description": [
-      "The Creative Crate can output an item specified, by placing",
-      "it in the filter slot located on the top, infinitely. ",
-      "It will also act as a trash can when",
-      "items are input to it, accepting and deleting the item.",
+      "Put an item in the /e/Creative Crate/e/'s filter slot and it outputs that item forever. Anything inserted into it is deleted, so it doubles as a trash can.",
       "",
-      "The Creative Crate is crafted using these items",
-      "- 28 Dragons Breath",
+      "/6/Mechanical Crafter recipe/6/ /7/(7x7 grid)/7/",
+      "- 28 Dragon's Breath",
       "- 4 Netherite Shulker Boxes",
-      "- 4 Netherite Barrels",
       "- 4 Netherite Chests",
+      "- 4 Netherite Barrels",
       "- 4 Nether Stars",
       "- 2 Creative Blaze Cakes",
+      "- 1 Creative Fluid Tank",
       "- 1 Creative Motor",
-      "- 1 Creative Generator"
+      "- 1 Creative Generator",
+      "",
+      "The reward gives you a Creative Fluid Tank."
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -200,
-          -50
+          40,
+          -20
         ]
       }
     },
@@ -85,7 +85,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Creative Crate"
+      "text": "Creative Crate"
     }
   },
   "settings": {

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:bookstack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "book": {
+      "item": {
+        "id": "minecraft:book",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Reading material"
+    },
+    "description": [
+      "/e/Book Stacks/e/ come in several models, and they can /e/power an enchanting table/e/ just like bookshelves.",
+      "",
+      "/7/Craft a Book Stack to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          20,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:bookstack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Book Stacks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

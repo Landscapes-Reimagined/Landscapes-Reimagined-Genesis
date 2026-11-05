@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Press"
   ],
   "tasks": {
     "mixer": {
@@ -17,33 +17,49 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give casing": {
+    "andesite_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "It's got a lot of uses"
+      "text": "Shapeless crafting, automated"
     },
     "description": [
-      "The mixer has many different recipes that it can be used for.",
-      " ",
-      "One of the recipes is it can make andesite alloy in a more efficient manner only costing 1 andesite and 1 iron/zinc nugget"
+      "A /e/Mechanical Mixer/e/ over a /e/Basin/e/ handles shapeless and fluid recipes.",
+      "",
+      "It can make Andesite Alloy for just /e/1 andesite + 1 nugget/e/, and with a Blaze Burner underneath it unlocks heated recipes like /e/Brass/e/."
     ],
     "groups": {
       "Create": {
         "position": [
-          -50,
-          50
+          -120,
+          -40
         ]
       }
     },
@@ -53,12 +69,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mixer and Basin"
+      "text": "Mixer & Basin"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

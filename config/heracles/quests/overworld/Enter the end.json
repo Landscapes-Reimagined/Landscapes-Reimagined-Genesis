@@ -18,6 +18,36 @@
     }
   },
   "rewards": {
+    "carved_pumpkin": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:carved_pumpkin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,24 +56,28 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 10,
+      "xptype": "POINTS",
+      "amount": 500,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The final dimension"
     },
     "description": [
-      "Enter the end"
+      "Activate the End Portal and step into /6/the End/6/.",
+      "",
+      "/c/Don't look Endermen in the eye./c/ A carved pumpkin on your head stops them from getting angry.",
+      "",
+      "Continue in the /6/End/6/ and /6/Boss Mobs/6/ chapters."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          140,
-          -20
+          320,
+          -60
         ]
       }
     },
@@ -56,7 +90,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the End"
+      "text": "Enter the End"
     }
   },
   "settings": {

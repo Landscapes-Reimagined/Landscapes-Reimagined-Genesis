@@ -2,8 +2,35 @@
   "dependencies": [
     "Create Goggles"
   ],
-  "tasks": {},
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
+    "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -13,60 +40,43 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 200,
       "title": "",
       "type": "heracles:xp"
-    },
-    "diamonds": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:diamond_ore",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Helmet + goggles"
     },
     "description": [
-      "This Goggle Helmet will allow you to both wear",
-      "create googles and a helmet at the same time."
+      "A /e/Goggle Helmet/e/ gives you a helmet's protection and goggle info at the same time.",
+      "",
+      "Craft one, then click the checkmark."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -20,
-          -20
+          140,
+          240
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "creategoggles:goggle_diamond_helmet",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "create:goggles",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Goggle Helmet"
+      "text": "Goggle Helmet"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

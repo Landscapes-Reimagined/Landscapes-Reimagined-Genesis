@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Andesite Casing"
+    "Mechanical Bearing"
   ],
   "tasks": {
     "drill": {
@@ -11,24 +11,49 @@
     }
   },
   "rewards": {
+    "andesite_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 75,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Mines for you"
+      "text": "Automatic mining"
     },
     "description": [
-      "The mechanical drill is a item that will mine any block in front of it which is really nice for setting up farms that require blocks to be broken, like a cobblestone farm"
+      "A /e/Mechanical Drill/e/ breaks whatever block is in front of it.",
+      "",
+      "It's great for cobblestone generators, or mount it on a moving contraption to build a tunnel bore."
     ],
     "groups": {
       "Create": {
         "position": [
-          -150,
-          0
+          -160,
+          80
         ]
       }
     },
@@ -38,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mechanical Drill"
+      "text": "Mechanical Drill"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

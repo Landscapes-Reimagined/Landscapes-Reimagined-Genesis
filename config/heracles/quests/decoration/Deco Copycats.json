@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "zinc_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Copycats for every shape"
+    },
+    "description": [
+      "/6/Copycats+/6/ adds dozens of new /e/copycat/e/ shapes for Create. Apply any block to a copycat and it takes on that block's look.",
+      "",
+      "Copycats connect their textures to each other wherever their faces match.",
+      "",
+      "Click the checkmark to begin."
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -140,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copycat_panel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Create: Copycats+"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

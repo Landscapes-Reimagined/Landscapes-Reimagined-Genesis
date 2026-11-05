@@ -22,7 +22,37 @@
     }
   },
   "rewards": {
-    "Hoe xp": {
+    "wheat_seeds": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "bone_meal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -31,38 +61,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
-    },
-    "Receive Oak Plank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:oak_planks",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:oak_planks",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Start a farm"
     },
     "description": [
-      "Craft a hoe to start your farming, and then submit the hoe"
+      "Use a /e/Hoe/e/ on dirt or grass to till farmland, then plant seeds next to water.",
+      "",
+      "A steady food supply makes everything after this much easier."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
-          140
+          -160,
+          100
         ]
       }
     },
@@ -78,12 +95,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft a hoe"
+      "text": "Wooden Hoe"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

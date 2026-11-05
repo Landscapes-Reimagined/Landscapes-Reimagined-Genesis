@@ -11,7 +11,15 @@
     }
   },
   "rewards": {
-    "eye": {
+    "ender_eye": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ender_eye",
         "count": 1
@@ -19,24 +27,33 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 75,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "The vanilla ender chest on the go"
     },
     "description": [
-      "Pouches provide remote access to the Vanilla EnderChest.",
-      "They are also used to craft this mods EnderBags and EnderChests."
+      "The /e/Ender Pouch/e/ opens your vanilla ender chest inventory from anywhere.",
+      "",
+      "It's also a crafting ingredient for Ender Bags and Ender Chests."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -300,
-          30
+          100,
+          -20
         ]
       }
     },
@@ -46,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ender Pouch"
+      "text": "Ender Pouch"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

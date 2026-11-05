@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Travel's Backpacks"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:blank_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "blank_upgrade": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Make your backpack smarter"
+    },
+    "description": [
+      "Traveler's Backpacks take /6/functionality upgrades/6/ in their upgrade slots.",
+      "",
+      "Most upgrades are crafted from a /e/Blank Upgrade/e/. Many of them have /e/filters/e/ you can set in their tab.",
+      "",
+      "/7/Tip: you can bind keys to toggle the first 4 upgrade slots without opening the backpack./7/"
+    ],
+    "groups": {
+      "Travelers Backpacks": {
+        "position": [
+          -400,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Backpack Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Deco Copycats"
+  ],
+  "tasks": {
+    "read": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "zinc_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Thin and flat"
+    },
+    "description": [
+      "/e/Layers/e/ and /e/half layers/e/ stack up to a full block, and /e/half panels/e/, /e/boards/e/, panes and flat panes make thin detail.",
+      "",
+      "/7/Craft one, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -60,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copycat_panel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Layers, Panels & Panes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Shulker Box"
+  ],
+  "tasks": {
+    "limited_barrel_1": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:limited_barrel_1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "barrel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:barrel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Few slots, huge stacks"
+    },
+    "description": [
+      "/e/Limited Barrels/e/ have just 1 to 4 slots, but higher tiers raise the /e/stack size/e/ instead of adding slots. Think of them as drawers.",
+      "",
+      "Craft a 1-slot limited barrel to complete this quest."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          280,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:limited_barrel_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Limited Barrels"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

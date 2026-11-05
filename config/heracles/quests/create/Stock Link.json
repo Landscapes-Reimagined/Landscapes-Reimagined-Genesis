@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Packager"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:stock_link",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Join the network"
+    },
+    "description": [
+      "Attach a /e/Stock Link/e/ to a packager to add that inventory's contents to a /e/logistics network/e/.",
+      "",
+      "Links that share a frequency form one network."
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          120,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:stock_link",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stock Link"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

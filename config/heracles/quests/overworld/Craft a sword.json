@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Craft some Planks"
+    "Craft a crafting table"
   ],
   "tasks": {
     "Craft a sword": {
@@ -22,7 +22,22 @@
     }
   },
   "rewards": {
-    "Sword XP reward": {
+    "cooked_beef": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -31,37 +46,22 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
-    },
-    "Receive Oak Plank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:oak_planks",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:oak_planks",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Something to fight back with"
     },
     "description": [
-      "Craft a sword to start attacking mobs, and then submit the sword"
+      "Nights are dangerous. A /e/Wooden Sword/e/ won't win many fights, but it's better than your fists."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
+          -160,
           -20
         ]
       }
@@ -78,7 +78,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft a sword"
+      "text": "Wooden Sword"
     }
   },
   "settings": {

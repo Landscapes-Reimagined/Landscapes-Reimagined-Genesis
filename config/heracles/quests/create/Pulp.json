@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "High Logistics"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create:pulp",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Step one of cardboard"
+    },
+    "description": [
+      "/e/Pulp/e/ is the raw material for cardboard. It's made by processing plant matter.",
+      "",
+      "/7/Tip: look up Pulp in your recipe viewer for every way to make it./7/"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          120,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:pulp",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Pulp"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": false
+  }
+}

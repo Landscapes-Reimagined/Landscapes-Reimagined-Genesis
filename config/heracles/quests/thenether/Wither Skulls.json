@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give star": {
+    "soul_sand": {
       "title": "",
       "icon": {
         "item": {
@@ -42,24 +29,56 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:nether_star",
-        "count": 1
+        "id": "minecraft:soul_sand",
+        "count": 4
       },
       "type": "heracles:item"
+    },
+    "golden_apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Collect 3 wither skeleton skulls"
+      "text": "Ingredients for a boss"
     },
     "description": [
-      "Kill wither skeletons to collect 3 wither skulls to get them for when you want to summon the wither"
+      "Wither Skeletons in fortresses sometimes drop their /e/skull/e/. A Looting sword improves your chances.",
+      "",
+      "Three skulls on top of four soul sand in a T shape summon /c/the Wither/c/. See the /6/Boss Mobs/6/ chapter before you try it.",
+      "",
+      "/7/Tip: the soul sand below is exactly what the summoning needs./7/"
     ],
     "groups": {
       "The Nether": {
         "position": [
-          -20,
-          -20
+          -40,
+          -80
         ]
       }
     },
@@ -72,7 +91,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Wither Skeleton Skulls"
+      "text": "Wither Skeleton Skulls"
     }
   },
   "settings": {

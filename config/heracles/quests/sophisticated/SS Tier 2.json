@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "SS Tier 1"
+  ],
+  "tasks": {
+    "iron_to_gold_tier_upgrade": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold_ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 250,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Upgrade in place"
+    },
+    "description": [
+      "Right-click a placed iron storage block with this to upgrade it to /e/Gold/e/. Its contents stay inside.",
+      "",
+      "Every tier adds more slots and more upgrade slots."
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          200,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Iron to Gold Tier Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

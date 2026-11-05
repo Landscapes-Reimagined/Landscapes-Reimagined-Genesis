@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Storage Terminal"
+  ],
   "tasks": {
     "wireless terminal": {
       "type": "heracles:item",
@@ -9,31 +11,47 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
-    },
-    "Give mechanism": {
+    "precision_mechanism": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:precision_mechanism",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Wirelessly access your network within a 16 block radius"
+      "text": "Storage at a distance"
     },
     "description": [
-      ""
+      "The /e/Wireless Terminal/e/ opens your storage terminal from a short distance away. Bind it to a terminal first."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -50,
-          -20
+          140,
+          -100
         ]
       }
     },
@@ -43,12 +61,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Wireless Terminal"
+      "text": "Wireless Terminal"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

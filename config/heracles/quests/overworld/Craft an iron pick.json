@@ -22,20 +22,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Give Iron": {
+    "bucket": {
       "title": "",
       "icon": {
         "item": {
@@ -45,24 +32,54 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_ingot",
-        "count": 3
+        "id": "minecraft:bucket",
+        "count": 1
       },
       "type": "heracles:item"
+    },
+    "torch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Strong enough for diamonds"
     },
     "description": [
-      "Gather a Iron Pickaxe, and then submit the pickaxe"
+      "An /e/Iron Pickaxe/e/ can mine diamonds, redstone and gold.",
+      "",
+      "/7/Tip: diamonds are most common deep underground, near the bottom of the world./7/"
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -20,
-          20
+          0,
+          -60
         ]
       }
     },
@@ -78,12 +95,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Iron Pickaxe"
+      "text": "Iron Pickaxe"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

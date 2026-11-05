@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "NA Wiring"
+  ],
+  "tasks": {
+    "read": {
+      "type": "heracles:check",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "overcharged_iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_iron",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Longer, better wires"
+    },
+    "description": [
+      "Upgrade your wiring with overcharged wires:",
+      "• /e/Overcharged Iron Wire/e/: 32 blocks, medium conductivity",
+      "• /e/Overcharged Golden Wire/e/: 48 blocks, high conductivity",
+      "• /e/Overcharged Diamond Wire/e/: 64 blocks, very high conductivity",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -220,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_new_age:copper_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Overcharged Wires"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

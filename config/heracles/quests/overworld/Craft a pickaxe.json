@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Craft some Planks"
+    "Craft a crafting table"
   ],
   "tasks": {
     "Craft a pickaxe": {
@@ -22,7 +22,22 @@
     }
   },
   "rewards": {
-    "Pickaxe xp": {
+    "torch": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -31,38 +46,25 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 25,
       "title": "",
       "type": "heracles:xp"
-    },
-    "planks": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:oak_planks",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:oak_planks",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Your first mining tool"
     },
     "description": [
-      "Craft a pickaxe to start your mining and progressing, and then submit the pickaxe"
+      "A /e/Wooden Pickaxe/e/ is all you need to mine stone.",
+      "",
+      "It wears out quickly, so upgrade it as soon as you have some cobblestone."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          -100,
-          20
+          -160,
+          -60
         ]
       }
     },
@@ -78,12 +80,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Craft a pickaxe"
+      "text": "Wooden Pickaxe"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

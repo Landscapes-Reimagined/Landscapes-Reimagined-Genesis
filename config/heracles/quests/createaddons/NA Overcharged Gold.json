@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Energizers"
+  ],
+  "tasks": {
+    "overcharged_gold": {
+      "type": "heracles:item",
+      "item": "create_new_age:overcharged_gold",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "overcharged_gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_new_age:overcharged_gold",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Tier 2 material"
+    },
+    "description": [
+      "Charge a gold ingot in the Advanced Energiser to make /e/Overcharged Gold/e/."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -140,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_new_age:overcharged_gold",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Overcharged Gold"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

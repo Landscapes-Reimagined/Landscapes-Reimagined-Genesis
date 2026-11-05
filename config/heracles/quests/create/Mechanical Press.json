@@ -11,31 +11,64 @@
     }
   },
   "rewards": {
-    "xp": {
-      "xptype": "POINTS",
-      "amount": 10,
-      "type": "heracles:xp"
+    "iron_sheet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:iron_sheet",
+        "count": 8
+      },
+      "type": "heracles:item"
     },
-    "Give Casing": {
+    "andesite_casing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:andesite_casing",
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Helpful for making a lot of things"
+      "text": "Flatten things"
     },
     "description": [
-      "The mechanical press is used for a lot of different things, like making sheets or some recipes using a basin"
+      "The /e/Mechanical Press/e/ turns ingots into /e/sheets/e/ on a depot or belt.",
+      "",
+      "Over a /e/Basin/e/ it /e/compacts/e/ items instead, which you'll need for the Blaze Cake Base."
     ],
     "groups": {
       "Create": {
         "position": [
-          -201,
-          100
+          -160,
+          -40
         ]
       }
     },
@@ -45,12 +78,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mechanical Press"
+      "text": "Mechanical Press"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

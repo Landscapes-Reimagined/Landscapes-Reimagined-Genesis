@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "SS Intro"
+  ],
+  "tasks": {
+    "table": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:decoration_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:decoration_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
+    "oak_planks": {
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Custom looks, cheaper"
+    },
+    "description": [
+      "The /e/Decoration Table/e/ applies two colours and, for barrels, materials from up to seven slots. It shows a preview and uses fewer resources than crafting.",
+      "",
+      "/7/Craft it, then click the checkmark./7/"
+    ],
+    "groups": {
+      "Sophisticated": {
+        "position": [
+          200,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:decoration_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Decoration Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

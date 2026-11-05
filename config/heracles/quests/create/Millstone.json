@@ -11,23 +11,48 @@
     }
   },
   "rewards": {
+    "wheat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 75,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Can make dye and other things"
+      "text": "Grind it up"
     },
     "description": [
-      "The millstone has the ability to crush many items"
+      "The /e/Millstone/e/ grinds items. For example, it turns wheat into flour and netherrack into /e/cinder flour/e/ (needed for the Blaze Cake).",
+      "",
+      "It's slow but cheap. Crushing Wheels are the faster upgrade."
     ],
     "groups": {
       "Create": {
         "position": [
-          -51,
+          -240,
           0
         ]
       }
@@ -38,12 +63,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Millstone"
+      "text": "Millstone"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": false
   }
 }

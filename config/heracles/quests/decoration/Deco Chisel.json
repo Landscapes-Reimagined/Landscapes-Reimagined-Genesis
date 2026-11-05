@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "iron_ingot": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A builder's best friend"
+    },
+    "description": [
+      "/6/Rechiseled/6/ lets you carve blocks into /e/dozens of decorative variants/e/ with a simple hand tool.",
+      "",
+      "Many of the variants have /e/connected textures/e/, which are perfect for walls, floors and pillars.",
+      "",
+      "Click the checkmark to begin."
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -140,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:infested_stone_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rechiseled"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

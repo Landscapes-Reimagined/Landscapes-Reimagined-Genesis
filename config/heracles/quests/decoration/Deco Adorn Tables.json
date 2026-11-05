@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Adorn"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "adorn:oak_shelf",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "oak_log": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Furnish the room"
+    },
+    "description": [
+      "/e/Tables/e/ connect to each other, /e/drawers/e/ are small furniture-style storage, and /e/shelves/e/ display your items.",
+      "",
+      "/7/Craft an Oak Shelf to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -60,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adorn:oak_shelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tables, Drawers & Shelves"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

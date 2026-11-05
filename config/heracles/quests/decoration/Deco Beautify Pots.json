@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Deco Beautify"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "beautify:hanging_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "poppy": {
+      "item": {
+        "id": "minecraft:poppy",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Greenery from above"
+    },
+    "description": [
+      "/e/Hanging Pots/e/ hold plants and hang from the ceiling or from /e/rope/e/. Rope is also climbable.",
+      "",
+      "/7/Craft a Hanging Pot to complete this quest./7/"
+    ],
+    "groups": {
+      "Decoration": {
+        "position": [
+          -100,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beautify:hanging_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hanging Pots & Rope"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

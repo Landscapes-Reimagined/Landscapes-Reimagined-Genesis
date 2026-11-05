@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,23 +29,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 300,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Hunt in the Otherside"
     },
     "description": [
-      "Kill a Sculk Leech"
+      "Defeat a /e/Sculk Leech/e/. Leeches drop /e/Soul Dust/e/."
     ],
     "groups": {
       "Deeper and Darker": {
         "position": [
-          20,
-          -19
+          -80,
+          40
         ]
       }
     },
@@ -58,12 +58,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sculk Leech"
+      "text": "Defeat a Sculk Leech"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

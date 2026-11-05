@@ -19,20 +19,7 @@
     }
   },
   "rewards": {
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 10,
-      "title": "",
-      "type": "heracles:xp"
-    },
-    "Iron": {
+    "iron_block": {
       "title": "",
       "icon": {
         "item": {
@@ -46,24 +33,35 @@
         "count": 1
       },
       "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Superheated mixing"
     },
     "description": [
-      "In order to get a bucket of molten iron, you need to mix iron",
-      "ore or raw iron in a mixer while super heated.",
+      "Superheat-mix /e/iron ore or raw iron/e/ to get a bucket of /e/Molten Iron/e/.",
       "",
-      "This bucket can be converted into one block of iron and",
-      "one iron ingot."
+      "It can be turned back into a block of iron plus an iron ingot."
     ],
     "groups": {
       "Create Foundry": {
         "position": [
-          -62,
-          -82
+          40,
+          -80
         ]
       }
     },
@@ -76,12 +74,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Molten Iron"
+      "text": "Molten Iron"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

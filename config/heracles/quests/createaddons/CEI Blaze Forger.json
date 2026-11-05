@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "CEI Grindstone Drain"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:blaze_forger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "anvil": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:anvil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 400,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "A smart anvil"
+    },
+    "description": [
+      "The /e/Blaze Forger/e/ puts a blaze to work as a /e/smart anvil/e/. It combines enchantments, repairs gear and applies books automatically, all paid for with liquid experience.",
+      "",
+      "Choose its mode manually to tell it which job to do."
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          260,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create_enchantment_industry:blaze_forger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Blaze Forger"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

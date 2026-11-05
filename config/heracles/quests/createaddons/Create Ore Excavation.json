@@ -1,13 +1,8 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
-    "iron": {
-      "type": "heracles:item",
-      "item": "minecraft:raw_iron",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "read": {
+      "type": "heracles:check",
       "title": "",
       "icon": {
         "item": {
@@ -19,7 +14,7 @@
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,50 +23,45 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Infinite ore veins"
     },
     "description": [
-      "This mod adds hidden infinite ore veins to your world. You can extract these ores using machines. This mod requires Create.",
+      "/6/Create Ore Excavation/6/ hides /e/infinite ore veins/e/ and fluid reservoirs in the world. Each chunk can hold at most one vein.",
       "",
-      "Features:",
+      "Find them with the /e/Ore Vein Finder/e/ and mine them forever with rotation-powered /e/Drilling Machines/e/ and /e/Fluid Extractors/e/.",
       "",
-      "- Adds hidden ore veins and fluid reservoirs that has a random chance to spawn in a chunk. Only one ore vein can exist in each chunk",
-      "- The veins are infinite",
-      "- Ore vein types can be configured using a Datapack or KubeJS",
-      "- Harvest the ores using Drilling Machine, and Fluid Extractor",
-      "- The machines are powered by Rotational Force",
-      "- Use the 'Ore Vein Finder' item to find ore veins and fluid reservoirs"
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          -60
+          100,
+          -480
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:raw_iron",
+        "id": "createoreexcavation:vein_finder",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Create Ore Excavation"
+      "text": "Create Ore Excavation"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

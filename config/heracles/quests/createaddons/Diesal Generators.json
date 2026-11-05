@@ -1,24 +1,20 @@
 {
-  "dependencies": [
-    "Create Addons"
-  ],
+  "dependencies": [],
   "tasks": {
-    "brass": {
-      "block": "create:brass_casing",
-      "state": {},
+    "read": {
+      "type": "heracles:check",
       "title": "",
       "icon": {
         "item": {
-          "id": "create:brass_casing",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:block_interaction"
+      }
     }
   },
   "rewards": {
-    "x": {
+    "xp": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,23 +23,27 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Engines, oil and industry"
     },
     "description": [
-      "A mod that adds Diesel Generators, Crude Oil Refinery and much more to the create mod."
+      "/6/Create: Diesel Generators/6/ adds fuel-burning /e/engines/e/, /e/oil drilling and refining/e/, fermentation and a range of industrial tools and materials.",
+      "",
+      "The top row covers engines, the middle rows cover oil and fuel, and the bottom row covers tools and building materials.",
+      "",
+      "Click the checkmark to begin."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -100,
-          -60
+          100,
+          -400
         ]
       }
     },
@@ -56,12 +56,12 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Diesel Generators"
+      "text": "Create: Diesel Generators"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

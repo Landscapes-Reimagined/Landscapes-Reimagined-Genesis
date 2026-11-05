@@ -1,13 +1,15 @@
 Main
 Overworld
-The Nether
-The End
-Ad Astra
-Deeper and Darker
-Boss Mobs
-Better Storage
 Create
-Create Foundry
-Creative Items
-Chipped Tables
 Create Addons
+Better Storage
+Sophisticated
+Travelers Backpacks
+Decoration
+The Nether
+Create Foundry
+The End
+Boss Mobs
+Deeper and Darker
+Ad Astra
+Creative Items

@@ -17,6 +17,21 @@
     }
   },
   "rewards": {
+    "experience_bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -26,23 +41,23 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 900,
       "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "text": "Ancient ruins"
     },
     "description": [
-      "This temple has some awesome loot, make sure to look up!"
+      "Find a /e/Mars Temple/e/. The loot is great, so make sure you /e/look up/e/!"
     ],
     "groups": {
       "Ad Astra": {
         "position": [
-          60,
-          60
+          40,
+          -40
         ]
       }
     },
@@ -55,7 +70,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mars Temple"
+      "text": "Mars Temple"
     }
   },
   "settings": {
