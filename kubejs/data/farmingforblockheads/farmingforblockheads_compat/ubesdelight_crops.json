@@ -1,0 +1,31 @@
+{
+    "modId": "ubesdelight",
+    "group": {
+        "name": "Ube's Delight Crops",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "crops"
+    },
+    "customEntries": [
+        {
+            "output": "ubesdelight:ube"
+        },
+        {
+            "output": "ubesdelight:garlic"
+        },
+        {
+            "output": "ubesdelight:garlic_chop"
+        },
+        {
+            "output": "ubesdelight:ginger"
+        },
+        {
+            "output": "ubesdelight:ginger_chop"
+        },
+        {
+            "output": "ubesdelight:lemongrass"
+        }
+    ]
+}

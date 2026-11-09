@@ -1,0 +1,19 @@
+{
+    "modId": "promenade",
+    "group": {
+        "name": "Promenade Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "promenade:azalea_leaf_pile"
+        },
+        {
+            "output": "promenade:flowering_azalea_leaf_pile"
+        }
+    ]
+}

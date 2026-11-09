@@ -1,0 +1,16 @@
+{
+    "modId": "ubesdelight",
+    "group": {
+        "name": "Ube's Delight Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "ubesdelight:lemongrass_seeds"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "modId": "expandeddelight",
+    "group": {
+        "name": "Expanded Delight Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "expandeddelight:wild_asparagus"
+        },
+        {
+            "output": "expandeddelight:wild_sweet_potatoes"
+        },
+        {
+            "output": "expandeddelight:wild_chili_pepper"
+        },
+        {
+            "output": "expandeddelight:wild_peanuts"
+        }
+    ]
+}

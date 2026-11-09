@@ -1,0 +1,55 @@
+{
+    "modId": "terrestria",
+    "group": {
+        "name": "Terrestria Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "terrestria:bryce_sapling"
+        },
+        {
+            "output": "terrestria:cypress_sapling"
+        },
+        {
+            "output": "terrestria:dark_japanese_maple_sapling"
+        },
+        {
+            "output": "terrestria:hemlock_sapling"
+        },
+        {
+            "output": "terrestria:japanese_maple_sapling"
+        },
+        {
+            "output": "terrestria:japanese_maple_shrub_sapling"
+        },
+        {
+            "output": "terrestria:jungle_palm_sapling"
+        },
+        {
+            "output": "terrestria:rainbow_eucalyptus_sapling"
+        },
+        {
+            "output": "terrestria:redwood_sapling"
+        },
+        {
+            "output": "terrestria:rubber_sapling"
+        },
+        {
+            "output": "terrestria:sakura_sapling"
+        },
+        {
+            "output": "terrestria:saguaro_cactus_sapling"
+        },
+        {
+            "output": "terrestria:willow_sapling"
+        },
+        {
+            "output": "terrestria:yucca_palm_sapling"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "modId": "ad_astra",
+    "group": {
+      "name": "Ad Astra Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "ad_astra:cheese",
+        "count": 8
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "ad_astra:strophar_mushroom"
+      },
+      {
+        "output": "ad_astra:aeronos_mushroom"
+      }
+    ]
+}

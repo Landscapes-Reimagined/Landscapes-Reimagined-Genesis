@@ -1,0 +1,22 @@
+{
+    "modId": "ubesdelight",
+    "group": {
+        "name": "Ube's Delight Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "ubesdelight:wild_ube"
+        },
+        {
+            "output": "ubesdelight:wild_garlic"
+        },
+        {
+            "output": "ubesdelight:wild_ginger"
+        }
+    ]
+}

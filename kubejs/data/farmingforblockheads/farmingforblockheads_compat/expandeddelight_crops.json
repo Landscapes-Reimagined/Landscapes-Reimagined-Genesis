@@ -1,0 +1,28 @@
+{
+    "modId": "expandeddelight",
+    "group": {
+        "name": "Expanded Delight Crops",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "crops"
+    },
+    "customEntries": [
+        {
+            "output": "expandeddelight:asparagus"
+        },
+        {
+            "output": "expandeddelight:sweet_potato"
+        },
+        {
+            "output": "expandeddelight:chili_pepper"
+        },
+        {
+            "output": "expandeddelight:peanut"
+        },
+        {
+            "output": "expandeddelight:raw_cinnamon"
+        }
+    ]
+}

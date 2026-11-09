@@ -1,0 +1,40 @@
+{
+    "modId": "betterend",
+    "group": {
+        "name": "BetterEnd Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "betterend:dragon_tree_sapling"
+        },
+        {
+            "output": "betterend:helix_tree_sapling"
+        },
+        {
+            "output": "betterend:hydralux_sapling"
+        },
+        {
+            "output": "betterend:lacugrove_sapling"
+        },
+        {
+            "output": "betterend:lucernia_sapling"
+        },
+        {
+            "output": "betterend:mossy_glowshroom_sapling"
+        },
+        {
+            "output": "betterend:pythadendron_sapling"
+        },
+        {
+            "output": "betterend:tenanea_sapling"
+        },
+        {
+            "output": "betterend:umbrella_tree_sapling"
+        }
+    ]
+}

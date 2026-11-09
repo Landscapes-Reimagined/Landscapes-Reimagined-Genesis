@@ -1,0 +1,31 @@
+{
+    "modId": "betternether",
+    "group": {
+        "name": "BetterNether Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "betternether:black_apple_seed"
+        },
+        {
+            "output": "betternether:eye_seed"
+        },
+        {
+            "output": "betternether:golden_lumabus_seed"
+        },
+        {
+            "output": "betternether:ink_bush_seed"
+        },
+        {
+            "output": "betternether:lucis_spore"
+        },
+        {
+            "output": "betternether:lumabus_seed"
+        }
+    ]
+}

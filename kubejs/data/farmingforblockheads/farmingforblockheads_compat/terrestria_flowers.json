@@ -1,0 +1,19 @@
+{
+    "modId": "terrestria",
+    "group": {
+        "name": "Terrestria Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "terrestria:indian_paintbrush"
+        },
+        {
+            "output": "terrestria:monsteras"
+        }
+    ]
+}

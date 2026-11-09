@@ -1,0 +1,25 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Backport Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:open_eyeblossom"
+        },
+        {
+            "output": "minecraft:closed_eyeblossom"
+        },
+        {
+            "output": "minecraft:cactus_flower"
+        },
+        {
+            "output": "minecraft:wildflowers"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "modId": "fishofthieves",
+    "group": {
+        "name": "Fish of Thieves Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "fishofthieves:coconut"
+        },
+        {
+            "output": "fishofthieves:banana_shoots"
+        },
+        {
+            "output": "fishofthieves:mango_sapling"
+        }
+    ]
+}

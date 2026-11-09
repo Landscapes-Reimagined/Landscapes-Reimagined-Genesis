@@ -1,0 +1,19 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Backport Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:pale_oak_sapling"
+        },
+        {
+            "output": "minecraft:poplar_sapling"
+        }
+    ]
+}

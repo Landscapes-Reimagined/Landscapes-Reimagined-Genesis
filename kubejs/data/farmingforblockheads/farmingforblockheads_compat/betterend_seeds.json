@@ -1,0 +1,46 @@
+{
+    "modId": "betterend",
+    "group": {
+        "name": "BetterEnd Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": "betterend:amber_root_seed"
+        },
+        {
+            "output": "betterend:blossom_berry_seed"
+        },
+        {
+            "output": "betterend:blue_vine_seed"
+        },
+        {
+            "output": "betterend:bulb_vine_seed"
+        },
+        {
+            "output": "betterend:chorus_mushroom_seed"
+        },
+        {
+            "output": "betterend:end_lily_seed"
+        },
+        {
+            "output": "betterend:end_lotus_seed"
+        },
+        {
+            "output": "betterend:glowing_pillar_seed"
+        },
+        {
+            "output": "betterend:lanceleaf_seed"
+        },
+        {
+            "output": "betterend:lumecorn_seed"
+        },
+        {
+            "output": "betterend:shadow_berry"
+        }
+    ]
+}

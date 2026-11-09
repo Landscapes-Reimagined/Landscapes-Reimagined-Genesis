@@ -1,0 +1,25 @@
+{
+    "modId": "fishofthieves",
+    "group": {
+        "name": "Fish of Thieves Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "fishofthieves:pink_plumeria"
+        },
+        {
+            "output": "fishofthieves:light_blue_plumeria"
+        },
+        {
+            "output": "fishofthieves:white_plumeria"
+        },
+        {
+            "output": "fishofthieves:banana_blossom"
+        }
+    ]
+}

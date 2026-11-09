@@ -1,0 +1,37 @@
+{
+    "modId": "farmersdelight",
+    "group": {
+      "name": "Farmers Delight Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "farmersdelight:sandy_shrub"
+      },
+      {
+        "output": "farmersdelight:wild_cabbages"
+      },
+      {
+        "output": "farmersdelight:wild_onions"
+      },
+      {
+        "output": "farmersdelight:wild_tomatoes"
+      },
+      {
+        "output": "farmersdelight:wild_carrots"
+      },
+      {
+        "output": "farmersdelight:wild_potatoes"
+      },
+      {
+        "output": "farmersdelight:wild_beetroots"
+      },
+      {
+        "output": "farmersdelight:wild_rice"
+      }
+    ]
+  }
