@@ -1,0 +1,43 @@
+filename = 'FA+Creepers-v2.2.zip'
+name = 'Fresh Animations: Creepers'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.0'
+
+[download]
+hash = '881984168c933f263550bded400157c70e12dabd0c5b6b37bec9fc24189d3ba4f4d234e257d2ef842b287889acadc060266ff6e4031b46a98f803d4b2cf4a8a5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AhPf2E1u/versions/b90eVujh/FA%2BCreepers-v2.2.zip'
+
+[update.modrinth]
+mod-id = 'AhPf2E1u'
+version = 'b90eVujh'
