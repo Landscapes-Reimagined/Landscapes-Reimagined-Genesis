@@ -1,0 +1,22 @@
+filename = 'ReinforcedChests_Retextured.zip'
+name = 'Reinforced Chests Retextured'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0'
+
+[download]
+hash = 'b7177449d0ec2ec02c5dbbfa8a18abc4509b2e0fd65d19026cb7835b495c91c683745f10b4ca728a983a3c2fb36e2e4e69111bd8d2532f8a197fdf4dc848be0b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gOkXuy64/versions/1HR3SoCD/ReinforcedChests_Retextured.zip'
+
+[update.modrinth]
+mod-id = 'gOkXuy64'
+version = '1HR3SoCD'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'FWtAXlpg'
+type = 'REQUIRED'
+version = 'i89BsPkK'

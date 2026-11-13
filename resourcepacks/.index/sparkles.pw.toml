@@ -1,0 +1,36 @@
+filename = 'Sparkles_v1.1.12.zip'
+name = 'Sparkles: Stardust Labs Resourcepack'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.12'
+
+[download]
+hash = 'aff10fd922c25a2317d1186359ee9ad9ccaf8082a3e2ee9cd0aded7b0663e7801faf02ffc905d7794e7ae01cbc052ef93621db90563f1414306027f8f47e84d7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HfNmMQ9E/versions/NdrflooY/Sparkles_v1.1.12.zip'
+
+[update.modrinth]
+mod-id = 'HfNmMQ9E'
+version = 'NdrflooY'

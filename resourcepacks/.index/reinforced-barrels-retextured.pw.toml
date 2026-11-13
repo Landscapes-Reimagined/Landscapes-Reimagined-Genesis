@@ -1,0 +1,22 @@
+filename = 'ReinforcedBarrels_Retextured.zip'
+name = 'Reinforced Barrels Retextured'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.0'
+
+[download]
+hash = 'ec02162ac1cf95b78819df10ebf69f0b5655d32ffd76da3cda0381a08a089cb6db467acafbcd6325e8ea77b4ed725447c95da09ba8279b594c3d9672a251d7be'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wKGcD0HA/versions/o1AcKzUy/ReinforcedBarrels_Retextured.zip'
+
+[update.modrinth]
+mod-id = 'wKGcD0HA'
+version = 'o1AcKzUy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tx85779b'
+type = 'REQUIRED'
+version = '3GkJlgYo'
