@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>
                         amount: 1
                     },
                     {
-                        fluid: 'kubejs:molten_netherite_iron',
+                        fluid: 'createfoundry:molten_netherite_iron',
                         amount: 8100
                     }
                 ],
@@ -33,7 +33,7 @@ ServerEvents.recipes(event =>
                         amount: 1
                     },
                     {
-                        fluid: 'kubejs:molten_netherite_gold',
+                        fluid: 'createfoundry:molten_netherite_gold',
                         amount: 8100
                     }
                 ],
@@ -55,7 +55,7 @@ ServerEvents.recipes(event =>
                         amount: 1
                     },
                     {
-                        fluid: 'kubejs:molten_netherite_emerald',
+                        fluid: 'createfoundry:molten_netherite_emerald',
                         amount: 8100
                     }
                 ],
@@ -77,7 +77,7 @@ ServerEvents.recipes(event =>
                         amount: 1
                     },
                     {
-                        fluid: 'kubejs:molten_netherite_diamond',
+                        fluid: 'createfoundry:molten_netherite_diamond',
                         amount: 8100
                     }
                 ],

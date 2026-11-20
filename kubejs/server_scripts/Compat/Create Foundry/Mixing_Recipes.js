@@ -1320,7 +1320,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 40500
                     },
                     {
@@ -1343,7 +1343,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 40500
                     },
                     {
@@ -1368,7 +1368,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 40500
                     },
                     {
@@ -1391,7 +1391,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 40500
                     },
                     {
@@ -1416,7 +1416,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 40500
                     },
                     {
@@ -1439,7 +1439,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 40500
                     },
                     {
@@ -1464,7 +1464,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 16200
                     }
                 ],
@@ -1483,7 +1483,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 16200
                     }
                 ],
@@ -1502,7 +1502,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 16200
                     }
                 ],
@@ -1523,7 +1523,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 145800
                     }
                 ],
@@ -1542,7 +1542,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 145800
                     }
                 ],
@@ -1561,7 +1561,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 145800
                     }
                 ],
@@ -1582,7 +1582,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 16200
                     }
                 ],
@@ -1601,7 +1601,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 16200
                     }
                 ],
@@ -1620,7 +1620,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 16200
                     }
                 ],
@@ -1641,7 +1641,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 8100
                     }
                 ],
@@ -1660,7 +1660,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 8100
                     }
                 ],
@@ -1679,7 +1679,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 8100
                     }
                 ],
@@ -1698,7 +1698,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_desh',
+                        fluid: 'createfoundry:molten_desh',
                         amount: 72900
                     }
                 ],
@@ -1717,7 +1717,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_ostrum',
+                        fluid: 'createfoundry:molten_ostrum',
                         amount: 72900
                     }
                 ],
@@ -1736,7 +1736,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_calorite',
+                        fluid: 'createfoundry:molten_calorite',
                         amount: 72900
                     }
                 ],
@@ -1752,18 +1752,56 @@ ServerEvents.recipes(event =>
                         amount: 8100
                     },
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 8100
                     }
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_steel',
+                        fluid: 'createfoundry:molten_steel',
                         amount: 8100
                     }
                 ],
                 heatRequirement: "superheated"
             }).id('genesis:mixing/molten_steel');
+
+        // Steel Ingot
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        item: 'ad_astra:steel_ingot',
+                        nbt: {},
+                        amount: 1
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'createfoundry:molten_steel',
+                        amount: 8100
+                    }
+                ],
+                heatRequirement: "superheated"
+            }).id('genesis:mixing/steel_ingot');
+
+        // Steel Block
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        item: 'ad_astra:steel_block',
+                        nbt: {},
+                        amount: 1
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'createfoundry:molten_steel',
+                        amount: 72900
+                    }
+                ],
+                heatRequirement: "superheated"
+            }).id('genesis:mixing/steel_block');
 
         // Block and Ingot to Molten Ore Mixing Recipes
 
@@ -1779,7 +1817,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_amber',
+                        fluid: 'createfoundry:molten_amber',
                         amount: 64800
                     }
                 ],
@@ -1798,7 +1836,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_amber',
+                        fluid: 'createfoundry:molten_amber',
                         amount: 259200
                     }
                 ],
@@ -1817,7 +1855,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 8100
                     }
                 ],
@@ -1836,7 +1874,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 72900
                     }
                 ],
@@ -1855,7 +1893,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 72900
                     }
                 ],
@@ -1876,7 +1914,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_amber',
+                        fluid: 'createfoundry:molten_amber',
                         amount: 16200
                     }
                 ],
@@ -1895,7 +1933,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_amber',
+                        fluid: 'createfoundry:molten_amber',
                         amount: 16200
                     }
                 ],
@@ -1914,7 +1952,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 16200
                     }
                 ],
@@ -1933,7 +1971,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 16200
                     }
                 ],
@@ -1954,7 +1992,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_amber',
+                        fluid: 'createfoundry:molten_amber',
                         amount: 40500
                     },
                     {
@@ -1977,7 +2015,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_thallasium',
+                        fluid: 'createfoundry:molten_thallasium',
                         amount: 40500
                     },
                     {
@@ -2001,7 +2039,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_iron',
+                        fluid: 'createfoundry:molten_netherite_iron',
                         amount: 16200
                     }
                 ],
@@ -2015,7 +2053,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_iron',
+                        fluid: 'createfoundry:molten_netherite_iron',
                         amount: 16200
                     }
                 ],
@@ -2031,7 +2069,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_iron',
+                        fluid: 'createfoundry:molten_netherite_iron',
                         amount: 72900
                     }
                 ],
@@ -2047,7 +2085,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_iron',
+                        fluid: 'createfoundry:molten_netherite_iron',
                         amount: 32400
                     }
                 ],
@@ -2065,7 +2103,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_gold',
+                        fluid: 'createfoundry:molten_netherite_gold',
                         amount: 16200
                     }
                 ],
@@ -2081,7 +2119,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_gold',
+                        fluid: 'createfoundry:molten_netherite_gold',
                         amount: 72900
                     }
                 ],
@@ -2097,7 +2135,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_gold',
+                        fluid: 'createfoundry:molten_netherite_gold',
                         amount: 32400
                     }
                 ],
@@ -2115,7 +2153,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_emerald',
+                        fluid: 'createfoundry:molten_netherite_emerald',
                         amount: 16200
                     }
                 ],
@@ -2131,7 +2169,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_emerald',
+                        fluid: 'createfoundry:molten_netherite_emerald',
                         amount: 72900
                     }
                 ],
@@ -2147,7 +2185,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_emerald',
+                        fluid: 'createfoundry:molten_netherite_emerald',
                         amount: 32400
                     }
                 ],
@@ -2165,7 +2203,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_diamond',
+                        fluid: 'createfoundry:molten_netherite_diamond',
                         amount: 16200
                     }
                 ],
@@ -2181,7 +2219,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_diamond',
+                        fluid: 'createfoundry:molten_netherite_diamond',
                         amount: 72900
                     }
                 ],
@@ -2197,7 +2235,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        fluid: 'kubejs:molten_netherite_diamond',
+                        fluid: 'createfoundry:molten_netherite_diamond',
                         amount: 32400
                     }
                 ],
