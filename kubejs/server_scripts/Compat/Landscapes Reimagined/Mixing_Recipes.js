@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>
                         count: 1
                     },
                     {
-                        fluid: "kubejs:liquid_dragons_breath",
+                        fluid: "create_dragons_plus:dragon_breath",
                         amount: 81000
                     }
                 ],
