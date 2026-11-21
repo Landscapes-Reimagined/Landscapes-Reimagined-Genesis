@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "utility_belt:pouch"
+  },
+  "base": {
+    "item": "utility_belt:utility_belt"
+  },
+  "result": {
+    "item": "utility_belt:utility_belt"
+  },
+  "template": {
+    "item": "minecraft:leather"
+  }
+}
