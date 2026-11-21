@@ -1,84 +1,31 @@
 ServerEvents.recipes(event =>
     {
-        // Alternate Chest Recipes
-            var chest_types = [
-                ['minecraft:chest', 'minecraft:oak_log'],
-                ['lolmcv:acacia_chest', 'minecraft:acacia_log'],
-                ['lolmcv:birch_chest', 'minecraft:birch_log'],
-                ['lolmcv:spruce_chest', 'minecraft:spruce_log'],
-                ['lolmcv:dark_oak_chest', 'minecraft:dark_oak_log'],
-                ['lolmcv:jungle_chest', 'minecraft:jungle_log'],
-                ['lolmcv:mangrove_chest', 'minecraft:mangrove_log'],
-                ['lolmcv:bamboo_chest', 'minecraft:bamboo_block'],
-                ['lolmcv:cherry_chest', 'minecraft:cherry_log'],
-                ['lolmcv:warped_chest', 'minecraft:warped_stem'],
-                ['betternether:warped_chest', 'minecraft:warped_stem'],
-                ['lolmcv:crimson_chest', 'minecraft:crimson_stem'],
-                ['betternether:crimson_chest', 'minecraft:crimson_stem'],
-                ['betternether:stalagnate_chest', 'betternether:stalagnate_log'],
-                ['betternether:willow_chest', 'betternether:willow_log'],
-                ['betternether:wart_chest', 'betternether:wart_log'],
-                ['betternether:rubeus_chest', 'betternether:rubeus_log'],
-                ['betternether:mushroom_fir_chest', 'betternether:mushroom_fir_log'],
-                ['betternether:nether_mushroom_chest', 'betternether:nether_mushroom_stem'],
-                ['betternether:anchor_tree_chest', 'betternether:anchor_tree_log'],
-                ['betternether:nether_sakura_chest', 'betternether:nether_sakura_log'],
-                ['betterend:mossy_glowshroom_chest', 'betterend:mossy_glowshroom_log'],
-                ['betterend:pythadendron_chest', 'betterend:pythadendron_log'],
-                ['betterend:end_lotus_chest', 'betterend:end_lotus_log'],
-                ['betterend:lacugrove_chest', 'betterend:lacugrove_log'],
-                ['betterend:dragon_tree_chest', 'betterend:dragon_tree_log'],
-                ['betterend:helix_tree_chest', 'betterend:helix_tree_log'],
-                ['betterend:umbrella_tree_chest', 'betterend:umbrella_tree_log'],
-                ['betterend:lucernia_chest', 'betterend:lucernia_log'],
-                ['betterend:tenanea_chest', 'betterend:tenanea_log'],
-                ['betterend:jellyshroom_chest', 'betterend:jellyshroom_log'],
-                // Regions Unexplore Log to Chest Recipes
-                ['minecraft:chest', 'regions_unexplored:blackwood_log'],
-                ['minecraft:chest', 'regions_unexplored:blue_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:brimwood_log'],
-                ['minecraft:chest', 'regions_unexplored:cobalt_log'],
-                ['minecraft:chest', 'regions_unexplored:dead_log'],
-                ['minecraft:chest', 'regions_unexplored:eucalyptus_log'],
-                ['minecraft:chest', 'regions_unexplored:green_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:joshua_log'],
-                ['minecraft:chest', 'regions_unexplored:kapok_log'],
-                ['minecraft:chest', 'regions_unexplored:magnolia_log'],
-                ['minecraft:chest', 'regions_unexplored:maple_log'],
-                ['minecraft:chest', 'regions_unexplored:mauve_log'],
-                ['minecraft:chest', 'regions_unexplored:palm_log'],
-                ['minecraft:chest', 'regions_unexplored:pine_log'],
-                ['minecraft:chest', 'regions_unexplored:pink_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:redwood_log'],
-                ['minecraft:chest', 'regions_unexplored:socotra_log'],
-                ['minecraft:chest', 'regions_unexplored:willow_log'],
-                ['minecraft:chest', 'regions_unexplored:yellow_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:baobab_log'],
-                ['minecraft:chest', 'regions_unexplored:cypress_log'],
-                // Terrestria Log to Chest Recipes
-                ['minecraft:chest', 'terrestria:yucca_palm_log'],
-                ['minecraft:chest', 'terrestria:sakura_log'],
-                ['minecraft:chest', 'terrestria:rainbow_eucalyptus_log'],
-                ['minecraft:chest', 'terrestria:japanese_maple_log'],
-                ['minecraft:chest', 'terrestria:willow_log'],
-                ['minecraft:chest', 'terrestria:cypress_log'],
-                ['minecraft:chest', 'terrestria:rubber_log'],
-                ['minecraft:chest', 'terrestria:hemlock_log'],
-                ['minecraft:chest', 'terrestria:redwood_log'],
-            ]
-            chest_types.forEach(chest_type => {
-                event.shaped(
-                    Item.of(chest_type[0], 4),
-                    [
-                        'AAA',
-                        'A A',
-                        'AAA'
-                    ],
-                    {
-                        A: chest_type[1]
-                    }
-                )
-            });
+        // Alternate Chest Recipe (any log)
+            event.shaped(
+                Item.of('minecraft:chest', 4),
+                [
+                    'AAA',
+                    'A A',
+                    'AAA'
+                ],
+                {
+                    A: '#minecraft:logs'
+                }
+            ).id('genesis:shaped/chest_from_logs')
+
+        // Alternate Barrel Recipe (any log)
+            event.shaped(
+                Item.of('minecraft:barrel', 4),
+                [
+                    'AaA',
+                    'A A',
+                    'AaA'
+                ],
+                {
+                    A: '#minecraft:logs',
+                    a: '#minecraft:wooden_slabs'
+                }
+            ).id('genesis:shaped/barrel_from_logs')            
 
         // Alternate Stick Recipe
             event.shaped(
@@ -396,53 +343,17 @@ ServerEvents.recipes(event =>
                 )
             });
 
-        // Plank to Oak Chest Recipes
-            var chest_types2 = [
-                // Regions Unexplore planks to Chest Recipes
-                ['minecraft:chest', 'regions_unexplored:blackwood_planks'],
-                ['minecraft:chest', 'regions_unexplored:blue_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:brimwood_planks'],
-                ['minecraft:chest', 'regions_unexplored:cobalt_planks'],
-                ['minecraft:chest', 'regions_unexplored:dead_planks'],
-                ['minecraft:chest', 'regions_unexplored:eucalyptus_planks'],
-                ['minecraft:chest', 'regions_unexplored:green_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:joshua_planks'],
-                ['minecraft:chest', 'regions_unexplored:kapok_planks'],
-                ['minecraft:chest', 'regions_unexplored:magnolia_planks'],
-                ['minecraft:chest', 'regions_unexplored:maple_planks'],
-                ['minecraft:chest', 'regions_unexplored:mauve_planks'],
-                ['minecraft:chest', 'regions_unexplored:palm_planks'],
-                ['minecraft:chest', 'regions_unexplored:pine_planks'],
-                ['minecraft:chest', 'regions_unexplored:pink_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:redwood_planks'],
-                ['minecraft:chest', 'regions_unexplored:socotra_planks'],
-                ['minecraft:chest', 'regions_unexplored:willow_planks'],
-                ['minecraft:chest', 'regions_unexplored:yellow_bioshroom_stem'],
-                ['minecraft:chest', 'regions_unexplored:baobab_planks'],
-                ['minecraft:chest', 'regions_unexplored:cypress_planks'],
-                // Terrestria planks to Chest Recipes
-                ['minecraft:chest', 'terrestria:yucca_palm_planks'],
-                ['minecraft:chest', 'terrestria:sakura_planks'],
-                ['minecraft:chest', 'terrestria:rainbow_eucalyptus_planks'],
-                ['minecraft:chest', 'terrestria:japanese_maple_planks'],
-                ['minecraft:chest', 'terrestria:willow_planks'],
-                ['minecraft:chest', 'terrestria:cypress_planks'],
-                ['minecraft:chest', 'terrestria:rubber_planks'],
-                ['minecraft:chest', 'terrestria:hemlock_planks'],
-                ['minecraft:chest', 'terrestria:redwood_planks'],
-            ]
-            chest_types2.forEach(chest_type2 => {
-                event.shaped(
-                    Item.of(chest_type2[0], 1),
-                    [
-                        'AAA',
-                        'A A',
-                        'AAA'
-                    ],
-                    {
-                        A: chest_type2[1]
-                    }
-                )
-            });
+        // Plank to Chest Recipe (any plank)
+            event.shaped(
+                Item.of('minecraft:chest', 1),
+                [
+                    'AAA',
+                    'A A',
+                    'AAA'
+                ],
+                {
+                    A: '#minecraft:planks'
+                }
+            ).id('genesis:shaped/chest_from_planks')
     }
 )
