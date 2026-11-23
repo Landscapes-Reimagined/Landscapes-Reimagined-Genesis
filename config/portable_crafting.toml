@@ -1,8 +1,0 @@
-[screensEnabled]
-	"c:cartography_tables" = true
-	"c:grindstones" = true
-	"c:looms" = true
-	"c:stonecutters" = true
-	"c:smithing_tables" = true
-	"c:anvils" = false
-	"c:crafting_tables" = true
