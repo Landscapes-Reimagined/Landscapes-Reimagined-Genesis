@@ -17,7 +17,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: 'kubejs:netherite_iron_upgrade',
+                        item: 'genesis:netherite_iron_upgrade',
                         amount: 1
                     }
                 ],
@@ -29,7 +29,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:netherite_iron_upgrade',
+                        item: 'genesis:netherite_iron_upgrade',
                         amount: 1
                     },
                     {
@@ -39,7 +39,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: 'kubejs:netherite_gold_upgrade',
+                        item: 'genesis:netherite_gold_upgrade',
                         amount: 1
                     }
                 ],
@@ -51,7 +51,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:netherite_gold_upgrade',
+                        item: 'genesis:netherite_gold_upgrade',
                         amount: 1
                     },
                     {
@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: 'kubejs:netherite_emerald_upgrade',
+                        item: 'genesis:netherite_emerald_upgrade',
                         amount: 1
                     }
                 ],
@@ -73,7 +73,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:netherite_emerald_upgrade',
+                        item: 'genesis:netherite_emerald_upgrade',
                         amount: 1
                     },
                     {
@@ -83,7 +83,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: 'kubejs:netherite_diamond_upgrade',
+                        item: 'genesis:netherite_diamond_upgrade',
                         amount: 1
                     }
                 ],

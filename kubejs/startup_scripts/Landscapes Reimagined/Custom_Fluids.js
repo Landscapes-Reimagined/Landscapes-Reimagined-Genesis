@@ -34,4 +34,14 @@ StartupEvents.registry('fluid', event => {
     // Create all molten fluids
     moltenFluids.forEach(fluid => createMoltenFluid(event, fluid));
 
+    // Liquid Dragons Breath (used by the dragon's breath filling/emptying and dragon head recipes)
+    event.create('genesis:liquid_dragons_breath')
+        .color(0xc34781)
+        .displayName('Liquid Dragons Breath')
+        .bucketColor(0xc34781)
+        .thickTexture(0xc34781)
+        .viscosity(6000)
+        .temperature(1300)
+        .bucketItem;
+
 });

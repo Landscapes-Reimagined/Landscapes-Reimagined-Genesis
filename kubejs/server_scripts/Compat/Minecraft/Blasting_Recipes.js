@@ -6,7 +6,7 @@ ServerEvents.recipes(event =>
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_desh_ore' }
+                    { item: 'genesis:crushed_desh_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -19,7 +19,7 @@ ServerEvents.recipes(event =>
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_ostrum_ore' }
+                    { item: 'genesis:crushed_ostrum_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -32,7 +32,7 @@ ServerEvents.recipes(event =>
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_calorite_ore' }
+                    { item: 'genesis:crushed_calorite_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -47,7 +47,7 @@ ServerEvents.recipes(event =>
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_thallasium_ore' }
+                    { item: 'genesis:crushed_thallasium_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -60,7 +60,7 @@ ServerEvents.recipes(event =>
             event.custom({
                 type: "minecraft:blasting",
                 ingredient: [ // Changed 'ingredients' to 'ingredient'
-                    { item: 'kubejs:crushed_amber_ore' }
+                    { item: 'genesis:crushed_amber_ore' }
                 ],
                 cookingTime: 100,
                 experience: 0.1,
@@ -75,7 +75,7 @@ ServerEvents.recipes(event =>
                 'spelunkery:raw_magnetite_block'
             ).id('genesis:blasting/magnetite_block')
             event.blasting(
-                'kubejs:magnetite',
+                'genesis:magnetite',
                 'spelunkery:raw_magnetite'
             ).id('genesis:blasting/magnetite')
     }

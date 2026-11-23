@@ -5,12 +5,12 @@ ServerEvents.recipes(event =>
                 type: 'create:sequenced_assembly',
 
                 ingredient: {
-                    item: 'kubejs:netherite_specks',
+                    item: 'genesis:netherite_specks',
                 },
                 loops: 1,
                 results: [
                     {
-                        item: 'kubejs:netherite_dust'
+                        item: 'genesis:netherite_dust'
                     }
                 ],
                 sequence: [
@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>
                         type:'create:filling',
                         ingredients: [
                             {
-                                item: 'kubejs:incomplete_netherite_dust'
+                                item: 'genesis:incomplete_netherite_dust'
                             },
                             {
                                 fluid: 'minecraft:lava',
@@ -28,7 +28,7 @@ ServerEvents.recipes(event =>
                         ],
                         results: [
                             {
-                                item: 'kubejs:incomplete_netherite_dust'
+                                item: 'genesis:incomplete_netherite_dust'
                             }
                         ]
                     },
@@ -36,18 +36,18 @@ ServerEvents.recipes(event =>
                         type: 'create:pressing',
                         ingredients: [
                             {
-                                item: 'kubejs:incomplete_netherite_dust'
+                                item: 'genesis:incomplete_netherite_dust'
                             }
                         ],
                         results: [
                             {
-                                item: 'kubejs:incomplete_netherite_dust'
+                                item: 'genesis:incomplete_netherite_dust'
                             }
                         ]
                     }
                 ],
                 transitionalItem: {
-                    item:'kubejs:incomplete_netherite_dust'
+                    item:'genesis:incomplete_netherite_dust'
                 }
             }).id('genesis:sequenced_assembly/netherite_dust');
     }

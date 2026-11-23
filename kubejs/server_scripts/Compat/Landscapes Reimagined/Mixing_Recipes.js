@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>
                         count: 1
                     },
                     {
-                        fluid: "create_dragons_plus:dragon_breath",
+                        fluid: "genesis:liquid_dragons_breath",
                         amount: 81000
                     }
                 ],
@@ -37,7 +37,7 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: 'kubejs:netherite_specks',
+                        item: 'genesis:netherite_specks',
                         count: 2
                     },
                 ],

@@ -1120,8 +1120,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_calorite_ore' },
-                    { item: 'kubejs:crushed_calorite_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_calorite_ore' },
+                    { item: 'genesis:crushed_calorite_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                 ]
@@ -1135,8 +1135,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_calorite_ore'},
-                    { item: 'kubejs:crushed_calorite_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_calorite_ore'},
+                    { item: 'genesis:crushed_calorite_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'ad_astra:venus_cobblestone', chance: 0.12 }
                 ]
@@ -1152,8 +1152,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_ostrum_ore'},
-                    { item: 'kubejs:crushed_ostrum_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_ostrum_ore'},
+                    { item: 'genesis:crushed_ostrum_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'ad_astra:mars_cobblestone', chance: 0.12 }
                 ]
@@ -1167,8 +1167,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_ostrum_ore' },
-                    { item: 'kubejs:crushed_ostrum_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_ostrum_ore' },
+                    { item: 'genesis:crushed_ostrum_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                 ]
@@ -1184,8 +1184,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_desh_ore' },
-                    { item: 'kubejs:crushed_desh_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_desh_ore' },
+                    { item: 'genesis:crushed_desh_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'ad_astra:moon_cobblestone', chance: 0.12 }
                 ]
@@ -1199,8 +1199,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_desh_ore' },
-                    { item: 'kubejs:crushed_desh_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_desh_ore' },
+                    { item: 'genesis:crushed_desh_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'minecraft:cobbled_deepslate', chance: 0.12 }
                 ]
@@ -1216,8 +1216,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_thallasium_ore' },
-                    { item: 'kubejs:crushed_thallasium_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_thallasium_ore' },
+                    { item: 'genesis:crushed_thallasium_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'minecraft:end_stone', chance: 0.12 }
                 ]
@@ -1231,8 +1231,8 @@ ServerEvents.recipes(event =>
                 ],
                 processingTime: 400,
                 results: [
-                    { item: 'kubejs:crushed_amber_ore' },
-                    { item: 'kubejs:crushed_amber_ore', chance: 0.75 },
+                    { item: 'genesis:crushed_amber_ore' },
+                    { item: 'genesis:crushed_amber_ore', chance: 0.75 },
                     { item: 'create:experience_nugget', chance: 0.75 },
                     { item: 'minecraft:end_stone', chance: 0.12 }
                 ]

@@ -15,7 +15,7 @@ StartupEvents.registry('item', event => {
     // Crushed Ores
     function createCrushedOres(event, material) {
         const id = `crushed_${material.toLowerCase()}_ore`;
-        event.create(`kubejs:${id}`)
+        event.create(`genesis:${id}`)
             .displayName(`Crushed ${material} Ore`)
             .texture(`kubejs:item/${id}`);
     }

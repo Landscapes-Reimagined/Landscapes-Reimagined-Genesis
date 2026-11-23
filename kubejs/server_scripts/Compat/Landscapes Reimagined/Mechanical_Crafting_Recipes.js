@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>
                     'CCC'
                 ],
                 key: {
-                    A: Ingredient.of('kubejs:netherite_dust').toJson(),
+                    A: Ingredient.of('genesis:netherite_dust').toJson(),
                     B: Ingredient.of('minecraft:wither_skeleton_skull').toJson(),
                     C: Ingredient.of('create:chromatic_compound').toJson(),
                 },

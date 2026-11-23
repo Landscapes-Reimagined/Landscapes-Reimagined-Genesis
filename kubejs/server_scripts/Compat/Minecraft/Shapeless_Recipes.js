@@ -4,7 +4,7 @@ ServerEvents.recipes(event =>
             event.shapeless(
                 Item.of('create_new_age:magnetite_block'),
                 [
-                    '9x kubejs:magnetite'
+                    '9x genesis:magnetite'
                 ]
             ).id('genesis:shapeless/magnetite_block')
 

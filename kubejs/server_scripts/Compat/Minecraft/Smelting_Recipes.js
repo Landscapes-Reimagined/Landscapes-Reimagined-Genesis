@@ -6,7 +6,7 @@ ServerEvents.recipes(event =>
                 'spelunkery:raw_magnetite_block'
             ).id('genesis:smelting/magnetite_block')
             event.smelting(
-                'kubejs:magnetite',
+                'genesis:magnetite',
                 'spelunkery:raw_magnetite'
             ).id('genesis:smelting/magnetite')
     }

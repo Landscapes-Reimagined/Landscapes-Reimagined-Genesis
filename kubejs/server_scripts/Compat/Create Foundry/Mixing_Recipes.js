@@ -1575,7 +1575,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:crushed_desh_ore',
+                        item: 'genesis:crushed_desh_ore',
                         nbt: {},
                         amount: 1
                     }
@@ -1594,7 +1594,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:crushed_ostrum_ore',
+                        item: 'genesis:crushed_ostrum_ore',
                         nbt: {},
                         amount: 1
                     }
@@ -1613,7 +1613,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:crushed_calorite_ore',
+                        item: 'genesis:crushed_calorite_ore',
                         nbt: {},
                         amount: 1
                     }
@@ -1926,7 +1926,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:crushed_amber_ore',
+                        item: 'genesis:crushed_amber_ore',
                         nbt: {},
                         amount: 1
                     }
@@ -1964,7 +1964,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        item: 'kubejs:crushed_thallasium_ore',
+                        item: 'genesis:crushed_thallasium_ore',
                         nbt: {},
                         amount: 1
                     }

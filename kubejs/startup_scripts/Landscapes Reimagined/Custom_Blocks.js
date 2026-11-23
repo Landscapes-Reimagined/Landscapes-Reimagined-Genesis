@@ -1,6 +1,6 @@
 StartupEvents.registry('block', event => {
     // Landscapes Reimagined Trophy
-    event.create('kubejs:trophy_block')
+    event.create('genesis:trophy_block')
         .displayName('Landscapes Reimagined Trophy')
         .soundType('metal')
         .mapColor('DIAMOND')
