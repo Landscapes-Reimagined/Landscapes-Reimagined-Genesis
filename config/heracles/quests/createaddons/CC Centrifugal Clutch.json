@@ -3,8 +3,11 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "centrifugal_clutch": {
+      "type": "heracles:item",
+      "item": "create_connected:centrifugal_clutch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
     "andesite_casing": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:andesite_casing",
         "count": 2
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 150,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Engages at speed"
+      "translate": "Engages at speed"
     },
     "description": [
       "The /e/Centrifugal Clutch/e/ only connects when the input speed is above a configurable RPM threshold.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:andesite_casing",
+        "id": "create_connected:centrifugal_clutch",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Centrifugal Clutch"
+      "translate": "Centrifugal Clutch"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

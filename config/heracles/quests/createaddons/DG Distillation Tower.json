@@ -3,8 +3,11 @@
     "DG Pumpjack"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "distillation_controller": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:distillation_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "fluid_tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:fluid_tank",
         "count": 4
@@ -32,29 +27,21 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 500,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Refine crude oil"
+      "translate": "Refine crude oil"
     },
     "description": [
       "Heat crude oil in a /e/Distillation Tower/e/ to separate it into refined products like /e/diesel/e/ and /e/gasoline/e/.",
       "",
       "Since 1.3.5 a tower only needs one heat source.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:fluid_tank",
+        "id": "createdieselgenerators:distillation_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Distillation Tower"
+      "translate": "Distillation Tower"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

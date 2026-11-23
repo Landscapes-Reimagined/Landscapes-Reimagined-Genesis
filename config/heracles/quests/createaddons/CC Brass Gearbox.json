@@ -3,8 +3,11 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "brass_gearbox": {
+      "type": "heracles:item",
+      "item": "create_connected:brass_gearbox",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "brass_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Choose each side's direction"
+      "translate": "Choose each side's direction"
     },
     "description": [
       "Each of the four sides of a /e/Brass Gearbox/e/ has its own configurable rotation direction.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:gearbox",
+        "id": "create_connected:brass_gearbox",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Brass Gearbox"
+      "translate": "Brass Gearbox"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

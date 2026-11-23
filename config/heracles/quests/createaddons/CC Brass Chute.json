@@ -3,51 +3,37 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
+    "chute": {
+      "type": "heracles:item",
+      "item": "create_connected:brass_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create_connected:brass_chute",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "brass_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Between a chute and a smart chute"
+      "translate": "Between a chute and a smart chute"
     },
     "description": [
       "The /e/Brass Chute/e/ sits between a normal chute and a smart chute: it can move items /e/diagonally/e/ and extracts 64 at a time.",
@@ -64,21 +50,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:chute",
+        "id": "create_connected:brass_chute",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Brass Chute"
+      "translate": "Brass Chute"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

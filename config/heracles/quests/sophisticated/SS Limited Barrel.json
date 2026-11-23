@@ -7,50 +7,26 @@
       "type": "heracles:item",
       "item": "sophisticatedstorage:limited_barrel_1",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
     "barrel": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:barrel",
         "count": 4
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 150,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Few slots, huge stacks"
+      "translate": "Few slots, huge stacks"
     },
     "description": [
       "/e/Limited Barrels/e/ have just 1 to 4 slots, but higher tiers raise the /e/stack size/e/ instead of adding slots. Think of them as drawers.",
@@ -74,14 +50,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Limited Barrels"
+      "translate": "Limited Barrels"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

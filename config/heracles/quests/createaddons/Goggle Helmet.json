@@ -3,8 +3,11 @@
     "Create Goggles"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "goggle_diamond_helmet": {
+      "type": "heracles:item",
+      "item": "creategoggles:goggle_diamond_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:diamond",
         "count": 3
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Helmet + goggles"
+      "translate": "Helmet + goggles"
     },
     "description": [
       "A /e/Goggle Helmet/e/ gives you a helmet's protection and goggle info at the same time.",
       "",
-      "Craft one, then click the checkmark."
+      "Craft one to complete this quest."
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,25 @@
     },
     "icon": {
       "item": {
-        "id": "create:goggles",
-        "count": 1
+        "id": "creategoggles:goggle_diamond_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Goggle Helmet"
+      "translate": "Goggle Helmet"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -3,8 +3,11 @@
     "SB Backpack"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "copper_backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "iron_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:iron_ingot",
         "count": 8
@@ -32,27 +27,19 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 100,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "A small step up"
+      "translate": "A small step up"
     },
     "description": [
       "The /e/Copper Backpack/e/ has a little more space than the leather one.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Sophisticated": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "sophisticatedbackpacks:backpack",
+        "id": "sophisticatedbackpacks:copper_backpack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Copper Backpack"
+      "translate": "Copper Backpack"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

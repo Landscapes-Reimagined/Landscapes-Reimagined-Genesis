@@ -3,8 +3,11 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "cross_connector": {
+      "type": "heracles:item",
+      "item": "create_connected:cross_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
     "shaft": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:shaft",
         "count": 8
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Two lines, one block"
+      "translate": "Two lines, one block"
     },
     "description": [
       "The /e/Cross Connector/e/ passes rotation through in two directions, kept separate from each other.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:shaft",
+        "id": "create_connected:cross_connector",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Cross Connector"
+      "translate": "Cross Connector"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

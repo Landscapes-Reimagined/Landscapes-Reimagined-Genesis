@@ -3,8 +3,11 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "kinetic_bridge": {
+      "type": "heracles:item",
+      "item": "create_connected:kinetic_bridge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    },
     "brass_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Share stress, not problems"
+      "translate": "Share stress, not problems"
     },
     "description": [
       "The /e/Kinetic Bridge/e/ passes stress capacity from one network to another while keeping them separate. If the destination is overstressed, the source keeps running.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:brass_casing",
+        "id": "create_connected:kinetic_bridge",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Kinetic Bridge"
+      "translate": "Kinetic Bridge"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

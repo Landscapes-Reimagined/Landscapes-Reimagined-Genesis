@@ -19,13 +19,13 @@
     },
     "dragons breath": {
       "type": "heracles:item",
-      "item": "kubejs:liquid_dragons_breath_bucket",
+      "item": "genesis:liquid_dragons_breath_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:liquid_dragons_breath_bucket",
+          "id": "genesis:liquid_dragons_breath_bucket",
           "count": 1
         },
         "type": "heracles:item"

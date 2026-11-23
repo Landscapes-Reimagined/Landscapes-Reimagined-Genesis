@@ -3,8 +3,11 @@
     "CC Empty Fan Catalyst"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "fan_blasting_catalyst": {
+      "type": "heracles:item",
+      "item": "create_connected:fan_blasting_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,38 +19,22 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    },
     "lava_bucket": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:lava_bucket",
         "count": 1
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Create's processing, contained"
+      "translate": "Create's processing, contained"
     },
     "description": [
       "Fill the empty catalyst to make catalysts for each of Create's processing types:",
@@ -56,7 +43,7 @@
       "• /3/Washing/3/ (water)",
       "• /b/Haunting/b/ (soul fire)",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -68,21 +55,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_connected:empty_fan_catalyst",
+        "id": "create_connected:fan_blasting_catalyst",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Blasting, Smoking, Washing & Haunting"
+      "translate": "Blasting, Smoking, Washing & Haunting"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

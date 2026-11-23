@@ -3,8 +3,11 @@
     "CEI Liquid Experience"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "experience_hatch": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:experience_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "fluid_tank": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:fluid_tank",
         "count": 2
@@ -32,55 +27,48 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 150,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Deposit and withdraw your own XP"
+      "translate": "Deposit and withdraw your own XP"
     },
     "description": [
       "The /e/Experience Hatch/e/ connects to a fluid tank so you can /e/pour your own experience in/e/, or take it back out, directly.",
       "",
       "It's a handy experience bank, and a quick way to fill your first tank.",
       "",
-      "Craft one, then click the checkmark."
+      "Craft one to complete this quest."
     ],
     "groups": {
       "Create Addons": {
         "position": [
           180,
-          -120
+          -119
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:fluid_tank",
+        "id": "create_enchantment_industry:experience_hatch",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Experience Hatch"
+      "translate": "Experience Hatch"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

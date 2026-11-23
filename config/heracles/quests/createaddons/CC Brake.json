@@ -3,51 +3,37 @@
     "Create Connected"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
+    "brake": {
+      "type": "heracles:item",
+      "item": "create_connected:brake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create_connected:brake",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 150,
+      "type": "heracles:xp"
+    },
     "redstone": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:redstone",
         "count": 8
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 150,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Stop everything"
+      "translate": "Stop everything"
     },
     "description": [
       "When powered, the /e/Brake/e/ creates a huge stress load that /c/overstresses and stops/c/ the network.",
@@ -64,21 +50,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:andesite_casing",
+        "id": "create_connected:brake",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Brake"
+      "translate": "Brake"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

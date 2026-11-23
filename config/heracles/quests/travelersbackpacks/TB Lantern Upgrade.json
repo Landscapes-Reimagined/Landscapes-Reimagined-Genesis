@@ -3,7 +3,11 @@
     "TB Upgrades"
   ],
   "tasks": {
-    "read": {
+    "lantern_upgrade": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:lantern_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,33 +15,16 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 100,
-      "title": "",
       "type": "heracles:xp"
     },
     "torch": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:torch",
         "count": 32
@@ -47,14 +34,14 @@
   },
   "display": {
     "subtitle": {
-      "text": "Backpack upgrade"
+      "translate": "Backpack upgrade"
     },
     "description": [
       "Lights up the area around you as you walk.",
       "",
       "/c/It needs the LambDynamicLights mod./c/ Without it, the upgrade does nothing. Its tooltip shows whether dynamic lighting is active.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Travelers Backpacks": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:lantern",
+        "id": "travelersbackpack:lantern_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Lantern Upgrade"
+      "translate": "Lantern Upgrade"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

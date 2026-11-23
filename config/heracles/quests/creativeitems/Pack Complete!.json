@@ -113,7 +113,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "kubejs:trophy_block",
+        "id": "genesis:trophy_block",
         "count": 1
       },
       "type": "heracles:item"
@@ -155,7 +155,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:trophy_block",
+        "id": "genesis:trophy_block",
         "count": 1
       },
       "type": "heracles:item"

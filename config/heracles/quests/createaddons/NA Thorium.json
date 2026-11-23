@@ -3,8 +3,11 @@
     "NA Heat Transport"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "thorium": {
+      "type": "heracles:item",
+      "item": "create_new_age:thorium",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "iron_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:iron_ingot",
         "count": 16
@@ -32,29 +27,21 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 400,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Nuclear raw material"
+      "translate": "Nuclear raw material"
     },
     "description": [
       "Mine /e/Thorium Ore/e/ to get /e/Thorium/e/, the raw material for nuclear fuel.",
       "",
       "/c/Some thorium items are radioactive./c/ Don't carry them around longer than you need to.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_new_age:reactor_casing",
+        "id": "create_new_age:thorium",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Thorium"
+      "translate": "Thorium"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

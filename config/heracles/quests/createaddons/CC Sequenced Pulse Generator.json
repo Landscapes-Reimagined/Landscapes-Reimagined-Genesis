@@ -3,8 +3,11 @@
     "CC Control Chip"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "sequenced_pulse_generator": {
+      "type": "heracles:item",
+      "item": "create_connected:sequenced_pulse_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    },
     "redstone": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:redstone",
         "count": 16
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Precise redstone timing"
+      "translate": "Precise redstone timing"
     },
     "description": [
       "Configure a sequence and the /e/Sequenced Pulse Generator/e/ plays it back as redstone pulses with exact timing.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:repeater",
+        "id": "create_connected:sequenced_pulse_generator",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Sequenced Pulse Generator"
+      "translate": "Sequenced Pulse Generator"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

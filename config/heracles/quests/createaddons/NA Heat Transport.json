@@ -3,8 +3,11 @@
     "NA Solar Heating"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "heat_pump": {
+      "type": "heracles:item",
+      "item": "create_new_age:heat_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,45 +19,29 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
     "copper_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 16
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Move the heat"
+      "translate": "Move the heat"
     },
     "description": [
       "Heat travels through /e/Heat Pipes/e/, which share heat with the pipes next to them.",
       "",
       "A /e/Heat Pump/e/ moves heat from its front face to its back face, so you can push heat in one direction.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_new_age:basic_solar_heating_plate",
+        "id": "create_new_age:heat_pump",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Heat Pipes & Pumps"
+      "translate": "Heat Pipes & Pumps"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

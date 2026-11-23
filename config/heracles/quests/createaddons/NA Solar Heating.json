@@ -3,8 +3,11 @@
     "Create New Age"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "basic_solar_heating_plate": {
+      "type": "heracles:item",
+      "item": "create_new_age:basic_solar_heating_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -54,7 +57,7 @@
       "• /e/Basic Solar Plate/e/: 20 heat/s",
       "• /e/Advanced Solar Plate/e/: 60 heat/s",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {

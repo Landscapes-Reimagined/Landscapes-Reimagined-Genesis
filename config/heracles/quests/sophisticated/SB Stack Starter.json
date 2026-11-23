@@ -3,8 +3,11 @@
     "SB Upgrade Base"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "stack_upgrade_starter_tier": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "copper_block": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:copper_block",
         "count": 4
@@ -32,53 +27,46 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 150,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "1.5x stacks"
+      "translate": "1.5x stacks"
     },
     "description": [
       "Stack upgrades multiply how many items fit in each slot. The /e/Starter Tier/e/ (made from copper blocks) gives /e/1.5x/e/.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Sophisticated": {
         "position": [
           -280,
-          140
+          141
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedbackpacks:upgrade_base",
+        "id": "sophisticatedbackpacks:stack_upgrade_starter_tier",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Stack Upgrade: Starter"
+      "translate": "Stack Upgrade: Starter"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -4,27 +4,11 @@
   ],
   "tasks": {
     "read": {
-      "type": "heracles:check",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "type": "heracles:check"
     }
   },
   "rewards": {
     "ethanol_bucket": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "createdieselgenerators:ethanol_bucket",
         "count": 2
@@ -32,22 +16,14 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 300,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Fermentation at scale"
+      "translate": "Fermentation at scale"
     },
     "description": [
       "The /e/Bulk Fermenter/e/ is a multiblock that ferments in bulk. It needs only one heat source, and holds up to 1,000mb per tank for each fluid type.",
@@ -71,14 +47,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Bulk Fermenter"
+      "translate": "Bulk Fermenter"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

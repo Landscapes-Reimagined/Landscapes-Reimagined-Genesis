@@ -3,8 +3,11 @@
     "DG Oil Scanner"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "lighter": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:lighter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,45 +19,29 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    },
     "biodiesel_bucket": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "createdieselgenerators:biodiesel_bucket",
         "count": 1
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Fuel-fired heat"
+      "translate": "Fuel-fired heat"
     },
     "description": [
       "/e/Burners/e/ burn liquid fuel to provide heat, for example under boilers.",
       "",
       "They output a comparator signal, and when powered with redstone they burn fuel quickly to void it.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:campfire",
+        "id": "createdieselgenerators:lighter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Burners"
+      "translate": "Burners"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

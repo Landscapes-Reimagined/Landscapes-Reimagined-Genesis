@@ -3,51 +3,37 @@
     "Stock Ticker"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
+    "cloth": {
+      "type": "heracles:item",
+      "item": "create:white_table_cloth",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:white_table_cloth",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
     "emerald": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:emerald",
         "count": 8
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Open for business"
+      "translate": "Open for business"
     },
     "description": [
       "/e/Table Cloths/e/ come in many colours and materials. Put items on them as a display, or use them to run a /e/shop/e/ connected to a Stock Keeper.",
@@ -66,21 +52,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:white_carpet",
+        "id": "create:white_table_cloth",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Table Cloths & Shops"
+      "translate": "Table Cloths & Shops"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

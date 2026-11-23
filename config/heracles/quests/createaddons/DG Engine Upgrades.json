@@ -4,50 +4,26 @@
   ],
   "tasks": {
     "read": {
-      "type": "heracles:check",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "type": "heracles:check"
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    },
     "brass_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:brass_ingot",
         "count": 4
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 250,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Tune your engines"
+      "translate": "Tune your engines"
     },
     "description": [
       "• /e/Engine Silencer/e/: makes an engine quieter",
@@ -72,14 +48,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Silencers & Turbochargers"
+      "translate": "Silencers & Turbochargers"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

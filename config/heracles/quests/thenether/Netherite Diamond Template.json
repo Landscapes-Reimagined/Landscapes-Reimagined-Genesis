@@ -6,13 +6,13 @@
   "tasks": {
     "diamond": {
       "type": "heracles:item",
-      "item": "kubejs:netherite_diamond_upgrade",
+      "item": "genesis:netherite_diamond_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:netherite_diamond_upgrade",
+          "id": "genesis:netherite_diamond_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -71,7 +71,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:netherite_diamond_upgrade",
+        "id": "genesis:netherite_diamond_upgrade",
         "count": 1
       },
       "type": "heracles:item"

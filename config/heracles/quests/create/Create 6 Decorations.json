@@ -3,51 +3,37 @@
     "High Logistics"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
+    "Create Decoration": {
+      "type": "heracles:item",
+      "item": "create:industrial_iron_window",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:industrial_iron_window",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
     "glass": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:glass",
         "count": 16
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 100,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Fresh building blocks"
+      "translate": "Fresh building blocks"
     },
     "description": [
       "Create 6.0 also added new building blocks:",
@@ -67,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:glass_pane",
+        "id": "create:industrial_iron_window_pane",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "New Windows & Weathered Iron"
+      "translate": "New Windows & Weathered Iron"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -3,8 +3,11 @@
     "NA Thorium"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "nuclear_fuel": {
+      "type": "heracles:item",
+      "item": "create_new_age:nuclear_fuel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 500,
+      "type": "heracles:xp"
+    },
     "precision_mechanism": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:precision_mechanism",
         "count": 2
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 500,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Sequenced into power"
+      "translate": "Sequenced into power"
     },
     "description": [
       "Process thorium into /e/Radioactive Thorium/e/, then use sequenced assembly to turn it into /e/Nuclear Fuel/e/. Fuel goes into reactor rods.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_new_age:reactor_casing",
+        "id": "create_new_age:nuclear_fuel",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Nuclear Fuel"
+      "translate": "Nuclear Fuel"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

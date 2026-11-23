@@ -3,8 +3,11 @@
     "CC Empty Fan Catalyst"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "red_fan_dyeing_catalyst": {
+      "type": "heracles:item",
+      "item": "create_connected:red_fan_dyeing_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "white_dye": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:white_dye",
         "count": 16
@@ -32,29 +27,21 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 300,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Dragons Plus: dye fluids"
+      "translate": "Dragons Plus: dye fluids"
     },
     "description": [
       "/6/Create: Dragons Plus/6/ adds /e/dye fluids/e/ and /e/Bulk Coloring/e/.",
       "",
       "Put a dye fluid in a dyeing catalyst and your fan will recolour items in bulk: wool, glass, concrete and more.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_connected:empty_fan_catalyst",
+        "id": "create_connected:red_fan_dyeing_catalyst",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Bulk Dyeing"
+      "translate": "Bulk Dyeing"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

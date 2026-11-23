@@ -6,13 +6,13 @@
   "tasks": {
     "emerald": {
       "type": "heracles:item",
-      "item": "kubejs:netherite_emerald_upgrade",
+      "item": "genesis:netherite_emerald_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:netherite_emerald_upgrade",
+          "id": "genesis:netherite_emerald_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -71,7 +71,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:netherite_emerald_upgrade",
+        "id": "genesis:netherite_emerald_upgrade",
         "count": 1
       },
       "type": "heracles:item"

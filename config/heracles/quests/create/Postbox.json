@@ -3,51 +3,37 @@
     "Packager"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
+    "postbox": {
+      "type": "heracles:item",
+      "item": "create:white_postbox",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create:white_postbox",
+          "count": 1
         },
         "type": "heracles:item"
       }
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
     "railway_casing": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:railway_casing",
         "count": 2
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Mail by train"
+      "translate": "Mail by train"
     },
     "description": [
       "Place a /e/Postbox/e/ (any colour) next to a Train Station. Trains stopping there pick up and drop off packages, so your logistics can reach other bases.",
@@ -64,21 +50,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:track_station",
+        "id": "create:white_postbox",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Postbox"
+      "translate": "Postbox"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

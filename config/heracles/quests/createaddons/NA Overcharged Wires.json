@@ -3,8 +3,11 @@
     "NA Wiring"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "overcharged_diamond_wire": {
+      "type": "heracles:item",
+      "item": "create_new_age:overcharged_diamond_wire",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "overcharged_iron": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create_new_age:overcharged_iron",
         "count": 4
@@ -32,22 +27,14 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 400,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Longer, better wires"
+      "translate": "Longer, better wires"
     },
     "description": [
       "Upgrade your wiring with overcharged wires:",
@@ -55,7 +42,7 @@
       "• /e/Overcharged Golden Wire/e/: 48 blocks, high conductivity",
       "• /e/Overcharged Diamond Wire/e/: 64 blocks, very high conductivity",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -67,21 +54,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_new_age:copper_wire",
+        "id": "create_new_age:overcharged_diamond_wire",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Overcharged Wires"
+      "translate": "Overcharged Wires"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

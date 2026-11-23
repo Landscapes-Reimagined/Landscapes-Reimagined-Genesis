@@ -3,43 +3,15 @@
     "NA Nuclear Fuel"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+    "reactor_casing": {
+      "type": "heracles:item",
+      "item": "create_new_age:reactor_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
-    "reactor_casing": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "create_new_age:reactor_casing",
-        "count": 16
-      },
-      "type": "heracles:item"
-    },
     "totem_of_undying": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:totem_of_undying",
         "count": 1
@@ -47,22 +19,21 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 1500,
-      "title": "",
       "type": "heracles:xp"
+    },
+    "reactor_casing": {
+      "item": {
+        "id": "create_new_age:reactor_casing",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Enormous heat"
+      "translate": "Enormous heat"
     },
     "description": [
       "Build a reactor:",
@@ -73,7 +44,7 @@
       "",
       "/c/Don't let it overheat./c/ A meltdown leaves behind /c/Corium/c/, which is extremely hard to clean up.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -85,21 +56,22 @@
     },
     "icon": {
       "item": {
-        "id": "create_new_age:reactor_casing",
+        "id": "create_new_age:reactor_rod",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Nuclear Reactor"
+      "translate": "Nuclear Reactor"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

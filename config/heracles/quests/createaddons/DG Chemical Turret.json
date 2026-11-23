@@ -3,8 +3,11 @@
     "DG Burners"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "chemical_sprayer": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:chemical_sprayer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 400,
+      "type": "heracles:xp"
+    },
     "arrow": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:arrow",
         "count": 32
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 400,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Base defence"
+      "translate": "Base defence"
     },
     "description": [
       "The /e/Chemical Turret/e/ fires chemical projectiles at enemies. Pair it with an /e/Entity Filter/e/ to choose its targets.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:dispenser",
+        "id": "createdieselgenerators:chemical_sprayer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Chemical Turret"
+      "translate": "Chemical Turret"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

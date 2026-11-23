@@ -3,7 +3,11 @@
     "Travel's Backpacks"
   ],
   "tasks": {
-    "read": {
+    "white_sleeping_bag": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:white_sleeping_bag",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,33 +15,16 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 100,
-      "title": "",
       "type": "heracles:xp"
     },
     "white_wool": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:white_wool",
         "count": 8
@@ -47,12 +34,12 @@
   },
   "display": {
     "subtitle": {
-      "text": "Sleep anywhere"
+      "translate": "Sleep anywhere"
     },
     "description": [
       "A /e/Sleeping Bag/e/ lets you sleep on the go. Sleeping bags come in all 16 colours.",
       "",
-      "/7/Craft any colour, then click the checkmark./7/"
+      "/7/Craft a white one to complete this quest./7/"
     ],
     "groups": {
       "Travelers Backpacks": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:white_bed",
+        "id": "travelersbackpack:white_sleeping_bag",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Sleeping Bag"
+      "translate": "Sleeping Bag"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

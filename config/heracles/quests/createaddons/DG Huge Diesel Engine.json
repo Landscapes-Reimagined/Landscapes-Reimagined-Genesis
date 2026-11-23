@@ -3,8 +3,11 @@
     "Modular Diesal Engine"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "huge_diesel_engine": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:huge_diesel_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 500,
+      "type": "heracles:xp"
+    },
     "precision_mechanism": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:precision_mechanism",
         "count": 2
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 500,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Industrial-scale power"
+      "translate": "Industrial-scale power"
     },
     "description": [
       "The /e/Huge Diesel Engine/e/ is a large multiblock engine built around a shaft, for when you need a lot of power.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "createdieselgenerators:large_diesel_engine",
+        "id": "createdieselgenerators:huge_diesel_engine",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Huge Diesel Engine"
+      "translate": "Huge Diesel Engine"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

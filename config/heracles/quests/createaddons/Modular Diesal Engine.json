@@ -8,7 +8,6 @@
       "item": "createdieselgenerators:large_diesel_engine",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "",
       "icon": {
         "item": {
           "id": "createdieselgenerators:large_diesel_engine",
@@ -19,38 +18,22 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
     "large_diesel_engine": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "createdieselgenerators:large_diesel_engine",
         "count": 1
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Chain them together"
+      "translate": "Chain them together"
     },
     "description": [
       "/e/Modular Diesel Engines/e/ link into a row and share a single fuel supply.",
@@ -74,14 +57,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Modular Diesel Engine"
+      "translate": "Modular Diesel Engine"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -6,13 +6,13 @@
   "tasks": {
     "iron": {
       "type": "heracles:item",
-      "item": "kubejs:netherite_iron_upgrade",
+      "item": "genesis:netherite_iron_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:netherite_iron_upgrade",
+          "id": "genesis:netherite_iron_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -71,7 +71,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:netherite_iron_upgrade",
+        "id": "genesis:netherite_iron_upgrade",
         "count": 1
       },
       "type": "heracles:item"

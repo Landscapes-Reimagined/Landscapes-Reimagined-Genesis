@@ -3,8 +3,11 @@
     "SB Upgrade Base"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "anvil_upgrade": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:anvil_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "experience_bottle": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:experience_bottle",
         "count": 8
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Repair on the go"
+      "translate": "Repair on the go"
     },
     "description": [
       "Adds a portable /e/anvil/e/ for repairing, renaming and combining enchantments.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Sophisticated": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:anvil",
+        "id": "sophisticatedbackpacks:anvil_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Anvil Upgrade"
+      "translate": "Anvil Upgrade"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

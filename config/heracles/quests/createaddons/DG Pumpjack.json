@@ -3,8 +3,11 @@
     "DG Oil Scanner"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "pumpjack_crank": {
+      "type": "heracles:item",
+      "item": "createdieselgenerators:pumpjack_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,45 +19,29 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 400,
+      "type": "heracles:xp"
+    },
     "fluid_pipe": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:fluid_pipe",
         "count": 16
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 400,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Pump crude oil"
+      "translate": "Pump crude oil"
     },
     "description": [
       "Build a /e/Pumpjack/e/ over an oil chunk with a bearing, crank and head, and power it with rotation to pump up /e/crude oil/e/.",
       "",
       "/7/Tip: hold W over any Create item to open its Ponder scene./7/",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "createdieselgenerators:engine_piston",
+        "id": "createdieselgenerators:pumpjack_crank",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Pumpjack"
+      "translate": "Pumpjack"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

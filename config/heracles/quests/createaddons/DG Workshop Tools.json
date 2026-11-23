@@ -4,27 +4,11 @@
   ],
   "tasks": {
     "read": {
-      "type": "heracles:check",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "type": "heracles:check"
     }
   },
   "rewards": {
     "iron_ingot": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:iron_ingot",
         "count": 8
@@ -32,22 +16,14 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 200,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Hammer, cutters, lighter, canister"
+      "translate": "Hammer, cutters, lighter, canister"
     },
     "description": [
       "• /e/Hammer/e/: for metalworking recipes",
@@ -68,20 +44,24 @@
     "icon": {
       "item": {
         "id": "minecraft:flint_and_steel",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Workshop Tools"
+      "translate": "Workshop Tools"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

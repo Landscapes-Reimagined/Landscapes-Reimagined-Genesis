@@ -3,8 +3,11 @@
     "SB Upgrade Base"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "smithing_upgrade": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:smithing_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -17,14 +20,6 @@
   },
   "rewards": {
     "netherite_scrap": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:netherite_scrap",
         "count": 2
@@ -32,27 +27,19 @@
       "type": "heracles:item"
     },
     "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 250,
-      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Portable smithing table"
+      "translate": "Portable smithing table"
     },
     "description": [
       "Adds a portable /e/smithing table/e/ for netherite upgrades and armour trims.",
       "",
-      "/7/Craft it, then click the checkmark./7/"
+      "/7/Craft it to complete this quest./7/"
     ],
     "groups": {
       "Sophisticated": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:smithing_table",
+        "id": "sophisticatedbackpacks:smithing_upgrade",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Smithing Upgrade"
+      "translate": "Smithing Upgrade"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

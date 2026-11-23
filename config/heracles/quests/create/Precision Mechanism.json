@@ -5,44 +5,28 @@
   "tasks": {
     "pres m": {
       "type": "heracles:item",
+      "item": "create:precision_mechanism",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "create:precision_mechanism"
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
     "precision_mechanism": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "create:precision_mechanism",
         "count": 2
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Sequenced assembly"
+      "translate": "Sequenced assembly"
     },
     "description": [
       "Assemble a /e/Precision Mechanism/e/ on a /e/golden sheet/e/. Deploy a cogwheel, then a large cogwheel, then an iron nugget, and repeat the sequence 5 times.",
@@ -58,19 +42,23 @@
       }
     },
     "icon": {
-      "item": "create:precision_mechanism",
+      "item": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Precision Mechanism"
+      "translate": "Precision Mechanism"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

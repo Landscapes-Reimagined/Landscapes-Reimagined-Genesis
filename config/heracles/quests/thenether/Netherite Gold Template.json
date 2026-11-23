@@ -6,13 +6,13 @@
   "tasks": {
     "gold": {
       "type": "heracles:item",
-      "item": "kubejs:netherite_gold_upgrade",
+      "item": "genesis:netherite_gold_upgrade",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "kubejs:netherite_gold_upgrade",
+          "id": "genesis:netherite_gold_upgrade",
           "count": 1
         },
         "type": "heracles:item"
@@ -71,7 +71,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:netherite_gold_upgrade",
+        "id": "genesis:netherite_gold_upgrade",
         "count": 1
       },
       "type": "heracles:item"

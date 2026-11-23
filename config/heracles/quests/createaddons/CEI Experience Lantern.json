@@ -3,8 +3,11 @@
     "CEI Liquid Experience"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "experience_lantern": {
+      "type": "heracles:item",
+      "item": "create_enchantment_industry:experience_lantern",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,45 +19,29 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "experience_bottle": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:experience_bottle",
         "count": 8
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Collects nearby experience"
+      "translate": "Collects nearby experience"
     },
     "description": [
       "The /e/Experience Lantern/e/ absorbs experience orbs around it and stores them as liquid experience.",
       "",
       "It works on /e/moving contraptions/e/ too, so you can mount one on a mob-grinding machine.",
       "",
-      "Craft one, then click the checkmark."
+      "Craft one to complete this quest."
     ],
     "groups": {
       "Create Addons": {
@@ -66,21 +53,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:lantern",
+        "id": "create_enchantment_industry:experience_lantern",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Experience Lantern"
+      "translate": "Experience Lantern"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

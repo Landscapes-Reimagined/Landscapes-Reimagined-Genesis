@@ -3,8 +3,11 @@
     "Create Goggles"
   ],
   "tasks": {
-    "read": {
-      "type": "heracles:check",
+    "diamond_backtank": {
+      "type": "heracles:item",
+      "item": "creategoggles:diamond_backtank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -16,43 +19,27 @@
     }
   },
   "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
     "diamond": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:diamond",
         "count": 3
       },
       "type": "heracles:item"
-    },
-    "xp": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 200,
-      "title": "",
-      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": "Chestplate + backtank"
+      "translate": "Chestplate + backtank"
     },
     "description": [
       "A /e/Diamond Backtank/e/ gives you a diamond chestplate's protection and stores air for diving and pneumatic tools.",
       "",
-      "Craft one, then click the checkmark."
+      "Craft one to complete this quest."
     ],
     "groups": {
       "Create Addons": {
@@ -64,21 +51,22 @@
     },
     "icon": {
       "item": {
-        "id": "create:copper_backtank",
+        "id": "creategoggles:diamond_backtank",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "text": "Diamond Backtank"
+      "translate": "Diamond Backtank"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
