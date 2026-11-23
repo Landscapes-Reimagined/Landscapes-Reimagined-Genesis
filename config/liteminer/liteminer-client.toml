@@ -1,0 +1,25 @@
+# Client-only Liteminer settings for controls, HUD, and rendering.
+# Konfig internal metadata. Safe to ignore.
+[__konfig]
+	version = 1
+
+# Local input behavior for activating vein mining.
+[controls]
+	# Controls how the vein mining keybind activates vein mining.
+	key_mode = "HOLD"
+
+# Client HUD text shown while vein mining.
+[hud]
+	# Shows selected block count and current vein mining shape on the HUD.
+	show_hud = true
+	# Scales Liteminer HUD text.
+	hud_scale = 1.0
+
+# Client block outline rendering for selected vein mining blocks.
+[highlights]
+	# Shows block highlights when vein mining.
+	show_highlights = true
+	# Color used for normal visible highlight lines.
+	highlight_foreground_line_color = "#F9FFFE"
+	# Color used for see-through highlight lines.
+	highlight_see_through_line_color = "#169C9C"

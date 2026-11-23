@@ -1,0 +1,15 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Just Player Heads -> Config",
+	"Enable Just Player Heads": {
+		"//": "Whether Just Player Heads is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"playerDropsHeadOnDeath": {
+		"//": "If enabled, allows players to drop their head on death.",
+		"value": true
+	},
+	"playerHeadDropChance": {
+		"//": "Sets the chance of a player dropping their head if 'playerDropsHeadOnDeath' is enabled. min: 0.0001, max: 1",
+		"value": 1.0
+	}
+}

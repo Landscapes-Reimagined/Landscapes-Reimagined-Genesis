@@ -1,0 +1,10 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "clear_dynamic_resources": false,
+    "multi_threaded_generation": true,
+    "extra_debug": false,
+    "extra_children_debug": false,
+    "global_datapacks_folder": "moonlight-global-datapacks"
+  }
+}

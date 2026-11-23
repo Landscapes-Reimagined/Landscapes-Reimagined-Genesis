@@ -1,0 +1,8 @@
+#:)
+#Allowed Values: HOLD, TOGGLE
+key_mode = "HOLD"
+#:)
+show_hud = true
+#:)
+#Range: 0.5 ~ 2.0
+hud_scale = 1.0

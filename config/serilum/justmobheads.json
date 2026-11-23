@@ -1,0 +1,39 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Just Mob Heads -> Config",
+	"Enable Just Mob Heads": {
+		"//": "Whether Just Mob Heads is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"mobSpecificDropChances": {
+		"//": "If enabled, overrides the 'overallDropChance' variable with the specific values.",
+		"value": true
+	},
+	"enableStandardHeads": {
+		"//": "If enabled, allows Creepers, Skeletons and Zombies to drop their heads.",
+		"value": false
+	},
+	"enableLootingEnchant": {
+		"//": "If enabled, the looting enchant will have an effect on the drop chance.",
+		"value": true
+	},
+	"onlyAdultMobsDropTheirHead": {
+		"//": "If enabled, only adult tameable mobs will have a chance to drop their head on death.",
+		"value": true
+	},
+	"overallDropChance": {
+		"//": "Sets the chance of a mob dropping its head if 'mobSpecificDropChances' is disabled. min: 0, max: 1",
+		"value": 0.1
+	},
+	"creeperSkeletonZombieDropChance": {
+		"//": "Sets head drop chance for Zombies, Skeletons and Creepers if 'enableStandardHeads' is enabled. With 'mobSpecificDropChances' enabled, this is the default for their own lines in headchances.txt. min: 0, max: 1",
+		"value": 0.1
+	},
+	"onlyDropHeadsByChargedCreeper": {
+		"//": "When enabled, only drops mob heads if the source on death is a charged creeper. This overwrites the onlyDropHeadsByPlayerKill value.",
+		"value": false
+	},
+	"onlyDropHeadsByPlayerKill": {
+		"//": "When enabled, only drops mob heads if the source on death is from a player.",
+		"value": false
+	}
+}

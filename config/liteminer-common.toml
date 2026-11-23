@@ -1,0 +1,17 @@
+#:)
+prevent_tool_breaking = true
+#:)
+require_correct_tool_enabled = false
+#:)
+#Range: 1 ~ 2048
+block_break_limit = 64
+#:)
+harvest_time_per_block_modifier_enabled = true
+#:)
+#Range: 1.0 ~ 10.0
+harvest_time_per_block_modifier = 2.0
+#:)
+food_exhaustion_enabled = true
+#:)
+#Range: 0.0 ~ 1.0
+food_exhaustion = 0.2

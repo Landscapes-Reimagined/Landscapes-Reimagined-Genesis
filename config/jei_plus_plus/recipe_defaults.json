@@ -1,0 +1,6 @@
+{
+  "resolutions": {
+    "createaddition:electrum_ingot": "create:mixing|createaddition:mixing/electrum"
+  },
+  "disabled": []
+}

@@ -1,0 +1,41 @@
+# Common Liteminer settings synced from the server when multiplayer policy requires it.
+# Where vein mining places items and experience.
+[drops]
+	# Where the items and experience of every block after the first one land.
+	drop_mode = "TOGETHER"
+
+# Gameplay costs applied while vein mining.
+[harvest]
+	# Food exhaustion applied for each block broken by vein mining.
+	food_exhaustion = 0.2
+	# Enables additional mining time based on how many blocks are selected.
+	harvest_time_per_block_modifier_enabled = false
+	# Enables hunger exhaustion per block mined by vein mining.
+	food_exhaustion_enabled = true
+	# Allows vein mining when the player's food level is zero.
+	allow_vein_mining_at_zero_hunger = true
+	# Multiplier used when scaling mining time for larger vein mining selections.
+	harvest_time_per_block_modifier = 2.0
+
+# Safety checks that prevent vein mining from doing something destructive or unintended.
+[safety]
+	# Stops vein mining before the active tool breaks.
+	prevent_tool_breaking = true
+	# Requires the held tool to be appropriate for every block in the vein.
+	require_correct_tool_enabled = false
+
+# Hard limits for a single vein mining action.
+[limits]
+	# Maximum number of blocks that can be broken by one vein mining action.
+	block_break_limit = 64
+
+# Konfig internal metadata. Safe to ignore.
+[__konfig]
+	version = 1
+
+# Shapeless vein matching rules. Tunnel, staircase, and 3x3 shapes follow their geometry instead of these family checks.
+[matching]
+	# Keeps fully-grown crops and growing crops in separate shapeless vein mining groups.
+	distinguish_grown_crops = true
+	# Treats regular and deepslate variants of the same ore as matching blocks during shapeless vein mining.
+	match_deepslate_ore_variants = true

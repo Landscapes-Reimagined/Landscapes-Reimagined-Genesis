@@ -1,0 +1,261 @@
+{
+	adamantite: {
+		enabled: true,
+		resistance: 0.1
+	},
+	amethyst: {
+		enabled: true
+	},
+	aquarium: {
+		enabled: true,
+		oxygen_bonus: 3,
+		submerged_mining_speed: 1.0,
+		swim_speed: 0.3
+	},
+	attributes: {
+		brewers_dream: {
+			modification_chance: 0.075
+		},
+		echoing: {
+			base_dampening_duration: 300,
+			dampening_reduction: 60,
+			echo_duration: 5
+		},
+		electrifying: {
+			radius: 2
+		},
+		enchanters_favour: {
+			rerolls: 1
+		},
+		ends_blessing: {
+			attack_damage: 0.5,
+			attack_speed: 0.3,
+			movement_speed: 0.03,
+			resistance: 0.03
+		},
+		fire_aspect: {
+			base: 4,
+			seconds_per_level: 4
+		},
+		firey_thorns: {
+			base: 4,
+			seconds_per_level: 4
+		},
+		hells_blessing: {
+			attack_damage: 0.5,
+			attack_speed: 0.3,
+			movement_speed: 0.03,
+			resistance: 0.03
+		},
+		holy: {
+			damage: 2.5
+		},
+		item_magnet: {
+			radius: 2.5
+		},
+		light_footed: {
+			noise_dampening: 1.0
+		},
+		miners_rush: {
+			bonus_mine_speed: 0.25,
+			seconds_per_level: 2.5
+		},
+		moons_blessing: {
+			attack_damage: 0.5,
+			attack_speed: 0.3,
+			movement_speed: 0.03,
+			resistance: 0.03
+		},
+		overgrown: {
+			chance_to_repair: 0.005
+		},
+		suns_blessing: {
+			attack_damage: 0.5,
+			attack_speed: 0.3,
+			movement_speed: 0.03,
+			resistance: 0.03
+		},
+		walking_furnace: {
+			items_to_smelt: 2
+		},
+		warriors_of_old: {
+			armour_enchant_level: 25,
+			armour_strength: 25,
+			decay_rate: 90,
+			max_weapon_damage: 7,
+			min_weapon_damage: 3,
+			weapon_enchant_level: 18
+		}
+	},
+	banglum: {
+		blast_resistance: 0.12,
+		enabled: true
+	},
+	bronze: {
+		enabled: true
+	},
+	carmot: {
+		carmot_shield: 3.0,
+		enabled: true,
+		max_health: 1.0
+	},
+	celestium: {
+		attack_damage: 0.5,
+		elytra_rocket_speed: 0.1,
+		enabled: true,
+		movement_speed: 0.1
+	},
+	chorus: {
+		dodge_chance: 0.07,
+		enabled: true
+	},
+	coal: {
+		enabled: true
+	},
+	copper: {
+		enabled: true
+	},
+	diamond: {
+		enabled: true
+	},
+	dragons_breath: {
+		enabled: true,
+		share_effect_radius: 1
+	},
+	durasteel: {
+		enabled: true,
+		resistance: 0.05
+	},
+	echo_shard: {
+		enabled: true
+	},
+	emerald: {
+		enabled: true,
+		trade_discount: 0.1
+	},
+	enchanted_golden_apple: {
+		enabled: true,
+		max_health: 3,
+		regeneration: 0.4,
+		resistance: 0.04
+	},
+	ender_pearl: {
+		enabled: true,
+		projectile_dodge_chance: 0.25
+	},
+	fire_charge: {
+		enabled: true,
+		fire_resistance: 0.15
+	},
+	glowstone: {
+		enabled: true
+	},
+	gold: {
+		enabled: true
+	},
+	hallowed: {
+		enabled: true
+	},
+	iron: {
+		enabled: true
+	},
+	kyber: {
+		enabled: true,
+		fire_resistance: 0.08,
+		projectile_deflect_chance: 0.15
+	},
+	lapis: {
+		enabled: true
+	},
+	leather: {
+		enabled: true
+	},
+	manganese: {
+		enabled: true,
+		regeneration: 1.0
+	},
+	metallurgium: {
+		armour: 2.0,
+		enabled: true,
+		resistance: 0.12
+	},
+	mythril: {
+		attack_deflect_chance: 0.1,
+		enabled: true
+	},
+	nether_brick: {
+		cleaving_chance: 0.03,
+		enabled: true,
+		fire_resistance: 0.12
+	},
+	netherite: {
+		enabled: true,
+		fire_resistance: 0.2,
+		resistance: 0.08
+	},
+	orichalcum: {
+		attack_damage: 1.5,
+		enabled: true
+	},
+	osmium: {
+		enabled: true,
+		unbreaking: 2
+	},
+	palladium: {
+		enabled: true,
+		fire_resistance: 0.25,
+		lava_movement_speed: 0.7,
+		lava_visibility: 6
+	},
+	platinum: {
+		enabled: true
+	},
+	prismarine: {
+		enabled: true,
+		oxygen_bonus: 3,
+		swim_speed: 0.5
+	},
+	prometheum: {
+		enabled: true
+	},
+	quadrillum: {
+		enabled: true
+	},
+	quartz: {
+		bonus_xp: 0.1,
+		enabled: true
+	},
+	redstone: {
+		enabled: true,
+		movement_speed: 0.1,
+		step_height: 0.5
+	},
+	runite: {
+		enabled: true,
+		projectile_damage: 0.5,
+		projectile_speed: 0.1
+	},
+	silver: {
+		enabled: true
+	},
+	slime: {
+		attack_knockback: 1.0,
+		bouncy_boots: true,
+		enabled: true,
+		knockback_vulnerability: 1.0
+	},
+	star_platinum: {
+		attack_damage: 1.0,
+		enabled: true
+	},
+	starrite: {
+		enabled: true
+	},
+	steel: {
+		enabled: true
+	},
+	stormyx: {
+		attack_damage: 0.5,
+		enabled: true
+	}
+}

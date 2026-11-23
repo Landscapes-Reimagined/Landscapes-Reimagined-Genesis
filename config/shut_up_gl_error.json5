@@ -1,0 +1,6 @@
+{
+	/* - default: SILENT
+	   - must be one of: SILENT, LOG_ONCE, LOG_ALWAYS
+	*/
+	"mode": "SILENT"
+}

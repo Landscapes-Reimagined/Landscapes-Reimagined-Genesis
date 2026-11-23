@@ -1,0 +1,10 @@
+{
+	/* - default: 4
+	   - must be between 1.0 and 128.0
+	*/
+	"initialBeltSize": 4,
+	/* - default: 6
+	   - must be between 1.0 and 128.0
+	*/
+	"maxBeltSize": 6
+}
