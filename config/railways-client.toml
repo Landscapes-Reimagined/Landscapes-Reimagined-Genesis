@@ -9,6 +9,9 @@
 	#This setting may require a relog to take effect
 	useDevCape = true
 	#.
+	#Allow all wrenches to auto-fill `/snr shadow_realm banish` when sneak-used, without requiring the tag ShadowHammer.
+	universalShadowWrench = false
+	#.
 	#Show extended debug info in coupler goggle overlay
 	showExtendedCouplerDebug = false
 	#.
@@ -18,6 +21,9 @@
 	#Vertical offset for track overlays
 	#Range: -256.0 ~ 256.0
 	trackOverlayOffset = 0.0
+	#.
+	#Use the modern format for Conductor Whistle tooltips
+	modernWhistleTooltip = true
 	#.
 	#Skip clientside train derailing. This prevents stuttering when a train places tracks, but trains will not appear derailed when they crash
 	skipClientDerailing = false
@@ -42,6 +48,7 @@
 			#.
 			#Spawn steam on an interval
 			spawnSteam = false
+
 		#.
 		#Old-style Smoke Settings
 		[client.smoke.old]
@@ -61,16 +68,3 @@
 			#Smoke texture quality
 			#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
 			smokeQuality = "HIGH"
-	#.
-	#Journeymap Settings
-	[client.journeymap]
-		#.
-		#[in Ticks]
-		#Journeymap train overlay update time
-		#Range: 1 ~ 600
-		updateRate = 1
-		#.
-		#[in Ticks]
-		#Journeymap train overlay old marker removal check time
-		#Range: 10 ~ 1200
-		removeObsoleteRate = 200

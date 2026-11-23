@@ -14,6 +14,7 @@
 	#Sets Terrablender region weight for the rare region.
 	#Range: 0 ~ 2147483646
 	rare_region_weight = 1
+
 [biome_toggles]
 	toggle_boreal_taiga = true
 	toggle_cold_boreal_taiga = true
@@ -90,9 +91,11 @@
 	toggle_meadow = true
 	toggle_redstone_caves = true
 	toggle_icy_heights = true
+
 [worldgen_options]
 	#surface_rules
 	toggle_custom_dirt = true
+
 [client_options]
 	toggle_mauve_leaves_particles = true
 	toggle_white_magnolia_leaves_particles = true

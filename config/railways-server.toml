@@ -18,6 +18,14 @@
 	#Multiplier used for calculating exhaustion from speed when a handcar is used.
 	#Range: 0.0 ~ 1.0
 	handcarHungerMultiplier = 0.009999999776482582
+	#.
+	#Rollers clear snow-encased tracks when rolling over them.
+	rollersClearSnow = true
+	#.
+	#Allow creative mode players to relocate trains without distance restrictions.
+	#[@cui:RequiresRelog]
+	unlimitedCreativeRelocation = false
+
 #.
 #Semaphore settings
 [semaphores]
@@ -28,6 +36,7 @@
 	#.
 	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
 	flipYellowOrder = false
+
 #.
 #Conductor settings
 [conductors]
@@ -43,20 +52,7 @@
 	#How often a conductor whistle updates the train of the bound conductor
 	#Range: 1 ~ 600
 	whistleRebindRate = 10
-#.
-#Journeymap compat settings
-[journeymap]
-	#.
-	#.
-	#[in Ticks]
-	#Outside-of-render-distance train sync time
-	#Range: 10 ~ 600
-	farTrainSyncTicks = 200
-	#.
-	#[in Ticks]
-	#In-render-distance train sync time
-	#Range: 1 ~ 600
-	nearTrainSyncTicks = 5
+
 #.
 #Realism Settings
 [realism]

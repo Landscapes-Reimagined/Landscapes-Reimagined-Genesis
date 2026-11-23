@@ -1,7 +1,7 @@
 {
 	// Patchouli book identifier
 	"bookIdentifier": "",
-	"posX": 140,
+	"posX": 100,
 	"posY": 61,
 	// If false, open directly modpack book
 	"openAllBooksScreen": true

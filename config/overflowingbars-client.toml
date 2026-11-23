@@ -17,6 +17,7 @@
 	left_side = false
 	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
 	inverse_coloring = false
+
 [health]
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	allow_layers = true
@@ -26,6 +27,7 @@
 	colorize_first_row = false
 	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
 	inverse_coloring = false
+
 [armor]
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	allow_layers = true
@@ -37,6 +39,7 @@
 	skip_empty_armor_points = true
 	#Use vanilla's icons on all front rows, use custom colored icons on the background row.
 	inverse_coloring = false
+
 [row_count]
 	#Show row count also when only one row is present.
 	always_render_row_count = false
@@ -49,6 +52,7 @@
 	row_count_color = "WHITE"
 	#Render an 'x' together with the row count number.
 	row_count_x = true
+
 [general]
 	#Move the experience level display above the experience bar.
 	move_experience_above_bar = true

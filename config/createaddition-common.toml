@@ -8,6 +8,9 @@
 	#Forge Energy conversion rate (in E/t at 256 RPM, value is the E/t generated and consumed is at 256rpm).
 	#Range: > 0
 	fe_at_max_rpm = 240
+	#If audio should be enabled or not.
+	audio_enabled = true
+
 #Electric Motor
 [electric_motor]
 	#Electric Motor internal capacity in E.
@@ -22,6 +25,7 @@
 	#Electric Motor min/max RPM.
 	#Range: > 1
 	motor_rpm_range = 256
+
 #Alternator
 [alternator]
 	#Alternator efficiency relative to base conversion rate.
@@ -33,6 +37,7 @@
 	#Alternator max input in E (Energy transfer, not generation).
 	#Range: 0 ~ 9223372036854775807
 	generator_max_output = 256
+
 #Rolling Mill
 [rolling_mill]
 	#Rolling Mill duration in ticks.
@@ -41,6 +46,7 @@
 	#Rolling Mill base stress impact.
 	#Range: 0 ~ 1024
 	rolling_mill_stress = 16
+
 #Wires
 [wires]
 	#Small Connector max output in FE/t (Energy transfer).
@@ -68,6 +74,7 @@
 	large_connector_max_output = 5000
 	#Ignore checking if block face can support connector.
 	connector_ignore_face_check = true
+
 #Accumulator
 [accumulator]
 	#Accumulator internal capacity per block in E.
@@ -85,6 +92,7 @@
 	#Accumulator max multiblock width.
 	#Range: 1 ~ 8
 	accumulator_max_width = 3
+
 #Tesla Coil
 [tesla_coil]
 	#Tesla Coil charge rate in E/t.
@@ -120,6 +128,7 @@
 	#Damaged dealt to players when Tesla Coil is fired (in half hearts).
 	#Range: > 0
 	tesla_coil_hurt_player = 2
+
 #Misc
 [misc]
 	#Diamond Grit Sandpaper durability (number of uses).
@@ -128,6 +137,7 @@
 	#Barbed Wire Damage.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	barbed_wire_damage = 2.0
+
 #Portable Energy Interface
 [portable_energy_interface]
 	#PEI max output in E/t (Energy transfer).

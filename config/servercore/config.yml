@@ -4,7 +4,7 @@
 # Most miscellaneous feature toggles.
 features:
   # Stops the server from loading spawn chunks.
-  disable-spawn-chunks: false
+  disable-spawn-chunks: true
   # Prevents lagspikes caused by players moving into unloaded chunks.
   prevent-moving-into-unloaded-chunks: false
   # The amount of ticks between auto-saves when /save-on is active.
@@ -18,7 +18,7 @@ features:
   item-merge-radius: 0.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
-    enabled: false
+    enabled: true
     # Decides the interval in between villager ticks when lobotomized.
     tick-interval: 20
 
@@ -132,15 +132,6 @@ mob-spawning:
     - category: 'WATER_AMBIENT'
       mobcap: 20
       spawn-interval: 1
-
-    - category: 'GLARES'
-      mobcap: 15
-      spawn-interval: 1
-
-    - category: 'RASCALS'
-      mobcap: 1
-      spawn-interval: 1
-
 
 # Settings for commands and their formatting.
 commands:

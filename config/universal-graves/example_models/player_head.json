@@ -6,10 +6,7 @@
       "type": "ITEM",
       "display_item": {
         "id": "minecraft:air",
-        "Count": 0,
-        "tag": {
-          "Damage": 0
-        }
+        "Count": 0
       },
       "item_model_transformation": "FIXED",
       "transformation": {
@@ -60,10 +57,7 @@
       "type": "ITEM",
       "display_item": {
         "id": "minecraft:air",
-        "Count": 0,
-        "tag": {
-          "Damage": 0
-        }
+        "Count": 0
       },
       "item_model_transformation": "FIXED",
       "transformation": {

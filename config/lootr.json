@@ -12,6 +12,7 @@
     "world_border": false
   },
   "breaking": {
+    "bypass_spawn_protection": true,
     "enable_break": false,
     "enable_fake_player_break": false,
     "disable_break": false,

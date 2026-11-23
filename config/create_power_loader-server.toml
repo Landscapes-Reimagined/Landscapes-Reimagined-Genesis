@@ -42,6 +42,7 @@
 	#.
 	#Whether the chunk loader functions when attached to train stations.
 	enableStation = false
+
 #.
 #Configure the Brass Chunk Loader
 [brass]

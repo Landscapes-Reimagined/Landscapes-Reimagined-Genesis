@@ -1,5 +1,6 @@
 #Client Configuration
 [client]
+
 	[client.options]
 		# If new item markers should be cleared when the inventory is closed.
 		clear_on_close = true

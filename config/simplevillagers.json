@@ -19,6 +19,14 @@
     "// Whether to require *splash* potion of weakness.": "",
     "require_splash_potion_type": true
   },
+  "sounds": {
+    "// Whether to play sounds when golem is hurt.": "",
+    "// Whether to play sounds when golem dies.": "",
+    "// Whether to play sounds when villager is cured.": "",
+    "play_golem_hurt": true,
+    "play_golem_death": true,
+    "play_villager_cure": true
+  },
   "restock": {
     "// How many ticks must pass between each restocking.": "",
     "timer": 6000,
